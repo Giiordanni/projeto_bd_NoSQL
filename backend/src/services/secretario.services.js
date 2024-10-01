@@ -1,7 +1,7 @@
-import userRepositories from "../repositories/user.repositories.js";
+import secRepositories from "../repositories/secretarios.repositories.js";
 import secretario from "../models/Secretario.js";
 import jwt from "jsonwebtoken";
-import mddleware from "../middlewares/global.middlewares.js"
+import mddleware from "../middlewares/global.middlewares.js";
 
 const createServices = async (body) => {
 
@@ -11,11 +11,10 @@ const createServices = async (body) => {
     throw new Error("Submeta todos os campos do registro");
   }
     
-  const usuarioExistente = await userRepositories.findByEmailRepositories(email);
+  const usuarioExistente = await secRepositories.findByEmailRepositories(email);
   if (usuarioExistente) throw new Error("Usuário existente no bando de Dados");
 
   if (senha !== confirm_senha) throw new Error("As senhas não coincidem");
-
   if (senha.length < 6 ) throw new Error("A senha deve ter no mínimo 6 caracteres");
   if (senha.length > 20 ) throw new Error("A senha deve ter no máximo 20 caracteres");
 
@@ -25,13 +24,14 @@ const createServices = async (body) => {
     throw new Error(`Erro na validação do email: ${error.message}`);
   }
 
-  const user = await userRepositories.createRepositories(body);
-  if (!user) throw new Error("Erro ao criar usuário");
+  const user_secretario = await secRepositories.createRepositories(body);
+  if (!user_secretario) throw new Error("Erro ao criar usuário");
 
-  const token = login.genarateToken(user.id);
+  const token = login.genarateToken(user_secretario.id);
+  
   return {
     user: {
-      id: user.id,
+      id: user_secretario.id,
       nome,
       sobrenome,
       email,
@@ -43,14 +43,14 @@ const createServices = async (body) => {
 };
 
 const findAllSerices = async () => {
-    const users = await userRepositories.findAllRepositories();
+    const users = await secRepositories.findAllRepositories();
     if (users.length === 0) throw new Error ("Não há usuaários cadastrados!");
     return users;
     
 };
 
 const findOne = async (email) =>{
-  const user = await userRepositories.findByEmailRepositories(email);
+  const user = await secRepositories.findByEmailRepositories(email);
   return user;
 }
 
@@ -68,8 +68,7 @@ const loginService = async (email) => {
   }
 };
 
-const genarateToken = (id) =>
-  jwt.sign({ id: id }, process.env.SECRETJWT, { expiresIn: 86400 }); // 24 horas em segundo
+const genarateToken = (id) => jwt.sign({ id: id }, process.env.SECRETJWT, { expiresIn: 86400 }); // 24 horas em segundo
 
 
 export default {

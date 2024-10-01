@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import SecServices from "../services/user.services.js";
+import SecServices from "../services/secretario.services.js";
 import dns from "dns/promises";
 
 export const validId = (req, res, next) => {
@@ -7,7 +7,7 @@ export const validId = (req, res, next) => {
     const id = req.params._id;
 
     if (mongoose.Types.ObjectId.isValid(id)) {
-      return res.status(400).send({message: "ID inválido!" });
+      return res.status(400).send({ message: "ID inválido!" });
     }
     next();
   } catch (error) {
@@ -34,21 +34,23 @@ export const ValidUser = async (req, res, next) => {
 };
 
 const validEmail = async (req, res, next) => {
-  try{
+  try {
     const email = req.body.email;
     const dominio = email.split("@").pop();
 
     const addresses = await dns.resolveMx(dominio);
     if (!addresses || addresses.length === 0) {
-      return res.status(400).send({ message: `O domínio ${dominio} não existe.` });
-    } 
+      return res
+        .status(400)
+        .send({ message: `O domínio ${dominio} não existe.` });
+    }
 
     next();
+  } catch (err) {
+    res
+      .status(500)
+      .send({ message: `Erro ao verificar o domínio: ${err.message}` });
+  }
+};
 
-  }catch(err){
-    res.status(500).send({ message: `Erro ao verificar o domínio: ${err.message}` });
-  };
-}
-
-export default {validEmail}
-
+export default { validEmail };
