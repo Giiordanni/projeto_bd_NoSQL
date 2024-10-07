@@ -4,19 +4,19 @@ import bcrypt from "bcrypt";
 const create = async (req, res) => {
     const body = req.body;
     try{
-        const user = await medicoServices.createServices(body);
+        const user = await medicoServices.createMedico(body);
         return res.status(201).send(user);
     }catch (err) {
         return res.status(500).send({ message: err.message });
     }
 };
 
-const findAll = async (req, res) => {
+const findAllMedicos = async (req, res) => {
     try {
-        const users = await medicoServices.findAllServices();
-        return res.send(users);
-    } catch (err) {
-        return res.status(500).send({ message: err.message });
+        const medicos = await medicoServices.getAllMedicos();
+        res.status(200).send(medicos);
+    } catch (error) {
+        res.status(404).send({ message: error.message });
     }
 };
 
@@ -79,4 +79,14 @@ const log_out = async (req, res) => {
     }
 };
 
-export default { create, findAll, findOne, login,  log_out};
+const deletarMedico = async (req, res) => {
+    const email = req.body;
+    try {
+        const deletar = await medicoServices.deletarMedico(email);
+        res.status(200).send("Médico deletado com sucesso!");
+    } catch (err) {
+        res.status(500).send({ message: err.message });
+    }
+}
+
+export default { create, findAllMedicos, findOne, login,  log_out, deletarMedico};

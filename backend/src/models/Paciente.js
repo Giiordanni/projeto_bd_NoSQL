@@ -34,7 +34,7 @@ const paciente_schema = new mongoose.Schema({
         required: true
     },
     historico:{
-        type: List[Object],
+        type: [Object],
         required: false
     }
 });
