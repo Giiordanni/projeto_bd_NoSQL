@@ -10,5 +10,4 @@ userRouter.get("/api/secretario/:email", UserController.findOne)
 userRouter.post("/api/login/secretario", UserController.login);
 
 
-
 export default userRouter;
