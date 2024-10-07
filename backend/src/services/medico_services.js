@@ -78,7 +78,7 @@ const loginMedico = async (email, senha) => {
 };
 
 const generateToken = (id) => {
-    return jwt.sign({ id }, process.env.SECRET, {
+    return jwt.sign({ id }, process.env.SECRETJWT, {
         expiresIn: 86400, // 24 horas
     });
 };

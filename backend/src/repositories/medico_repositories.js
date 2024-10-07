@@ -1,7 +1,7 @@
 import Medico from "../models/Medico.js";
 
 const createMedico = (body) => Medico.create(body);
-const findAllMedicos = () => Medico.find();
+const findAllMedicos = () => Medico.find().lean();
 const findByEmailMedico = (email) =>
     Medico.findOne({ email: email });
 const findByNomeMedico = (nome) => 
