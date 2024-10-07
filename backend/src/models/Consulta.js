@@ -21,8 +21,8 @@ const consulta_schema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    turno_consulta:{
-        type: String,
+    hora_consulta:{
+        type: Date,
         required: true
     }
 });
