@@ -1,6 +1,5 @@
 import { Router } from "express";
 import MedicoController from "../controllers/medico_controller.js";
-import roles from "../middlewares/role_middlwares.js";
 import globalMiddlwares from '../middlewares/global.middlewares.js'
 
 
@@ -12,8 +11,8 @@ MedicoRouter.get("/api/medico/email", MedicoController.findOneByEmail);
 MedicoRouter.get("/api/medico/nome", MedicoController.findNome);
 MedicoRouter.get("/api/medico/especialidade", MedicoController.findByEspecialidade);
 MedicoRouter.post("/api/login/medico", MedicoController.login);
-MedicoRouter.delete("/api/delete/medico", globalMiddlwares.jwtRequired, roles.isMedico, MedicoController.deletarMedico);
+MedicoRouter.delete("/api/delete/medico", globalMiddlwares.jwtRequired, globalMiddlwares.isMedico, MedicoController.deletarMedico);
 MedicoRouter.put("/api/updatePut/medico", MedicoController.updateMedico);
-MedicoRouter.patch("/api/update/medico", globalMiddlwares.jwtRequired, roles.isMedico, MedicoController.updateMedico);
+MedicoRouter.patch("/api/update/medico", globalMiddlwares.jwtRequired, globalMiddlwares.isMedico, MedicoController.updateMedico);
 
 export default MedicoRouter;
