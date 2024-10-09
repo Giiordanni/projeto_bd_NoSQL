@@ -12,7 +12,7 @@ MedicoRouter.get("/api/medico/email", MedicoController.findOneByEmail);
 MedicoRouter.get("/api/medico/nome", MedicoController.findNome);
 MedicoRouter.get("/api/medico/especialidade", MedicoController.findByEspecialidade);
 MedicoRouter.post("/api/login/medico", MedicoController.login);
-MedicoRouter.delete("/api/delete/medico", globalMiddlwares.jwtRequired, MedicoController.deletarMedico);
+MedicoRouter.delete("/api/delete/medico", globalMiddlwares.jwtRequired, roles.isMedico, MedicoController.deletarMedico);
 MedicoRouter.put("/api/updatePut/medico", MedicoController.updateMedico);
 MedicoRouter.patch("/api/update/medico", globalMiddlwares.jwtRequired, roles.isMedico, MedicoController.updateMedico);
 

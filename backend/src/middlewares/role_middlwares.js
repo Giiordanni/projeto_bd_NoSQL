@@ -13,7 +13,14 @@ const isMedico = (req, res, next) => {
     next();
 };
 
-export default {isSecretary, isMedico};
+const isPaciente = (req, res, next) => {
+    if (req.userRole !== 'paciente') {
+        return res.status(403).json({ message: 'Access denied. Not a paciente.' });
+    }
+    next();
+}
+
+export default {isSecretary, isMedico, isPaciente};
 
 
 

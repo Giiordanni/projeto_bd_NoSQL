@@ -120,9 +120,16 @@ const updateMedico = async (req, res) => {
         const {email} = req.body; // desestruturando o email do corpo da requisição
         const update = req.body;
         const result = await medicoServices.atualizarMedico(email, update);
-        res.status(200).send(result);
+
+        if(result.matchedCount === 0){
+            return res.status(404).send({ message: 'Médico não encontrado' });
+        }
+        if(result.modifiedCount === 0){
+            return res.status(404).send({ message: 'Nenhuma modificação realizada' });
+        }
+        res.status(200).send({ message: 'Médico atualizado com sucesso' });
     }catch (err) {
-        res.status(400).send({ message: err.message });
+        res.status(400).send({ message: 'Erro ao atualizar médico', error});
     }
 };
 
