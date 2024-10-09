@@ -4,7 +4,7 @@ import dns from "dns";
 import jwt from 'jsonwebtoken';
 
 const jwtRequired = (req, res, next) => {
-    const token = req.header('Authorization')?.split(' ')[1];
+    const token = req.header('authorization')?.split(' ')[1];
 
     if (!token) {
         return res.status(401).json({ message: 'Access denied. No token provided.' });
@@ -12,7 +12,8 @@ const jwtRequired = (req, res, next) => {
 
     try {
         const decoded = jwt.verify(token, process.env.SECRETJWT);
-        req.user = decoded;
+        req.userId = decoded._id;
+        req.userRole = decoded.role;
         next();
     } catch (ex) {
         res.status(400).json({ message: 'Invalid token.' });

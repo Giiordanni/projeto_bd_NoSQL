@@ -2,9 +2,10 @@ import medicoServices from "../services/medico_services.js";
 import bcrypt from "bcrypt";
 
 const create = async (req, res) => {
+    const {role} = req.query;
     const body = req.body;
     try{
-        const user = await medicoServices.createMedico(body);
+        const user = await medicoServices.createMedico(body, role);
         return res.status(201).send(user);
     }catch (err) {
         return res.status(500).send({ message: err.message });
@@ -66,7 +67,7 @@ const findByEspecialidade = async (req, res) => {
 };
 
 const login = async (req, res) => {
-    const { email, senha, confirm_senha } = req.body;
+    const {email, senha} = req.body;
 
     try {
         const medico = await medicoServices.loginMedico(email);
@@ -74,14 +75,10 @@ const login = async (req, res) => {
         const senhaIsValid = bcrypt.compareSync(String(senha), String(medico.senha));
 
         if (!medico) {
-            return res.status(404).send("Senha ou usuário inválidos!");
+            return res.status(404).send({ message: "Senha ou usuário inválidos!" });
         }
 
         if (!medico.senha || !medico) {
-            return res.status(400).send({ message: "Senha ou usuário inválidos!" });
-        }
-
-        if (senha !== confirm_senha) {
             return res.status(400).send({ message: "Senha ou usuário inválidos!" });
         }
 
@@ -89,13 +86,12 @@ const login = async (req, res) => {
             return res.status(400).send({ message: "Senha ou usuário inválidos!" });
         }
 
-        const token = medicoServices.generateToken(medico.id);
-        return res.send({ medico, token });
+        const token = medicoServices.generateToken(medico.id, "medico");
+        return res.send({token});
     } catch (err) {
         return res.status(500).send({ message: err.message });
     }
 };
-
 
 const log_out = async (req, res) => {
     try {
@@ -121,7 +117,7 @@ const deletarMedico = async (req, res) => {
 
 const updateMedico = async (req, res) => {
     try {
-        const {email} = req.body;
+        const {email} = req.body; // desestruturando o email do corpo da requisição
         const update = req.body;
         const result = await medicoServices.atualizarMedico(email, update);
         res.status(200).send(result);

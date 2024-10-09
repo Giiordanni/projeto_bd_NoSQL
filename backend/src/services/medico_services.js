@@ -4,7 +4,7 @@ import middleware from "../middlewares/global.middlewares.js";
 import bcrypt from "bcrypt";
 
 
-const createMedico = async (body) => {
+const createMedico = async (body, role) => {
     const {nome, email, senha, confirm_senha, especialidade, coren, cpf} = body;
 
     if ( !nome || !email || !senha || !confirm_senha || !especialidade || !coren || !cpf){
@@ -29,7 +29,7 @@ const createMedico = async (body) => {
     const user_medico = await medico_repositories.createMedico(body);
     if (!user_medico) throw new Error("Erro ao criar usuário");
 
-    const token = generateToken(user_medico.id);
+    const token = generateToken(user_medico.id, role);
 
     return {
         user: {
@@ -72,7 +72,7 @@ const findName = async (nome) => {
     if (!nome) {
         throw new Error("Nome não fornecido");
     }
-    const medico = await medico_repositories.findByNomeMedico(nome);
+    const medico = await medico_repositories.findByNomeMedico(nome); // .select("+senha") se colocar isso daqui vai mostrar a senha na requisicao
     if (!medico.length) {
         throw new Error("Nenhum usuário encontrado");
     }
@@ -91,15 +91,16 @@ const findEspecialidade = async (especialidade) => {
 };
 
 const loginMedico = async (email) => {
-    return medico_repositories.findByEmailMedico(email).select("+senha");
+    return medico_repositories.findByEmailMedico(email).select("+senha");;
 };
 
-const generateToken = (id) => {
-    return jwt.sign({ id }, process.env.SECRETJWT, {
-        expiresIn: 86400, // 24 horas
-    });
+const generateToken = (user, role) => {
+    return jwt.sign(
+        { _id: user._id, role: role }, 
+        process.env.SECRETJWT, {
+            expiresIn: 86400, // 24 horas
+        });
 };
-
 
 const atualizarMedico = async (email, update) => {
     const user_medico = await medico_repositories.findByEmailMedico(email);
