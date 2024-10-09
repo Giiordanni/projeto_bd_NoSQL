@@ -1,6 +1,23 @@
 import mongoose from "mongoose";
 import SecServices from "../services/secretario.services.js";
 import dns from "dns";
+import jwt from 'jsonwebtoken';
+
+const jwtRequired = (req, res, next) => {
+    const token = req.header('Authorization')?.split(' ')[1];
+
+    if (!token) {
+        return res.status(401).json({ message: 'Access denied. No token provided.' });
+    }
+
+    try {
+        const decoded = jwt.verify(token, process.env.SECRETJWT);
+        req.user = decoded;
+        next();
+    } catch (ex) {
+        res.status(400).json({ message: 'Invalid token.' });
+    }
+};
 
 export const validId = (req, res, next) => {
   try {
@@ -90,4 +107,4 @@ const validarCPF = (cpf) => {
   return true;
 }; // Retorna true se o CPF for válido, caso contrário, false
 
-export default { validarEmail, validarCPF };
+export default { validarEmail, validarCPF, jwtRequired };

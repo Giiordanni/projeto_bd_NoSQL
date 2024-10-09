@@ -1,6 +1,7 @@
 import medico_repositories from "../repositories/medico_repositories.js";
 import jwt from "jsonwebtoken";
 import middleware from "../middlewares/global.middlewares.js";
+import bcrypt from "bcrypt";
 
 
 const createMedico = async (body) => {
@@ -41,7 +42,6 @@ const createMedico = async (body) => {
     };
 };
 
-
 const deletarMedico = async (body) => {
     const { email } = body;
     const user = await medico_repositories.findByEmailMedico(email);
@@ -58,23 +58,40 @@ const getAllMedicos = async () => {
 };
 
 const findEmailOne = async (email) => {
+    if (!email) {
+        throw new Error("Email não fornecido");
+    }
     const user = await medico_repositories.findByEmailMedico(email);
+    if (!user) {
+        throw new Error("Nenhum usuário encontrado");
+    }
     return user;
 };
 
-const loginMedico = async (email, senha) => {
-    const medico = await medico_repositories.findByEmailMedico(email);
-    if (!medico){
-        throw new Error("Email ou senha incorretos");
+const findName = async (nome) => {
+    if (!nome) {
+        throw new Error("Nome não fornecido");
     }
-
-    const senhaValida = await bcrypt.compare(senha, medico.senha);
-    if (!senhaValida) {
-        throw new Error("Email ou senha incorretos");
+    const medico = await medico_repositories.findByNomeMedico(nome);
+    if (!medico.length) {
+        throw new Error("Nenhum usuário encontrado");
     }
+    return medico;
+}
 
-    const token = login.genarateToken(medico.id);
-    return { token };
+const findEspecialidade = async (especialidade) => {
+    if (!especialidade) {
+        throw new Error("Especialidade não fornecida");
+    }
+    const medico = await medico_repositories.findByEspecialidadeMedico(especialidade);
+    if (!medico.length) {
+        throw new Error("Nenhum usuário encontrado");
+    }
+    return medico;
+};
+
+const loginMedico = async (email) => {
+    return medico_repositories.findByEmailMedico(email).select("+senha");
 };
 
 const generateToken = (id) => {
@@ -84,11 +101,22 @@ const generateToken = (id) => {
 };
 
 
+const atualizarMedico = async (email, update) => {
+    const user_medico = await medico_repositories.findByEmailMedico(email);
+    if (!user_medico) throw new Error("Usuário não encontrado");
+    const updateMedico = await medico_repositories.atualizarDadosMedico(email, update);
+    return updateMedico;
+};
+
+
 export default {
     createMedico,
     getAllMedicos,
     findEmailOne,
+    findName, 
     loginMedico,
     generateToken,
-    deletarMedico
+    deletarMedico,
+    atualizarMedico, 
+    findEspecialidade
 };

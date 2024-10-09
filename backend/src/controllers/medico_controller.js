@@ -20,16 +20,46 @@ const findAllMedicos = async (req, res) => {
     }
 };
 
-const findOne = async (req, res) => {
-    const { email } = req.params;
+const findOneByEmail = async (req, res) => {
+    const { email } = req.query;
 
     try {
-        const user = await medicoServices.findOne(email);
+        const user = await medicoServices.findEmailOne(email);
 
         if (!user) {
             return res.status(404).send({ message: "Usuário não encontrado" });
         }
-        return res.send(user);
+        return res.status(200).send(user);
+    } catch (err) {
+        return res.status(500).send({ message: err.message });
+    }
+};
+
+const findNome = async (req, res) => {
+    const {nome} = req.query;
+
+    try{
+        const medico = await medicoServices.findName(nome);
+
+        if(!medico){
+            return res.status(404).send({ message: "Médico não encontrado"});
+        }
+        return res.status(200).send(medico);
+    }catch(err){
+        return res.status(500).send({ message: err.message });
+    }
+};
+
+const findByEspecialidade = async (req, res) => {
+    const { especialidade } = req.query;
+
+    try {
+        const medico = await medicoServices.findByEspecialidadeMedico(especialidade);
+
+        if (!medico) { 
+            return res.status(404).send({ message: "Médico não encontrado" });
+        }
+        return res.status(200).send(medico);
     } catch (err) {
         return res.status(500).send({ message: err.message });
     }
@@ -39,9 +69,9 @@ const login = async (req, res) => {
     const { email, senha, confirm_senha } = req.body;
 
     try {
-        const medico = await medicoServices.loginService(email);
+        const medico = await medicoServices.loginMedico(email);
 
-        const senhaIsValid = bcrypt.compareSync(senha, medico.senha);
+        const senhaIsValid = bcrypt.compareSync(String(senha), String(medico.senha));
 
         if (!medico) {
             return res.status(404).send("Senha ou usuário inválidos!");
@@ -89,4 +119,15 @@ const deletarMedico = async (req, res) => {
     }
 }
 
-export default { create, findAllMedicos, findOne, login,  log_out, deletarMedico};
+const updateMedico = async (req, res) => {
+    try {
+        const {email} = req.body;
+        const update = req.body;
+        const result = await medicoServices.atualizarMedico(email, update);
+        res.status(200).send(result);
+    }catch (err) {
+        res.status(400).send({ message: err.message });
+    }
+};
+
+export default { create, findAllMedicos, findOneByEmail, findNome, login,  log_out, deletarMedico, updateMedico, findByEspecialidade};
