@@ -1,80 +1,85 @@
 import secRepositories from "../repositories/secretarios.repositories.js";
-import secretario from "../models/Secretario.js";
 import jwt from "jsonwebtoken";
-import mddleware from "../middlewares/global.middlewares.js";
+import middleware from "../middlewares/global.middlewares.js";
 
-const createServices = async (body) => {
+const createSec = async (body, role) => {
 
-  const {nome, sobrenome, email, telefone, cpf, data_nascimento, sexo, endereco, senha, confirm_senha} = body;
+  const {nome, email, senha, confirm_senha, cpf } = body;
 
-  if ( !nome || !sobrenome || !email || !telefone || !cpf || !data_nascimento || !sexo || !endereco || !senha || !confirm_senha){
+  if ( !nome || !email || !cpf || !senha || !confirm_senha){
     throw new Error("Submeta todos os campos do registro");
   }
+
+  if(!middleware.validarCPF(cpf)) throw new Error("CPF inválido");
     
-  const usuarioExistente = await secRepositories.findByEmailRepositories(email);
-  if (usuarioExistente) throw new Error("Usuário existente no bando de Dados");
+  const SecretarioExistente = await secRepositories.findByEmailSec(email);
+  if (SecretarioExistente) throw new Error("Usuário existente no bando de Dados");
 
   if (senha !== confirm_senha) throw new Error("As senhas não coincidem");
   if (senha.length < 6 ) throw new Error("A senha deve ter no mínimo 6 caracteres");
   if (senha.length > 20 ) throw new Error("A senha deve ter no máximo 20 caracteres");
 
   try {
-    await mddleware.validEmail(body); // Aqui chamamos a função de validação de email com o corpo da requisição
+    await middleware.validarEmail(email);
   } catch (error) {
     throw new Error(`Erro na validação do email: ${error.message}`);
   }
 
-  const user_secretario = await secRepositories.createRepositories(body);
+  const user_secretario = await secRepositories.createSec(body);
   if (!user_secretario) throw new Error("Erro ao criar usuário");
 
-  const token = login.genarateToken(user_secretario.id);
+  const token = genarateToken(user_secretario.id, role);
   
   return {
     user: {
       id: user_secretario.id,
       nome,
-      sobrenome,
       email,
       cpf,
-      data_nascimento,
     },
     token,
   };
 };
 
-const findAllSerices = async () => {
-    const users = await secRepositories.findAllRepositories();
+const findAllSec = async () => {
+    const users = await secRepositories.findAllSec();
     if (users.length === 0) throw new Error ("Não há usuaários cadastrados!");
     return users;
     
 };
 
-const findOne = async (email) =>{
-  const user = await secRepositories.findByEmailRepositories(email);
+const findOne = async (id) =>{
+  const user = await secRepositories.findById(id);
   return user;
 }
 
-const loginService = async (email) => {
-  try {
-    const user_secretario = await secretario
-      .findOne({ email: email })
-      .select("+senha");
-    return user_secretario;
-  } catch (error) {
-    console.error("Erro ao buscar Usuário para login:", error);
-    throw new Error(
-      "Ocorreu um erro durante o login. Por favor, tente novamente mais tarde."
-    );
-  }
+const loginSec = (email) => {
+  return secRepositories.findByEmailSec(email).select('+senha');
 };
 
-const genarateToken = (id) => jwt.sign({ id: id }, process.env.SECRETJWT, { expiresIn: 86400 }); // 24 horas em segundo
+const genarateToken = (user, role) => {
+  return jwt.sign(
+    { _id: user._id, role: role}, 
+    process.env.SECRETJWT, { 
+      expiresIn: 86400 
+    }); // 24 horas em 
+};
 
+const deleteSec = async (id) => {
+  const user = await secRepositories.findById(id);
+  if (!user) throw new Error("Usuaário não encontrado");
+  return secRepositories.deleteSec(id);
+}
+
+const updateSec = async (email, update) => {
+  return secRepositories.patchDataSec(email, update);
+};
 
 export default {
-  createServices,
-  findAllSerices,
+  createSec,
+  findAllSec,
   findOne,
-  loginService,
-  genarateToken
+  loginSec,
+  genarateToken,
+  deleteSec
 };

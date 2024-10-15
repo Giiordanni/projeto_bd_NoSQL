@@ -7,10 +7,6 @@ const secretario_schema = new mongoose.Schema({
         type: String,
         required: true
     },
-    sobrenome:{
-        type: String,
-        required: true
-    },
     email: {
         type: String,
         required: true,
@@ -18,7 +14,7 @@ const secretario_schema = new mongoose.Schema({
     },
     telefone:{
         type: Number,
-        required: true
+        required: false
     },
     cpf:{
         type: String,
@@ -27,15 +23,15 @@ const secretario_schema = new mongoose.Schema({
     },
     data_nascimento:{
         type: String,
-        required: true
+        required: false
     },
     sexo:{
         type: String,
-        required: true
+        required: false
     },
     endereco:{
         type: String,
-        required: true
+        required: false
     },
     senha:{
         type: String,

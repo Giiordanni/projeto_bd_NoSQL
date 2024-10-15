@@ -129,7 +129,7 @@ const updateMedico = async (req, res) => {
         }
         res.status(200).send({ message: 'Médico atualizado com sucesso' });
     }catch (err) {
-        res.status(400).send({ message: 'Erro ao atualizar médico', error});
+        res.status(400).send({ message: 'Erro ao atualizar médico', err});
     }
 };
 

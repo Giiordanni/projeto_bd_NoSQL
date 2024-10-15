@@ -91,7 +91,7 @@ const findEspecialidade = async (especialidade) => {
 };
 
 const loginMedico = async (email) => {
-    return medico_repositories.findByEmailMedico(email).select("+senha");;
+    return medico_repositories.findByEmailMedico(email).select("+senha");
 };
 
 const generateToken = (user, role) => {
@@ -99,7 +99,7 @@ const generateToken = (user, role) => {
         { _id: user._id, role: role }, 
         process.env.SECRETJWT, {
             expiresIn: 86400, // 24 horas
-        });
+    });
 };
 
 const atualizarMedico = async (email, update) => {

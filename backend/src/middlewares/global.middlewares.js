@@ -1,5 +1,3 @@
-import mongoose from "mongoose";
-import SecServices from "../services/secretario.services.js";
 import dns from "dns";
 import jwt from 'jsonwebtoken';
 
@@ -21,7 +19,7 @@ const jwtRequired = (req, res, next) => {
 };
 
 const isSecretaria = (req, res, next) => {
-  if (req.userRole !== 'secretary') {
+  if (req.userRole !== 'secretaria') {
       return res.status(403).json({ message: 'Access denied. Not a secretary.' });
   }
   next();
@@ -40,37 +38,6 @@ const isPaciente = (req, res, next) => {
   }
   next();
 }
-
-export const validId = (req, res, next) => {
-  try {
-    const id = req.params._id;
-
-    if (mongoose.Types.ObjectId.isValid(id)) {
-      return res.status(400).send({ message: "ID inválido!" });
-    }
-    next();
-  } catch (error) {
-    res.status(500).send({ message: error.message });
-  }
-};
-
-export const ValidUser = async (req, res, next) => {
-  try {
-    const id = req.params._id;
-
-    const sec = await SecServices.findyByIdServices(id);
-
-    if (!sec) {
-      return res.status(404).send({ message: "Usuário não encontrado!" });
-    }
-
-    req.id = id;
-    req.sec = sec;
-    next();
-  } catch (error) {
-    res.status(500).send({ message: error.messagae });
-  }
-};
 
 const validarEmail = async (email) => {
   const dominio = email.split("@").pop();
