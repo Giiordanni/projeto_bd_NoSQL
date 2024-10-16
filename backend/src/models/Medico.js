@@ -21,11 +21,6 @@ const medico_schema = new mongoose.Schema({
         type: String,
         required: true
     },
-    coren: {
-        type: String,
-        required: true,
-        unique: true
-    },
     cpf:{
         type: String,
         required: true,
@@ -47,6 +42,10 @@ const medico_schema = new mongoose.Schema({
         type: Number,
         required: false
     },
+    clinica: {
+        type: String,
+        required: false
+    }
 });
 
 medico_schema.pre("save", async function (next){

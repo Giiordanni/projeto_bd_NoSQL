@@ -8,12 +8,12 @@ const findByEmailMedico = (email) =>
     Medico.findOne({ email: email });
 
 const findByNomeMedico = (nome) => 
-    Medico.find({ nome: new RegExp(nome, "i")}).select('nome email especialidade'); //use espacos no lugar de virgulas
+    Medico.find({ nome: new RegExp(nome, "i")}).select('nome email especialidade clinica'); //use espacos no lugar de virgulas
 
 const findById = (id) => Medico.findById(id);
 
 const findByEspecialidadeMedico = (especialidade) =>
-    Medico.find({ especialidade: especialidade }).select('nome email especialidade');
+    Medico.find({ especialidade: especialidade }).select('nome email especialidade clinica');
 
 const deletarMedico = (email) =>
     Medico.deleteOne({ email: email });

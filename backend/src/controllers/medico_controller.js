@@ -55,13 +55,28 @@ const findByEspecialidade = async (req, res) => {
     const { especialidade } = req.query;
 
     try {
-        const medico = await medicoServices.findByEspecialidadeMedico(especialidade);
+        const medico = await medicoServices.findEspecialidade(especialidade);
 
         if (!medico) { 
             return res.status(404).send({ message: "Médico não encontrado" });
         }
         return res.status(200).send(medico);
     } catch (err) {
+        return res.status(500).send({ message: err.message });
+    }
+};
+
+const findById = async (req, res) => {
+    const  id  = req.params;
+
+    try{
+        const medico = await medicoServices.findById(id);
+
+        if(!medico){
+            return res.status(404).send({ message: "Médico não encontrado"});
+        }
+        return res.status(200).send(medico);
+    }catch(err){   
         return res.status(500).send({ message: err.message });
     }
 };
@@ -133,4 +148,4 @@ const updateMedico = async (req, res) => {
     }
 };
 
-export default { create, findAllMedicos, findOneByEmail, findNome, login,  log_out, deletarMedico, updateMedico, findByEspecialidade};
+export default { create, findAllMedicos, findOneByEmail, findNome, login,  log_out, deletarMedico, updateMedico, findByEspecialidade, findById };

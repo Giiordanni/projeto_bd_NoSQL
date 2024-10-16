@@ -1,13 +1,12 @@
 import medico_repositories from "../repositories/medico_repositories.js";
 import jwt from "jsonwebtoken";
 import middleware from "../middlewares/global.middlewares.js";
-import bcrypt from "bcrypt";
 
 
 const createMedico = async (body, role) => {
-    const {nome, email, senha, confirm_senha, especialidade, coren, cpf} = body;
+    const {nome, email, senha, confirm_senha, especialidade, cpf} = body;
 
-    if ( !nome || !email || !senha || !confirm_senha || !especialidade || !coren || !cpf){
+    if ( !nome || !email || !senha || !confirm_senha || !especialidade || !cpf){
         throw new Error("Submeta todos os campos do registro");
     }
 
@@ -79,6 +78,17 @@ const findName = async (nome) => {
     return medico;
 }
 
+const findById = async (id) => {
+    if (!id) {
+        throw new Error("Id não fornecido");
+    }
+    const medico = await medico_repositories.findById(id);
+    if (!medico) {
+        throw new Error("Nenhum usuário encontrado");
+    }
+    return medico;
+}
+
 const findEspecialidade = async (especialidade) => {
     if (!especialidade) {
         throw new Error("Especialidade não fornecida");
@@ -119,5 +129,6 @@ export default {
     generateToken,
     deletarMedico,
     atualizarMedico, 
-    findEspecialidade
+    findEspecialidade,
+    findById
 };
