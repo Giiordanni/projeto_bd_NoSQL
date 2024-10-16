@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up SUAS</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container-half-half">
+        <div class="header">
+            <i class="fa-solid fa-heart-pulse fa-7x" id="logo-suas"></i>
+            <h1> Seja bem vindo ao SUAS!</h1>
+            <h2>Preencha todas as suas informações corretamente para devido cadastro!</h2>
+        </div>
+        <div class="personal-info">
+            <nav id="navigator">
+                <a href="#">Sobre</a>
+                <a href="#">Contatos</a>
+                <a href="#">Serviços</a>
+                <a href="login.html">Login</a>
+            </nav>
+            <form id="form-cadastro" action="/cadastrar" method="POST">
+                <div>
+                    <input type="text" name="first-name" id="first-name" placeholder="* Nome" required>
+                </div>
+                <div>
+                    <input type="text" name="last-name" id="last-name" placeholder="* Sobrenome" required>
+                </div>
+                <div>
+                    <input type="email" name="user-email" id="user-email" placeholder="* Email" required>
+                </div>
+                <div>
+                    <input type="tel" name="phone-number" id="phone-number" placeholder="* Telefone" required>
+                </div>
+                <div>
+                    <input type="text" name="cpf" id="cpf" placeholder="* CPF" required>
+                </div>
+                <div>
+                    <input type="date" name="birth-date" id="birth-date" placeholder="* Data de Nascimento" required>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="gender" value="male" required> Sexo masculino
+                    <input type="radio" name="gender" id="gender" value="female" required> Sexo feminino
+                    <input type="radio" name="gender" id="gender" value="other" required> Outro
+                </div>
+                <div>
+                    <input type="text" name="endereco" id="endereco" placeholder="* Endereço">
+                </div>
+                <div>
+                    <input type="password" name="password" id="password" placeholder="* Senha">
+                </div>
+                <div>
+                    <input type="password" name="confirm-password" id="confirm-password" placeholder="* Confirmar Senha">
+                </div>
+                <button type="submit">Cadastrar</button>
+            </form>
+            <p>Já tem uma conta? <a href="login.html">Entrar</a></p>
+        </div>
+    </div>
+</body>
+</html>
