@@ -1,41 +1,45 @@
 import dns from "dns";
 import jwt from 'jsonwebtoken';
+import logger from '../logger/logger.mjs';
 
 const jwtRequired = (req, res, next) => {
     const token = req.header('authorization')?.split(' ')[1];
 
     if (!token) {
-        return res.status(401).json({ message: 'Access denied. No token provided.' });
+      logger.console.warn('Access denied. No token provided.');
+      return res.status(401).json({ message: 'Access denied. No token provided.' });
     }
-    console.log('Token recebido:', token);  // Verifique o token
 
     try {
         const decoded = jwt.verify(token, process.env.SECRETJWT);
-        console.log('Payload decodificado:', decoded);  // Verifique o payload
         req.userId = decoded._id;
         req.userRole = decoded.role;
         next();
     } catch (ex) {
-        res.status(400).json({ message: 'Invalid token.' });
+      logger.error('Invalid token.')
+      res.status(400).json({ message: 'Invalid token.' });
     }
-};
-
-const isSecretaria = (req, res, next) => {
-  if (req.userRole !== 2) {
-      return res.status(403).json({ message: 'Access denied. Not a secretary.' });
-  }
-  next();
 };
 
 const isMedico = (req, res, next) => {
   if (req.userRole !== 1) {
-      return res.status(403).json({ message: 'Access denied. Not a medico.' });
+    logger.warn('Access denied. Not a medico.');
+    return res.status(403).json({ message: 'Access denied. Not a medico.' });
+  }
+  next();
+};
+
+const isSecretaria = (req, res, next) => {
+  if (req.userRole !== 2) {
+    logger.warn('Access denied. Not a secretary.');
+      return res.status(403).json({ message: 'Access denied. Not a secretary.' });
   }
   next();
 };
 
 const isPaciente = (req, res, next) => {
   if (req.userRole !== 3) {
+    logger.warn('Access denied. Not a paciente.');
       return res.status(403).json({ message: 'Access denied. Not a paciente.' });
   }
   next();
@@ -47,6 +51,7 @@ const validarEmail = async (email) => {
   return new Promise((resolve, reject) => {
     dns.resolveMx(dominio, (err, addresses) => {
       if (err || !addresses || addresses.length === 0) {
+        logger.error(`O domínio ${dominio} não existe.`);
         reject(new Error(`O domínio ${dominio} não existe.`));
       } else {
         resolve(true);

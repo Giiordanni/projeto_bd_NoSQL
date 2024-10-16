@@ -60,7 +60,7 @@ const loginSec = async (req, res) => {
       return res.status(400).send({ message: "Senha ou usuário inválidos!" });
     }
 
-    const token = userServices.genarateToken(secretario.id, "secretaria");
+    const token = userServices.genarateToken(secretario.id, 2);
     res.send({ token });
   } catch (err) {
     res.status(500).send(err.message);
