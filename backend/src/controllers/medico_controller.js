@@ -86,7 +86,7 @@ const login = async (req, res) => {
             return res.status(400).send({ message: "Senha ou usuário inválidos!" });
         }
 
-        const token = medicoServices.generateToken(medico.id, "medico");
+        const token = medicoServices.generateToken(medico.id, 1);
         return res.send({token});
     } catch (err) {
         return res.status(500).send({ message: err.message });

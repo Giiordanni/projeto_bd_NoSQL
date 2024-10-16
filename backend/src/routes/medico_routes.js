@@ -11,8 +11,7 @@ MedicoRouter.get("/api/medico/email", MedicoController.findOneByEmail);
 MedicoRouter.get("/api/medico/nome", MedicoController.findNome);
 MedicoRouter.get("/api/medico/especialidade", MedicoController.findByEspecialidade);
 MedicoRouter.post("/api/login/medico", MedicoController.login);
-MedicoRouter.delete("/api/delete/medico", globalMiddlwares.jwtRequired, globalMiddlwares.isMedico, MedicoController.deletarMedico);
-MedicoRouter.put("/api/updatePut/medico", MedicoController.updateMedico);
-MedicoRouter.patch("/api/update/medico", globalMiddlwares.jwtRequired, globalMiddlwares.isMedico, MedicoController.updateMedico);
+MedicoRouter.delete("/api/delete/medico", globalMiddlwares.jwtRequired, MedicoController.deletarMedico);
+MedicoRouter.patch("/api/update/medico", globalMiddlwares.jwtRequired, MedicoController.updateMedico);
 
 export default MedicoRouter;

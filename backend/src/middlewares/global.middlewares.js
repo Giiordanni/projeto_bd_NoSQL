@@ -7,9 +7,11 @@ const jwtRequired = (req, res, next) => {
     if (!token) {
         return res.status(401).json({ message: 'Access denied. No token provided.' });
     }
+    console.log('Token recebido:', token);  // Verifique o token
 
     try {
         const decoded = jwt.verify(token, process.env.SECRETJWT);
+        console.log('Payload decodificado:', decoded);  // Verifique o payload
         req.userId = decoded._id;
         req.userRole = decoded.role;
         next();
@@ -19,21 +21,21 @@ const jwtRequired = (req, res, next) => {
 };
 
 const isSecretaria = (req, res, next) => {
-  if (req.userRole !== 'secretaria') {
+  if (req.userRole !== 2) {
       return res.status(403).json({ message: 'Access denied. Not a secretary.' });
   }
   next();
 };
 
 const isMedico = (req, res, next) => {
-  if (req.userRole !== 'medico') {
+  if (req.userRole !== 1) {
       return res.status(403).json({ message: 'Access denied. Not a medico.' });
   }
   next();
 };
 
 const isPaciente = (req, res, next) => {
-  if (req.userRole !== 'paciente') {
+  if (req.userRole !== 3) {
       return res.status(403).json({ message: 'Access denied. Not a paciente.' });
   }
   next();

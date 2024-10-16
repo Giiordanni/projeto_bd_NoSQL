@@ -29,11 +29,11 @@ const createMedico = async (body, role) => {
     const user_medico = await medico_repositories.createMedico(body);
     if (!user_medico) throw new Error("Erro ao criar usuário");
 
-    const token = generateToken(user_medico.id, role);
+    const token = generateToken(user_medico, role);
 
     return {
         user: {
-            id: user_medico.id,
+            id: user_medico._id,
             nome,
             email,
             especialidade,
