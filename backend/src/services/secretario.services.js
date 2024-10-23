@@ -2,7 +2,6 @@ import secRepositories from "../repositories/secretarios.repositories.js";
 import jwt from "jsonwebtoken";
 import middleware from "../middlewares/global.middlewares.js";
 import logger from "../logger/logger.mjs";
-import { log } from "winston";
 
 const createSec = async (body, role) => {
   logger.info("Iniciando criação do Secretário");
