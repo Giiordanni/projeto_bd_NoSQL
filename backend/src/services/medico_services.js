@@ -146,7 +146,7 @@ const findEspecialidade = async (especialidade) => {
 };
 
 const loginMedico = async (email) => {
-    logger.info(`Buscando médico pelo email: ${email}`);
+    logger.info(`Buscando médico para login com email: ${email}`);
     return medico_repositories.findByEmailMedico(email).select("+senha");
 };
 
