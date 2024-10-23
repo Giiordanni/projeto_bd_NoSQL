@@ -24,6 +24,10 @@ const findAllMedicos = async (req, res) => {
 const findOneByEmail = async (req, res) => {
     const { email } = req.query;
 
+    if(!email){
+        return res.status(400).send({ message: "Email não informado" });
+    }
+
     try {
         const user = await medicoServices.findEmailOne(email);
 
@@ -38,6 +42,10 @@ const findOneByEmail = async (req, res) => {
 
 const findNome = async (req, res) => {
     const {nome} = req.query;
+
+    if(!nome){
+        res.status(400).send({ message: "Nome não informado" });
+    }
 
     try{
         const medico = await medicoServices.findName(nome);
@@ -54,6 +62,10 @@ const findNome = async (req, res) => {
 const findByEspecialidade = async (req, res) => {
     const { especialidade } = req.query;
 
+    if(!especialidade){
+        return res.status(400).send({ message: "Especialidade não informada" });   
+    }
+
     try {
         const medico = await medicoServices.findEspecialidade(especialidade);
 
@@ -69,6 +81,10 @@ const findByEspecialidade = async (req, res) => {
 const findById = async (req, res) => {
     const  id  = req.params;
 
+    if(!id){
+        return res.status(400).send({ message: "Id não informado" });
+    }
+
     try{
         const medico = await medicoServices.findById(id);
 
@@ -83,6 +99,10 @@ const findById = async (req, res) => {
 
 const login = async (req, res) => {
     const {email, senha} = req.body;
+
+    if (!email || !senha) {
+        return res.status(400).send({ message: "Email ou senha não informados!" });
+    }
 
     try {
         const medico = await medicoServices.loginMedico(email);
@@ -122,6 +142,11 @@ const log_out = async (req, res) => {
 
 const deletarMedico = async (req, res) => {
     const email = req.body;
+
+    if (!email) {
+        return res.status(400).send({ message: "Email não informado" });
+    }
+    
     try {
         const deletar = await medicoServices.deletarMedico(email);
         res.status(200).send("Médico deletado com sucesso!");
