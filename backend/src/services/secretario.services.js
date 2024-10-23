@@ -65,22 +65,26 @@ const createSec = async (body, role) => {
 
 const findAllSec = async () => {
   logger.info("Buscando todos os Secretários");
-    const users = await secRepositories.findAllSec();
-    if (users.length === 0) {
-      logger.error("Não há usuaários cadastrados!");
-      throw new Error ("Não há usuaários cadastrados!")
-    };
-    logger.info("Secretários encontrados com sucesso");
-    return users;
+  const users = await secRepositories.findAllSec();
+
+  if (users.length === 0) {
+    logger.error("Não há usuaários cadastrados!");
+    throw new Error ("Não há usuaários cadastrados!")
+  };
+
+  logger.info("Secretários encontrados com sucesso");
+  return users;
 };
 
 const findOne = async (id) =>{
   logger.info("Buscando Secretário por ID");
   const user = await secRepositories.findById(id);
+
   if(!user){
     logger.error("Usuário não encontrado");
     throw new Error("Usuário não encontrado");
   }
+
   logger.info("Usuário encontrado com sucesso");
   return user;
 };
@@ -102,10 +106,12 @@ const genarateToken = (user, role) => {
 const deleteSec = async (id) => {
   logger.info("Deletando secretário");
   const user = await secRepositories.findById(id);
+
   if (!user) {
     logger.info("Usuaário não encontrado");
     throw new Error("Usuaário não encontrado");
   }
+
   await secRepositories.deleteSec(id);
   logger.info("Usuário deletado com sucesso");
 }
@@ -113,6 +119,7 @@ const deleteSec = async (id) => {
 const updateSec = async (email, update) => {
   logger.info(`Atualizando usuário com email: ${email}`);
   const result =  secRepositories.patchDataSec(email, update);
+  
   logger.info("Secretário atualizado com sucesso");
   return result;
 };
