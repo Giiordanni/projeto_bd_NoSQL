@@ -1,6 +1,4 @@
 import medicoServices from "../services/medico_services.js";
-import bcrypt from "bcrypt";
-import globalMiddlewares from "../middlewares/global.middlewares.js";
 
 const create = async (req, res) => {
     const body = req.body;
@@ -105,24 +103,8 @@ const login = async (req, res) => {
     }
 
     try {
-        const medico = await medicoServices.loginMedico(email);
-
-        const senhaIsValid = bcrypt.compareSync(String(senha), String(medico.senha));
-
-        if (!medico) {
-            return res.status(404).send({ message: "Senha ou usuário inválidos!" });
-        }
-
-        if (!medico.senha || !medico) {
-            return res.status(400).send({ message: "Senha ou usuário inválidos!" });
-        }
-
-        if (!senhaIsValid) {
-            return res.status(400).send({ message: "Senha ou usuário inválidos!" });
-        }
-
-        const token = globalMiddlewares.genarateToken(medico.id, 1);
-        return res.send({token});
+        const token = await medicoServices.loginMedico(email, senha);
+        return res.status(200).send({ token });
     } catch (err) {
         return res.status(500).send({ message: err.message });
     }

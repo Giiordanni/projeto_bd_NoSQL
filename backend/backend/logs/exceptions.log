@@ -208,3 +208,9 @@ ReferenceError: role is not defined
     at next (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\index.js:280:10)
     at Function.handle (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\index.js:175:3)
     at router (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\index.js:47:12)
+24-Oct-2024 14:40:30 [[31merror[39m]: uncaughtException: date is not defined
+ReferenceError: date is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/agenda_services.js:6:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)

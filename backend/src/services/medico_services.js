@@ -1,7 +1,8 @@
 import medico_repositories from "../repositories/medico_repositories.js";
-import jwt from "jsonwebtoken";
 import middleware from "../middlewares/global.middlewares.js";
 import logger from "../logger/logger.mjs";
+import CustomError from "../error/error.js";
+import bcrypt from "bcrypt";
 
 
 const createMedico = async (body) => {
@@ -150,9 +151,26 @@ const findEspecialidade = async (especialidade) => {
     return medico;
 };
 
-const loginMedico = async (email) => {
+const loginMedico = async (email, senha) => {
+    logger.info("Fazendo login do médico");
     logger.info(`Buscando médico para login com email: ${email}`);
-    return medico_repositories.findByEmailMedico(email).select("+senha");
+
+    const medico =  await medico_repositories.findByEmailMedico(email).select("+senha");
+
+    if(!medico){
+        logger.error("Usuário não encontrado");
+        throw new CustomError("Usuário não encontrado", 400);
+    }
+
+    const senhaIsValid = bcrypt.compareSync(String(senha), String(medico.senha));
+
+    if (!senhaIsValid) {
+        logger.error("Senha inválida");
+        throw new CustomError("Senha inválida", 400);
+    }
+
+    const token = middleware.genarateToken(medico.id, 1);
+    return token;
 };
 
 const atualizarMedico = async (email, update) => {

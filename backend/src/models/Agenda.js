@@ -1,18 +1,8 @@
 import mongoose from 'mongoose';
 
 const agendaSchema = new mongoose.Schema({
-    id_clinica: {
-        type:  mongoose.Schema.Types.ObjectId,
-        ref: 'Clinica',
-        required: true
-    },
-    id_medico: {
-        type:  mongoose.Schema.Types.ObjectId,
-        ref: 'Medico',
-        required: true
-    },
     data_consulta: {
-        type: Date,
+        type: String,
         required: true
     },
     sala_consulta: {
@@ -29,6 +19,15 @@ const agendaSchema = new mongoose.Schema({
     },
     quantas_consultas_dia: {
         type: Number,
+        required: true
+    },    id_clinica: {
+        type:  mongoose.Schema.Types.ObjectId,
+        ref: 'clinica',
+        required: true
+    },
+    id_medico: {
+        type:  mongoose.Schema.Types.ObjectId,
+        ref: 'medico',
         required: true
     }
 });
