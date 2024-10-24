@@ -76,3 +76,117 @@ Error: listen EADDRINUSE: address already in use :::3000
     at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
     at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:30:44 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:8:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:31:01 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:8:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:32:26 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:8:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:32:41 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:8:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:32:45 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:8:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:32:50 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:8:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:32:59 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:8:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:33:11 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:8:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:33:32 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:8:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:33:37 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:8:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:33:41 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:8:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:33:48 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:8:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:33:58 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:8:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:34:05 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:8:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:34:10 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:8:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:34:24 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:8:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:34:35 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:10:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:35:52 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:10:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+23-Oct-2024 13:36:00 [[31merror[39m]: uncaughtException: cpf is not defined
+ReferenceError: cpf is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/medico_repositories.js:10:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)

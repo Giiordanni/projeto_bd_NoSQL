@@ -18,10 +18,14 @@ const createMedico = async (body, role) => {
         throw new Error("CPF inválido");
     }
 
-    const medico_existente = await medico_repositories.findByEmailMedico(email);
-    if (medico_existente) {
+    if (await medico_repositories.findByEmailMedico(email)) {
         logger.error("Usuário já cadastrado no banco");
         throw new Error("Usuário já cadastrado no banco");
+    }
+
+    if (await medico_repositories.findByCpf(cpf)){
+        logger.error("CPF já cadastrado no banco");
+        throw new Error("CPF já cadastrado no banco");
     }
 
     if (senha !== confirm_senha) {
@@ -43,6 +47,7 @@ const createMedico = async (body, role) => {
         logger.error(`Erro na validação do email: ${error.message}`);
         throw new Error(`Erro na validação do email: ${error.message}`);
     }
+
 
     const user_medico = await medico_repositories.createMedico(body);
     if (!user_medico) {

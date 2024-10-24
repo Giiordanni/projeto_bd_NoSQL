@@ -141,7 +141,7 @@ const log_out = async (req, res) => {
 };
 
 const deletarMedico = async (req, res) => {
-    const email = req.body;
+    const {email} = req.body;
 
     if (!email) {
         return res.status(400).send({ message: "Email não informado" });

@@ -1,5 +1,5 @@
 import clinicaRepo from "../repositories/clinica_repositories.js";
-import logger from "../logger/logger.js";
+import logger from "../logger/logger.mjs";
 
 
 const createClinica = async (body) => {
