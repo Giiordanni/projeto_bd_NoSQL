@@ -95,3 +95,178 @@
 23-Oct-2024 20:45:23 [[32minfo[39m]: Iniciando criação do Médico
 23-Oct-2024 20:45:24 [[32minfo[39m]: Gerando token
 23-Oct-2024 20:45:24 [[32minfo[39m]: Usuário criado com sucesso
+24-Oct-2024 10:00:33 [[32minfo[39m]: Iniciando criação do Médico
+24-Oct-2024 10:00:33 [[31merror[39m]: Usuário já cadastrado no banco
+24-Oct-2024 10:00:37 [[32minfo[39m]: Buscando médico para login com email: micropark58@gmail.com
+24-Oct-2024 10:00:49 [[32minfo[39m]: Buscando todos os médicos
+24-Oct-2024 10:00:49 [[32minfo[39m]: Médicos encontrados com sucesso
+24-Oct-2024 10:01:14 [[31merror[39m]: Invalid token.
+24-Oct-2024 10:01:27 [[32minfo[39m]: Buscando médico para login com email: micr@gmail.com
+24-Oct-2024 10:01:37 [[32minfo[39m]: Buscando médico para login com email: micro@gmail.com
+24-Oct-2024 10:01:37 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 10:01:59 [[32minfo[39m]: Criando clínica
+24-Oct-2024 10:01:59 [[32minfo[39m]: Clínica criada com sucesso
+24-Oct-2024 10:02:46 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:07:59 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:07:59 [[32minfo[39m]: Agenda criada com sucesso
+24-Oct-2024 10:08:04 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:08:04 [[32minfo[39m]: Agenda criada com sucesso
+24-Oct-2024 10:09:44 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:09:44 [[32minfo[39m]: Agenda criada com sucesso
+24-Oct-2024 10:24:27 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:24:27 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:26:19 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:26:19 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:26:39 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:26:39 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:26:45 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:26:45 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:27:52 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:27:52 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:28:54 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:28:54 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:29:06 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:29:06 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:29:40 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:29:40 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:29:43 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:29:43 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:30:42 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:30:42 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:30:45 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:30:45 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:30:55 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:30:55 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:31:44 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:31:44 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:32:10 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:32:10 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:35:11 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:35:11 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:35:36 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:35:36 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:40:31 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:40:31 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:48:25 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:48:25 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:51:37 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:51:37 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:51:55 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:51:55 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:54:14 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:54:14 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:54:50 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:54:50 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:56:04 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:56:04 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:56:16 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:56:16 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 10:59:57 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 10:59:57 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 11:02:08 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 11:02:08 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 11:04:25 [[32minfo[39m]: Iniciando criação do Médico
+24-Oct-2024 11:04:26 [[31merror[39m]: CPF já cadastrado no banco
+24-Oct-2024 11:04:59 [[32minfo[39m]: Iniciando criação do Médico
+24-Oct-2024 11:05:00 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 11:05:00 [[32minfo[39m]: Usuário criado com sucesso
+24-Oct-2024 11:05:20 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:05:47 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:07:01 [[32minfo[39m]: Deletando médico
+24-Oct-2024 11:07:01 [[32minfo[39m]: Usuário deletado com sucesso
+24-Oct-2024 11:07:11 [[32minfo[39m]: Iniciando criação do Médico
+24-Oct-2024 11:07:12 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 11:07:12 [[32minfo[39m]: Usuário criado com sucesso
+24-Oct-2024 11:09:04 [[32minfo[39m]: Deletando médico
+24-Oct-2024 11:09:04 [[32minfo[39m]: Usuário deletado com sucesso
+24-Oct-2024 11:09:07 [[32minfo[39m]: Iniciando criação do Médico
+24-Oct-2024 11:09:07 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 11:09:07 [[32minfo[39m]: Usuário criado com sucesso
+24-Oct-2024 11:10:03 [[32minfo[39m]: Deletando médico
+24-Oct-2024 11:10:03 [[32minfo[39m]: Usuário deletado com sucesso
+24-Oct-2024 11:10:07 [[32minfo[39m]: Iniciando criação do Médico
+24-Oct-2024 11:10:07 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 11:10:07 [[32minfo[39m]: Usuário criado com sucesso
+24-Oct-2024 11:10:24 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:11:20 [[32minfo[39m]: Deletando médico
+24-Oct-2024 11:11:20 [[32minfo[39m]: Usuário deletado com sucesso
+24-Oct-2024 11:11:22 [[32minfo[39m]: Iniciando criação do Médico
+24-Oct-2024 11:11:23 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 11:11:23 [[32minfo[39m]: Usuário criado com sucesso
+24-Oct-2024 11:12:37 [[31merror[39m]: Invalid token.
+24-Oct-2024 11:13:09 [[31merror[39m]: Invalid token.
+24-Oct-2024 11:13:16 [[31merror[39m]: Invalid token.
+24-Oct-2024 11:13:43 [[31merror[39m]: Invalid token.
+24-Oct-2024 11:13:45 [[31merror[39m]: Invalid token.
+24-Oct-2024 11:13:52 [[31merror[39m]: Invalid token.
+24-Oct-2024 11:14:44 [[32minfo[39m]: Deletando médico
+24-Oct-2024 11:14:45 [[32minfo[39m]: Usuário deletado com sucesso
+24-Oct-2024 11:14:47 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:14:56 [[32minfo[39m]: Iniciando criação do Médico
+24-Oct-2024 11:14:56 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 11:14:56 [[32minfo[39m]: Usuário criado com sucesso
+24-Oct-2024 11:16:20 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:16:26 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:16:58 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:17:06 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:17:43 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:22:49 [[32minfo[39m]: Iniciando criação do Médico
+24-Oct-2024 11:22:49 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 11:22:49 [[32minfo[39m]: Usuário criado com sucesso
+24-Oct-2024 11:23:47 [[32minfo[39m]: Atualizando médico
+24-Oct-2024 11:23:47 [[32minfo[39m]: Usuário atualizado com sucesso
+24-Oct-2024 11:24:18 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:24:28 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:24:29 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:24:32 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:24:53 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:25:28 [[32minfo[39m]: Iniciando criação do Secretário
+24-Oct-2024 11:25:28 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 11:25:28 [[32minfo[39m]: Usuário criado com sucesso
+24-Oct-2024 11:25:40 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:25:41 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:25:48 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:26:34 [[32minfo[39m]: Buscando médico para login com email: gutavimFormiga@gmail.com
+24-Oct-2024 11:26:34 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 11:26:45 [[32minfo[39m]: Criando clínica
+24-Oct-2024 11:26:45 [[32minfo[39m]: Clínica criada com sucesso
+24-Oct-2024 11:27:13 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 11:27:13 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 11:29:52 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 11:29:52 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 11:30:56 [[32minfo[39m]: Deletando médico
+24-Oct-2024 11:30:56 [[32minfo[39m]: Usuário deletado com sucesso
+24-Oct-2024 11:31:01 [[32minfo[39m]: Iniciando criação do Médico
+24-Oct-2024 11:31:01 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 11:31:01 [[32minfo[39m]: Usuário criado com sucesso
+24-Oct-2024 11:31:30 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:31:59 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:32:31 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:34:53 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:35:55 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 11:36:17 [[32minfo[39m]: Buscando médico para login com email: gutavimFormiga@gmail.com
+24-Oct-2024 11:36:17 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 11:36:31 [[32minfo[39m]: Criando clínica
+24-Oct-2024 11:36:31 [[32minfo[39m]: Clínica criada com sucesso
+24-Oct-2024 11:36:53 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 11:36:53 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 11:38:00 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 11:38:00 [[31merror[39m]: Preencha todos os campos obrigatórios
+24-Oct-2024 11:40:06 [[32minfo[39m]: Deletando médico
+24-Oct-2024 11:40:07 [[32minfo[39m]: Usuário deletado com sucesso
+24-Oct-2024 11:40:09 [[32minfo[39m]: Iniciando criação do Médico
+24-Oct-2024 11:40:10 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 11:40:10 [[32minfo[39m]: Usuário criado com sucesso
+24-Oct-2024 11:40:24 [[32minfo[39m]: Criando clínica
+24-Oct-2024 11:40:24 [[32minfo[39m]: Clínica criada com sucesso
+24-Oct-2024 11:40:32 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 11:40:32 [[32minfo[39m]: Agenda criada com sucesso
+24-Oct-2024 11:42:23 [[32minfo[39m]: Deletando médico
+24-Oct-2024 11:42:23 [[32minfo[39m]: Usuário deletado com sucesso
+24-Oct-2024 11:43:08 [[32minfo[39m]: Iniciando criação do Médico
+24-Oct-2024 11:43:08 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 11:43:08 [[32minfo[39m]: Usuário criado com sucesso
+24-Oct-2024 11:43:27 [[32minfo[39m]: Criando clínica
+24-Oct-2024 11:43:27 [[32minfo[39m]: Clínica criada com sucesso
+24-Oct-2024 11:43:36 [[32minfo[39m]: Criando Agenda
+24-Oct-2024 11:43:36 [[32minfo[39m]: Agenda criada com sucesso

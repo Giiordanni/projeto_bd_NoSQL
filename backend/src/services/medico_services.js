@@ -4,7 +4,7 @@ import middleware from "../middlewares/global.middlewares.js";
 import logger from "../logger/logger.mjs";
 
 
-const createMedico = async (body, role) => {
+const createMedico = async (body) => {
     logger.info("Iniciando criação do Médico");
     const {nome, email, senha, confirm_senha, especialidade, cpf} = body;
 
@@ -55,7 +55,7 @@ const createMedico = async (body, role) => {
         throw new Error("Erro ao criar usuário");
     }
 
-    const token = middleware.genarateToken(user_medico, role);
+    const token = middleware.genarateToken(user_medico, 1);
     logger.info("Usuário criado com sucesso");
 
     return {

@@ -5,7 +5,7 @@ import globalMiddlwares from '../middlewares/global.middlewares.js'
 
 const MedicoRouter = Router();
 
-MedicoRouter.post("/api/medico/:role", MedicoController.create);
+MedicoRouter.post("/api/medico", MedicoController.create);
 MedicoRouter.get("/api/medicos", MedicoController.findAllMedicos);
 MedicoRouter.get("/api/medico/email", MedicoController.findOneByEmail);
 MedicoRouter.get("/api/medico/nome", MedicoController.findNome);

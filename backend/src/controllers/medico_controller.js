@@ -3,10 +3,9 @@ import bcrypt from "bcrypt";
 import globalMiddlewares from "../middlewares/global.middlewares.js";
 
 const create = async (req, res) => {
-    const {role} = req.query;
     const body = req.body;
     try{
-        const user = await medicoServices.createMedico(body, role);
+        const user = await medicoServices.createMedico(body);
         return res.status(201).send(user);
     }catch (err) {
         return res.status(500).send({ message: err.message });

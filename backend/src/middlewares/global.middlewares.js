@@ -3,28 +3,28 @@ import jwt from 'jsonwebtoken';
 import logger from '../logger/logger.mjs';
 
 const jwtRequired = (req, res, next) => {
-    const token = req.header('authorization')?.split(' ')[1];
+  const token = req.header('authorization')?.split(' ')[1];
 
-    if (!token) {
-      logger.console.warn('Access denied. No token provided.');
+  if (!token) {
+      logger.warn('Access denied. No token provided.');
       return res.status(401).json({ message: 'Access denied. No token provided.' });
-    }
+  }
 
-    try {
-        const decoded = jwt.verify(token, process.env.SECRETJWT);
-        req.userId = decoded._id;
-        req.userRole = decoded.role;
-        next();
-    } catch (ex) {
-      logger.error('Invalid token.')
+  try {
+      const decoded = jwt.verify(token, process.env.SECRETJWT);
+      req.userId = decoded._id;
+      req.userRole = decoded.role;
+      next();
+  } catch (ex) {
+      logger.error('Invalid token.');
       res.status(400).json({ message: 'Invalid token.' });
-    }
+  }
 };
 
 const isMedico = (req, res, next) => {
   if (req.userRole !== 1) {
     logger.warn('Access denied. Not a medico.');
-    return res.status(403).json({ message: 'Access denied. Not a medico.' });
+      return res.status(403).json({ message: 'Access denied. Not a medico.' });
   }
   next();
 };
