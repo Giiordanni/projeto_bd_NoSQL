@@ -37,6 +37,15 @@ const isSecretaria = (req, res, next) => {
   next();
 };
 
+const isMedicoOrSecretaria = (req, res, next) => {
+  if(req.userRole !== 1 && req.userRole !== 2){
+    logger.warn('Access denied. Not a medico or secretary.');
+    return res.status(403).json({ message: 'Access denied. Not a medico or secretary.' });
+  }
+  next();
+};
+
+
 const isPaciente = (req, res, next) => {
   if (req.userRole !== 3) {
     logger.warn('Access denied. Not a paciente.');
@@ -113,4 +122,4 @@ const genarateToken = (user, role) => {
     }); // 24 horas em 
 };
 
-export default { validarEmail, validarCPF, jwtRequired, isPaciente, isMedico, isSecretaria, genarateToken };
+export default { validarEmail, validarCPF, jwtRequired, isPaciente, isMedico, isSecretaria, genarateToken, isMedicoOrSecretaria };

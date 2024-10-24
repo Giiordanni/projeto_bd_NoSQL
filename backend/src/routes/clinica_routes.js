@@ -4,7 +4,7 @@ import { Router } from "express";
 
 const clinicaRouter = Router();
 
-clinicaRouter.post("/api/clinica", globalMiddlewares.jwtRequired, globalMiddlewares.isMedico || globalMiddlewares.isSecretaria,  clinica_controller.createClinica);
+clinicaRouter.post("/api/clinica", globalMiddlewares.jwtRequired, globalMiddlewares.isMedicoOrSecretaria,  clinica_controller.createClinica);
 clinicaRouter.get("/api/clinicas", clinica_controller.findAllClinicas);
 clinicaRouter.get("/api/clinica/nome/:nome", clinica_controller.findByNome);
 clinicaRouter.get("/api/clinica/especialidade/:especialidade", clinica_controller.findByEspecialidade);
