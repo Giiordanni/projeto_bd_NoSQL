@@ -587,3 +587,38 @@
 24-Oct-2024 18:23:54 [[32minfo[39m]: Gerando o token de autenticação
 24-Oct-2024 18:24:12 [[32minfo[39m]: Criando clínica
 24-Oct-2024 18:24:12 [[32minfo[39m]: Clínica criada com sucesso
+24-Oct-2024 18:35:59 [[32minfo[39m]: Fazendo login do Secretário
+24-Oct-2024 18:35:59 [[32minfo[39m]: Buscando usuário para login com email: giovanna3@gmail.com
+24-Oct-2024 18:36:03 [[32minfo[39m]: Fazendo login do Secretário
+24-Oct-2024 18:36:03 [[32minfo[39m]: Buscando usuário para login com email: giovanna3@gmail.com
+24-Oct-2024 18:37:11 [[32minfo[39m]: Fazendo login do Secretário
+24-Oct-2024 18:37:11 [[32minfo[39m]: Buscando usuário para login com email: giovanna3@gmail.com
+24-Oct-2024 18:37:11 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 18:37:11 [[32minfo[39m]: Usuário logado com sucesso
+24-Oct-2024 18:37:27 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 18:37:30 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 18:37:50 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 18:37:56 [[32minfo[39m]: Fazendo login do Secretário
+24-Oct-2024 18:37:56 [[32minfo[39m]: Buscando usuário para login com email: giovanna3@gmail.com
+24-Oct-2024 18:37:56 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 18:37:56 [[32minfo[39m]: Usuário logado com sucesso
+24-Oct-2024 18:38:43 [[32minfo[39m]: Fazendo login do Secretário
+24-Oct-2024 18:38:43 [[32minfo[39m]: Buscando usuário para login com email: giovanna3@gmail.com
+24-Oct-2024 18:38:43 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 18:38:43 [[32minfo[39m]: Usuário logado com sucesso
+24-Oct-2024 18:38:55 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 18:38:55 [[33mwarn[39m]: Access denied. Not a medico.
+24-Oct-2024 18:39:21 [[32minfo[39m]: Criando clínica
+24-Oct-2024 18:39:22 [[32minfo[39m]: Clínica criada com sucesso
+24-Oct-2024 18:39:51 [[32minfo[39m]: Fazendo login do médico
+24-Oct-2024 18:39:51 [[32minfo[39m]: Buscando médico para login com email: gutavimFormiga@gmail.com
+24-Oct-2024 18:39:51 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 18:40:02 [[31merror[39m]: Invalid token.
+24-Oct-2024 18:40:10 [[33mwarn[39m]: Access denied. Not a secretary.
+24-Oct-2024 18:43:12 [[32minfo[39m]: Criando clínica
+24-Oct-2024 18:43:12 [[32minfo[39m]: Clínica criada com sucesso
+24-Oct-2024 18:43:50 [[32minfo[39m]: Fazendo login do Secretário
+24-Oct-2024 18:43:50 [[32minfo[39m]: Buscando usuário para login com email: giovanna3@gmail.com
+24-Oct-2024 18:43:50 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 18:43:50 [[32minfo[39m]: Usuário logado com sucesso
+24-Oct-2024 18:44:05 [[33mwarn[39m]: Access denied. Not a medico.

@@ -1,6 +1,8 @@
 import secRepositories from "../repositories/secretarios.repositories.js";
 import middleware from "../middlewares/global.middlewares.js";
 import logger from "../logger/logger.mjs";
+import CustomError from "../error/error.js";
+import bcrypt from "bcrypt";
 
 const createSec = async (body) => {
   logger.info("Iniciando criação do Secretário");
@@ -88,9 +90,26 @@ const findOne = async (id) =>{
   return user;
 };
 
-const loginSec = (email) => {
+const loginSec = async (email, senha) => {
+  logger.info("Fazendo login do Secretário");
   logger.info(`Buscando usuário para login com email: ${email}`);
-  return secRepositories.findByEmailSec(email).select('+senha');
+  const secretario = await secRepositories.findByEmailSec(email).select('+senha');
+
+  if (!secretario) {
+    logger.error("Usuário não encontrado");
+    throw new CustomError("Usuário não encontrado", 401);
+  }
+
+  const senhaIsValid = bcrypt.compareSync(String(senha), String(secretario.senha));
+
+  if (!senhaIsValid) {
+    logger.error("Senha inválida");
+    throw new CustomError("Senha inválida", 401);
+  }
+
+  const token = middleware.genarateToken(secretario.id, 2);
+  logger.info("Usuário logado com sucesso");
+  return token;
 };
 
 const deleteSec = async (id) => {

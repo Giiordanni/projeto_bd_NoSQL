@@ -1,6 +1,4 @@
 import userServices from "../services/secretario.services.js";
-import bcrypt from "bcrypt";
-import globalMiddlewares from "../middlewares/global.middlewares.js";
 
 const createSec = async (req, res) => {
   const body = req.body;
@@ -37,31 +35,15 @@ const findOneById = async (req, res) => {
 };
 
 const loginSec = async (req, res) => {
-  const { email, senha, confirm_senha } = req.body;
+  const { email, senha} = req.body;
+
+  if(!email || !senha ){
+    return res.status(400).send({ message: "Email ou senha não informados!"});
+  }
 
   try {
-    const secretario = await userServices.loginSec(email);
-
-    const senhaIsValid = bcrypt.compareSync(senha, secretario.senha);
-
-    if (!secretario) {
-      return res.status(404).send("Senha ou usuário inválidos!");
-    }
-
-    if (!secretario.senha || !secretario) {
-      return res.status(400).send({ message: "Senha ou usuário inválidos!" });
-    }
-
-    if (senha !== confirm_senha) {
-      return res.status(400).send({ message: "Senha ou usuário inválidos!" });
-    }
-
-    if (!senhaIsValid) {
-      return res.status(400).send({ message: "Senha ou usuário inválidos!" });
-    }
-
-    const token = globalMiddlewares.genarateToken(secretario.id, 2);
-    res.send({ token });
+    const token = await userServices.loginSec(email, senha);
+    return res.status(200).send({ token });
   } catch (err) {
     res.status(500).send(err.message);
   }
