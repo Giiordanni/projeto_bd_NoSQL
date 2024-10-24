@@ -55,7 +55,7 @@ const createMedico = async (body, role) => {
         throw new Error("Erro ao criar usuário");
     }
 
-    const token = generateToken(user_medico, role);
+    const token = middleware.genarateToken(user_medico, role);
     logger.info("Usuário criado com sucesso");
 
     return {
@@ -155,15 +155,6 @@ const loginMedico = async (email) => {
     return medico_repositories.findByEmailMedico(email).select("+senha");
 };
 
-const generateToken = (user, role) => {
-    logger.info("Gerando token");
-    return jwt.sign(
-        { _id: user._id, role: role }, 
-        process.env.SECRETJWT, {
-            expiresIn: 86400, // 24 horas
-    });
-};
-
 const atualizarMedico = async (email, update) => {
     logger.info("Atualizando médico");
     const user_medico = await medico_repositories.findByEmailMedico(email);
@@ -190,7 +181,6 @@ export default {
     findEmailOne,
     findName, 
     loginMedico,
-    generateToken,
     deletarMedico,
     atualizarMedico, 
     findEspecialidade,

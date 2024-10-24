@@ -1,5 +1,4 @@
 import secRepositories from "../repositories/secretarios.repositories.js";
-import jwt from "jsonwebtoken";
 import middleware from "../middlewares/global.middlewares.js";
 import logger from "../logger/logger.mjs";
 
@@ -49,7 +48,7 @@ const createSec = async (body, role) => {
     throw new Error("Erro ao criar usuário")
   };
 
-  const token = genarateToken(user_secretario.id, role);
+  const token = middleware.genarateToken(user_secretario.id, role);
   logger.info("Usuário criado com sucesso");
   
   return {
@@ -94,15 +93,6 @@ const loginSec = (email) => {
   return secRepositories.findByEmailSec(email).select('+senha');
 };
 
-const genarateToken = (user, role) => {
-  logger.info("Gerando o token de autenticação");
-  return jwt.sign(
-    { _id: user._id, role: role}, 
-    process.env.SECRETJWT, { 
-      expiresIn: 86400 
-    }); // 24 horas em 
-};
-
 const deleteSec = async (id) => {
   logger.info("Deletando secretário");
   const user = await secRepositories.findById(id);
@@ -129,7 +119,6 @@ export default {
   findAllSec,
   findOne,
   loginSec,
-  genarateToken,
   deleteSec, 
   updateSec
 };

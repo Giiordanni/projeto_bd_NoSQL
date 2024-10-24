@@ -1,5 +1,6 @@
 import medicoServices from "../services/medico_services.js";
 import bcrypt from "bcrypt";
+import globalMiddlewares from "../middlewares/global.middlewares.js";
 
 const create = async (req, res) => {
     const {role} = req.query;
@@ -121,7 +122,7 @@ const login = async (req, res) => {
             return res.status(400).send({ message: "Senha ou usuário inválidos!" });
         }
 
-        const token = medicoServices.generateToken(medico.id, 1);
+        const token = globalMiddlewares.genarateToken(medico.id, 1);
         return res.send({token});
     } catch (err) {
         return res.status(500).send({ message: err.message });

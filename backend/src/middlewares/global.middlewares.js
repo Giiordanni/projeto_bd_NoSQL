@@ -103,4 +103,14 @@ const validarCPF = (cpf) => {
   return true;
 }; // Retorna true se o CPF for válido, caso contrário, false
 
-export default { validarEmail, validarCPF, jwtRequired, isPaciente, isMedico, isSecretaria };
+
+const genarateToken = (user, role) => {
+  logger.info("Gerando o token de autenticação");
+  return jwt.sign(
+    { _id: user._id, role: role}, 
+    process.env.SECRETJWT, { 
+      expiresIn: 86400 
+    }); // 24 horas em 
+};
+
+export default { validarEmail, validarCPF, jwtRequired, isPaciente, isMedico, isSecretaria, genarateToken };

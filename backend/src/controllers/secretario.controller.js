@@ -1,5 +1,6 @@
 import userServices from "../services/secretario.services.js";
 import bcrypt from "bcrypt";
+import globalMiddlewares from "../middlewares/global.middlewares.js";
 
 const createSec = async (req, res) => {
   const {role} = req.query;
@@ -60,7 +61,7 @@ const loginSec = async (req, res) => {
       return res.status(400).send({ message: "Senha ou usuário inválidos!" });
     }
 
-    const token = userServices.genarateToken(secretario.id, 2);
+    const token = globalMiddlewares.genarateToken(secretario.id, 2);
     res.send({ token });
   } catch (err) {
     res.status(500).send(err.message);
