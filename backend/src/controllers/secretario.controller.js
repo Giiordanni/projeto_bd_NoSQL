@@ -3,10 +3,9 @@ import bcrypt from "bcrypt";
 import globalMiddlewares from "../middlewares/global.middlewares.js";
 
 const createSec = async (req, res) => {
-  const {role} = req.query;
   const body = req.body;
   try {
-    const user = await userServices.createSec(body, role);
+    const user = await userServices.createSec(body);
     return res.status(201).send(user);
   } catch (err) {
     return res.status(500).send({ message: err.message });

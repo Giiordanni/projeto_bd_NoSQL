@@ -2,7 +2,7 @@ import secRepositories from "../repositories/secretarios.repositories.js";
 import middleware from "../middlewares/global.middlewares.js";
 import logger from "../logger/logger.mjs";
 
-const createSec = async (body, role) => {
+const createSec = async (body) => {
   logger.info("Iniciando criação do Secretário");
   const {nome, email, senha, confirm_senha, cpf } = body;
 
@@ -48,7 +48,7 @@ const createSec = async (body, role) => {
     throw new Error("Erro ao criar usuário")
   };
 
-  const token = middleware.genarateToken(user_secretario.id, role);
+  const token = middleware.genarateToken(user_secretario.id, 2);
   logger.info("Usuário criado com sucesso");
   
   return {

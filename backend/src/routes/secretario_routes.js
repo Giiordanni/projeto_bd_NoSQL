@@ -5,7 +5,7 @@ import midd from "../middlewares/global.middlewares.js";
 
 const userRouter = Router();
 
-userRouter.post("/api/secretario/:role", UserController.createSec);
+userRouter.post("/api/secretario", UserController.createSec);
 userRouter.get("/api/secretario", UserController.findAllSec);
 userRouter.get("/api/secretario/:id", UserController.findOneById)
 userRouter.post("/api/login/secretario", UserController.loginSec);
