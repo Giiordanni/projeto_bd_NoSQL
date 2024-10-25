@@ -11,49 +11,47 @@ const createMedico = async (body) => {
 
     if ( !nome || !email || !senha || !confirm_senha || !especialidade || !cpf){
         logger.error("Submeta todos os campos do registro")
-        throw new Error("Submeta todos os campos do registro");
+        throw new CustomError("Submeta todos os campos do registro", 401);
     }
 
     if(!middleware.validarCPF(cpf)) {
         logger.error("CPF inválido");
-        throw new Error("CPF inválido");
+        throw new CustomError("CPF inválido", 400);
     }
 
     if (await medico_repositories.findByEmailMedico(email)) {
         logger.error("Usuário já cadastrado no banco");
-        throw new Error("Usuário já cadastrado no banco");
+        throw new CustomError("Usuário já cadastrado no banco", 400);
     }
 
     if (await medico_repositories.findByCpf(cpf)){
         logger.error("CPF já cadastrado no banco");
-        throw new Error("CPF já cadastrado no banco");
+        throw new CustomError("CPF já cadastrado no banco", 400);
     }
 
     if (senha !== confirm_senha) {
         logger.error("As senhas não coincidem"); 
-        throw new Error("As senhas não coincidem");
+        throw new CustomError("As senhas não coincidem", 400);
     }
     if (senha.length < 6) {
         logger.error("A senha deve ter no mínimo 6 caracteres");
-        throw new Error("A senha deve ter no mínimo 6 caracteres");
+        throw new CustomError("A senha deve ter no mínimo 6 caracteres", 400);
       }
-      if (senha.length > 20) {
+    if (senha.length > 20) {
         logger.error("A senha deve ter no máximo 20 caracteres");
-        throw new Error("A senha deve ter no máximo 20 caracteres");
-      }
-    
-    try {
-        await middleware.validarEmail(email);
-    } catch (error) {
-        logger.error(`Erro na validação do email: ${error.message}`);
-        throw new Error(`Erro na validação do email: ${error.message}`);
+        throw new CustomError("A senha deve ter no máximo 20 caracteres", 400);
     }
-
-
+    
+    const validEmail = await middleware.validarEmail(email);
+    if(!validEmail){
+        logger.error("Email inválido");
+        throw new CustomError("Email inválido", 400);
+    }
+    
     const user_medico = await medico_repositories.createMedico(body);
     if (!user_medico) {
         logger.error("Erro ao criar usuário");
-        throw new Error("Erro ao criar usuário");
+        throw new CustomError("Erro ao criar usuário", 400);
     }
 
     const token = middleware.genarateToken(user_medico, 1);
@@ -76,10 +74,17 @@ const deletarMedico = async (email) => {
 
     if (!user) {
         logger.error("Usuário não encontrado");
-        throw new Error("Usuário não encontrado");
+        throw new CustomError("Usuário não encontrado", 401);
     }
-    await medico_repositories.deletarMedico(email);
+
+    const deletarMedico = await medico_repositories.deletarMedico(email);
+    if(!deletarMedico){
+        logger.error("Erro ao deletar usuário");
+        throw new CustomError("Erro ao deletar usuário", 400);
+    }
+
     logger.info("Usuário deletado com sucesso");
+    return deletarMedico;
 };
 
 const getAllMedicos = async () => {
@@ -88,11 +93,11 @@ const getAllMedicos = async () => {
 
     if (medicos.length === 0) {
         logger.error("Não há médicos cadastrados!");
-        throw new Error("Não há médicos cadastrados!");
+        throw new CustomError("Não há médicos cadastrados!", 404);
     }
     if (!medicos) {
         logger.error("Usuário não encontrado");
-        throw new Error("Usuário não encontrado");
+        throw new CustomError("Usuário não encontrado", 404);
     }
 
     logger.info("Médicos encontrados com sucesso");
@@ -105,7 +110,7 @@ const findEmailOne = async (email) => {
 
     if (!user) {
         logger.error("Usuário não encontrado");
-        throw new Error("Nenhum usuário encontrado");
+        throw new CustomError("Nenhum usuário encontrado", 404);
     }
 
     logger.info("Usuário encontrado com sucesso");
@@ -118,7 +123,7 @@ const findName = async (nome) => {
 
     if (!medico.length) {
         logger.error("Nenhum usuário encontrado");
-        throw new Error("Nenhum usuário encontrado");
+        throw new CustomError("Nenhum usuário encontrado", 404);
     }
 
     logger.info("Usuário encontrado com sucesso");
@@ -131,7 +136,7 @@ const findById = async (id) => {
 
     if (!medico) {
         logger.error("Nenhum usuário encontrado");
-        throw new Error("Nenhum usuário encontrado");
+        throw new CustomError("Nenhum usuário encontrado", 404);
     }
 
     logger.info("Usuário encontrado com sucesso");
@@ -144,7 +149,7 @@ const findEspecialidade = async (especialidade) => {
 
     if (!medico.length) {
         logger.error("Nenhum usuário encontrado"); 
-        throw new Error("Nenhum usuário encontrado");
+        throw new CustomError("Nenhum usuário encontrado", 404);
     }
 
     logger.info("Usuário encontrado com sucesso");
@@ -179,13 +184,13 @@ const atualizarMedico = async (email, update) => {
 
     if (!user_medico) {
         logger.error("Usuário não encontrado");
-        throw new Error("Usuário não encontrado");
+        throw new CustomError("Usuário não encontrado", 404);
     }
 
     const updateMedico = await medico_repositories.atualizarDadosMedico(email, update);
     if (!updateMedico) {
         logger.error("Erro ao atualizar usuário");
-        throw new Error("Erro ao atualizar usuário");
+        throw new CustomError("Erro ao atualizar usuário", 404);
     }
 
     logger.info("Usuário atualizado com sucesso");

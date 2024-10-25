@@ -923,3 +923,6 @@
 25-Oct-2024 14:21:05 [[32minfo[39m]: Clínica criada com sucesso
 25-Oct-2024 14:21:16 [[32minfo[39m]: Deletando clínica
 25-Oct-2024 14:21:16 [[32minfo[39m]: Clínica deletada com sucesso
+25-Oct-2024 16:07:59 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 16:07:59 [[32minfo[39m]: Buscando médico para login com email: gutavimFormiga@gmail.com
+25-Oct-2024 16:07:59 [[32minfo[39m]: Gerando o token de autenticação

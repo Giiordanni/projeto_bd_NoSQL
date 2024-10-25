@@ -41,10 +41,6 @@ const medico_schema = new mongoose.Schema({
     telefone:{
         type: Number,
         required: false
-    },
-    clinica: {
-        type: String,
-        required: false
     }
 });
 

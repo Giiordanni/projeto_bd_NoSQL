@@ -4,18 +4,20 @@ const create = async (req, res) => {
     const body = req.body;
     try{
         const user = await medicoServices.createMedico(body);
-        return res.status(201).send(user);
+        return res.status(201).send({message: "Usuário criado com sucesso", user});
     }catch (err) {
-        return res.status(500).send({ message: err.message });
+        const statusCode = err.statusCode || 500;
+        return res.status(statusCode).send({ message: err.message });
     }
 };
 
 const findAllMedicos = async (req, res) => {
     try {
         const medicos = await medicoServices.getAllMedicos();
-        res.status(200).send(medicos);
+        res.status(200).send({message: "Medicos Encontrados", medicos});
     } catch (error) {
-        res.status(404).send({ message: error.message });
+        const statusCode = err.statusCode || 500;
+        return res.status(statusCode).send({ message: err.message });
     }
 };
 
@@ -32,9 +34,10 @@ const findOneByEmail = async (req, res) => {
         if (!user) {
             return res.status(404).send({ message: "Usuário não encontrado" });
         }
-        return res.status(200).send(user);
+        return res.status(200).send({message: "Usuário encontrado com sucesso", user});
     } catch (err) {
-        return res.status(500).send({ message: err.message });
+        const statusCode = err.statusCode || 500;
+        return res.status(statusCode).send({ message: err.message });
     }
 };
 
@@ -51,9 +54,10 @@ const findNome = async (req, res) => {
         if(!medico){
             return res.status(404).send({ message: "Médico não encontrado"});
         }
-        return res.status(200).send(medico);
+        return res.status(200).send({message: "Usuário encontrado com sucesso", medico});
     }catch(err){
-        return res.status(500).send({ message: err.message });
+        const statusCode = err.statusCode || 500;
+        return res.status(statusCode).send({ message: err.message });
     }
 };
 
@@ -70,9 +74,10 @@ const findByEspecialidade = async (req, res) => {
         if (!medico) { 
             return res.status(404).send({ message: "Médico não encontrado" });
         }
-        return res.status(200).send(medico);
+        return res.status(200).send({message: "Usuário encontrado com sucesso", medico});
     } catch (err) {
-        return res.status(500).send({ message: err.message });
+        const statusCode = err.statusCode || 500;
+        return res.status(statusCode).send({ message: err.message });
     }
 };
 
@@ -89,9 +94,10 @@ const findById = async (req, res) => {
         if(!medico){
             return res.status(404).send({ message: "Médico não encontrado"});
         }
-        return res.status(200).send(medico);
+        return res.status(200).send({message: "Usuário encontrado com sucesso", medico});
     }catch(err){   
-        return res.status(500).send({ message: err.message });
+        const statusCode = err.statusCode || 500;
+        return res.status(statusCode).send({ message: err.message });
     }
 };
 
@@ -104,23 +110,13 @@ const login = async (req, res) => {
 
     try {
         const token = await medicoServices.loginMedico(email, senha);
-        return res.status(200).send({ token });
+        return res.status(200).send({message: "Login feito com sucesso", token });
     } catch (err) {
-        return res.status(500).send({ message: err.message });
+        const statusCode = err.statusCode || 500;
+        return res.status(statusCode).send({ message: err.message });
     }
 };
 
-const log_out = async (req, res) => {
-    try {
-        req.user.tokens = req.user.tokens.filter((token) => {
-            return token.token !== req.token;
-        });
-        await req.user.save();
-        res.send();
-    } catch (err) {
-        res.status(500).send(err);
-    }
-};
 
 const deletarMedico = async (req, res) => {
     const {email} = req.body;
@@ -131,9 +127,10 @@ const deletarMedico = async (req, res) => {
     
     try {
         const deletar = await medicoServices.deletarMedico(email);
-        res.status(200).send("Médico deletado com sucesso!");
+        res.status(200).send({message: "Médico deletado com sucesso!"});
     } catch (err) {
-        res.status(500).send({ message: err.message });
+        const statusCode = err.statusCode || 500;
+        return res.status(statusCode).send({ message: err.message });
     }
 }
 
@@ -149,10 +146,11 @@ const updateMedico = async (req, res) => {
         if(result.modifiedCount === 0){
             return res.status(404).send({ message: 'Nenhuma modificação realizada' });
         }
-        res.status(200).send({ message: 'Médico atualizado com sucesso' });
+        res.status(200).send({ message: 'Médico atualizado com sucesso' }, result);
     }catch (err) {
-        res.status(400).send({ message: 'Erro ao atualizar médico', err});
+        const statusCode = err.statusCode || 500;
+        return res.status(statusCode).send({ message: err.message });
     }
 };
 
-export default { create, findAllMedicos, findOneByEmail, findNome, login,  log_out, deletarMedico, updateMedico, findByEspecialidade, findById };
+export default { create, findAllMedicos, findOneByEmail, findNome, login, deletarMedico, updateMedico, findByEspecialidade, findById };
