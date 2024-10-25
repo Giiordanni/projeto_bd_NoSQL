@@ -634,3 +634,186 @@
 24-Oct-2024 18:59:37 [[32minfo[39m]: Clínica criada com sucesso
 24-Oct-2024 18:59:52 [[33mwarn[39m]: Access denied. Not a secretary.
 24-Oct-2024 19:00:11 [[33mwarn[39m]: Access denied. Not a secretary.
+24-Oct-2024 19:02:26 [[32minfo[39m]: Criando clínica
+24-Oct-2024 19:02:26 [[32minfo[39m]: Clínica criada com sucesso
+24-Oct-2024 19:02:36 [[32minfo[39m]: Fazendo login do médico
+24-Oct-2024 19:02:36 [[32minfo[39m]: Buscando médico para login com email: gutavimFormiga@gmail.com
+24-Oct-2024 19:02:36 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 19:02:57 [[33mwarn[39m]: Access denied. Not a secretary.
+24-Oct-2024 19:03:00 [[33mwarn[39m]: Access denied. Not a secretary.
+24-Oct-2024 19:03:14 [[33mwarn[39m]: Access denied. Not a secretary.
+24-Oct-2024 19:03:40 [[33mwarn[39m]: Access denied. Not a secretary.
+24-Oct-2024 19:03:53 [[32minfo[39m]: Fazendo login do médico
+24-Oct-2024 19:03:53 [[32minfo[39m]: Buscando médico para login com email: gutavimFormiga@gmail.com
+24-Oct-2024 19:03:53 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 19:04:04 [[33mwarn[39m]: Access denied. Not a secretary.
+24-Oct-2024 19:04:15 [[32minfo[39m]: Fazendo login do Secretário
+24-Oct-2024 19:04:15 [[32minfo[39m]: Buscando usuário para login com email: giovanna3@gmail.com
+24-Oct-2024 19:04:15 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 19:04:15 [[32minfo[39m]: Usuário logado com sucesso
+24-Oct-2024 19:04:30 [[32minfo[39m]: Criando clínica
+24-Oct-2024 19:04:30 [[32minfo[39m]: Clínica criada com sucesso
+24-Oct-2024 19:04:50 [[32minfo[39m]: Fazendo login do médico
+24-Oct-2024 19:04:50 [[32minfo[39m]: Buscando médico para login com email: gutavimFormiga@gmail.com
+24-Oct-2024 19:04:50 [[32minfo[39m]: Gerando o token de autenticação
+24-Oct-2024 19:05:07 [[32minfo[39m]: Criando clínica
+24-Oct-2024 19:05:07 [[32minfo[39m]: Clínica criada com sucesso
+25-Oct-2024 11:08:42 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:08:42 [[32minfo[39m]: Agenda encontrada com sucesso
+25-Oct-2024 11:08:53 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:08:53 [[32minfo[39m]: Agenda encontrada com sucesso
+25-Oct-2024 11:09:07 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 11:09:07 [[32minfo[39m]: Agendas encontradas com sucesso
+25-Oct-2024 11:10:21 [[32minfo[39m]: Atualizando agenda
+25-Oct-2024 11:10:21 [[32minfo[39m]: Agenda atualizada com sucesso
+25-Oct-2024 11:10:41 [[32minfo[39m]: Atualizando agenda
+25-Oct-2024 11:10:42 [[32minfo[39m]: Agenda atualizada com sucesso
+25-Oct-2024 11:10:49 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 11:10:49 [[32minfo[39m]: Agendas encontradas com sucesso
+25-Oct-2024 11:10:54 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 11:10:54 [[32minfo[39m]: Agendas encontradas com sucesso
+25-Oct-2024 11:11:10 [[32minfo[39m]: Atualizando agenda
+25-Oct-2024 11:11:10 [[32minfo[39m]: Agenda atualizada com sucesso
+25-Oct-2024 11:11:13 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 11:11:13 [[32minfo[39m]: Agendas encontradas com sucesso
+25-Oct-2024 11:11:23 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:11:23 [[32minfo[39m]: Agenda encontrada com sucesso
+25-Oct-2024 11:12:28 [[32minfo[39m]: Atualizando agenda
+25-Oct-2024 11:12:29 [[32minfo[39m]: Agenda atualizada com sucesso
+25-Oct-2024 11:13:12 [[32minfo[39m]: Atualizando agenda
+25-Oct-2024 11:13:13 [[32minfo[39m]: Agenda atualizada com sucesso
+25-Oct-2024 11:13:41 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:13:42 [[32minfo[39m]: Agenda encontrada com sucesso
+25-Oct-2024 11:14:00 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:14:01 [[32minfo[39m]: Agenda encontrada com sucesso
+25-Oct-2024 11:14:17 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:14:18 [[32minfo[39m]: Agenda encontrada com sucesso
+25-Oct-2024 11:18:10 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:18:10 [[31merror[39m]: Agenda não encontrada
+25-Oct-2024 11:18:10 [[31merror[39m]: Erro ao buscar Agenda
+25-Oct-2024 11:18:39 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:18:39 [[31merror[39m]: Agenda não encontrada
+25-Oct-2024 11:18:39 [[31merror[39m]: Erro ao buscar Agenda
+25-Oct-2024 11:19:34 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 11:19:34 [[32minfo[39m]: Agendas encontradas com sucesso
+25-Oct-2024 11:19:44 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 11:19:44 [[32minfo[39m]: Agenda deletada com sucesso
+25-Oct-2024 11:19:46 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 11:19:46 [[32minfo[39m]: Agendas encontradas com sucesso
+25-Oct-2024 11:23:36 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:23:36 [[31merror[39m]: Agenda não encontrada
+25-Oct-2024 11:23:36 [[31merror[39m]: Erro ao buscar Agenda
+25-Oct-2024 11:23:57 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:23:57 [[32minfo[39m]: Agenda encontrada com sucesso
+25-Oct-2024 11:24:21 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:24:22 [[32minfo[39m]: Agenda encontrada com sucesso
+25-Oct-2024 11:24:29 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:24:29 [[31merror[39m]: Agenda não encontrada
+25-Oct-2024 11:24:29 [[31merror[39m]: Erro ao buscar Agenda
+25-Oct-2024 11:24:41 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:24:41 [[32minfo[39m]: Agenda encontrada com sucesso
+25-Oct-2024 11:24:52 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 11:24:52 [[32minfo[39m]: Agenda deletada com sucesso
+25-Oct-2024 11:24:57 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:24:57 [[31merror[39m]: Agenda não encontrada
+25-Oct-2024 11:24:57 [[31merror[39m]: Erro ao buscar Agenda
+25-Oct-2024 11:25:54 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 11:25:54 [[32minfo[39m]: Buscando o ID da clinica pelo nome
+25-Oct-2024 11:25:54 [[32minfo[39m]: Agenda criada com sucesso
+25-Oct-2024 11:26:01 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 11:26:01 [[32minfo[39m]: Agendas encontradas com sucesso
+25-Oct-2024 11:26:17 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:26:27 [[32minfo[39m]: Agenda encontrada com sucesso
+25-Oct-2024 11:27:43 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:27:43 [[32minfo[39m]: Agenda encontrada com sucesso
+25-Oct-2024 11:27:58 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 11:27:58 [[32minfo[39m]: Agenda deletada com sucesso
+25-Oct-2024 11:28:04 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 11:28:04 [[31merror[39m]: Não há agendas disponíveis
+25-Oct-2024 11:28:04 [[31merror[39m]: Erro ao buscar agendas
+25-Oct-2024 11:28:23 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 11:28:23 [[31merror[39m]: Não há agendas disponíveis
+25-Oct-2024 11:28:23 [[31merror[39m]: Erro ao buscar agendas
+25-Oct-2024 11:28:25 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 11:28:25 [[31merror[39m]: Não há agendas disponíveis
+25-Oct-2024 11:28:25 [[31merror[39m]: Erro ao buscar agendas
+25-Oct-2024 11:28:25 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 11:28:25 [[31merror[39m]: Não há agendas disponíveis
+25-Oct-2024 11:28:25 [[31merror[39m]: Erro ao buscar agendas
+25-Oct-2024 11:28:26 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 11:28:26 [[31merror[39m]: Não há agendas disponíveis
+25-Oct-2024 11:28:26 [[31merror[39m]: Erro ao buscar agendas
+25-Oct-2024 11:29:40 [[32minfo[39m]: Buscando todos os médicos
+25-Oct-2024 11:29:40 [[32minfo[39m]: Médicos encontrados com sucesso
+25-Oct-2024 11:29:51 [[32minfo[39m]: Buscando médico por id
+25-Oct-2024 11:30:10 [[32minfo[39m]: Buscando médico por id
+25-Oct-2024 11:30:20 [[32minfo[39m]: Buscando médico por id
+25-Oct-2024 11:30:37 [[32minfo[39m]: Buscando todos os médicos
+25-Oct-2024 11:30:37 [[32minfo[39m]: Médicos encontrados com sucesso
+25-Oct-2024 11:30:46 [[32minfo[39m]: Buscando médico por id
+25-Oct-2024 11:30:55 [[32minfo[39m]: Buscando todos os médicos
+25-Oct-2024 11:30:55 [[32minfo[39m]: Médicos encontrados com sucesso
+25-Oct-2024 11:32:42 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 11:32:42 [[31merror[39m]: Não há agendas disponíveis
+25-Oct-2024 11:32:42 [[31merror[39m]: Erro ao buscar agendas
+25-Oct-2024 11:32:46 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 11:32:46 [[32minfo[39m]: Buscando o ID da clinica pelo nome
+25-Oct-2024 11:32:46 [[32minfo[39m]: Agenda criada com sucesso
+25-Oct-2024 11:32:48 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 11:32:48 [[32minfo[39m]: Agendas encontradas com sucesso
+25-Oct-2024 11:33:02 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:33:02 [[31merror[39m]: Agenda não encontrada
+25-Oct-2024 11:38:46 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:38:46 [[31merror[39m]: Agenda não encontrada
+25-Oct-2024 11:38:46 [[31merror[39m]: Erro ao buscar Agenda
+25-Oct-2024 11:39:13 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:39:14 [[31merror[39m]: Agenda não encontrada
+25-Oct-2024 11:39:14 [[31merror[39m]: Erro ao buscar Agenda
+25-Oct-2024 11:39:42 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:39:43 [[32minfo[39m]: Agenda encontrada com sucesso
+25-Oct-2024 11:39:56 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:39:56 [[32minfo[39m]: Agenda encontrada com sucesso
+25-Oct-2024 11:40:09 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:40:09 [[31merror[39m]: Agenda não encontrada
+25-Oct-2024 11:40:09 [[31merror[39m]: Erro ao buscar Agenda
+25-Oct-2024 11:42:34 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:42:34 [[31merror[39m]: Agenda não encontrada
+25-Oct-2024 11:42:55 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:42:56 [[31merror[39m]: Agenda não encontrada
+25-Oct-2024 11:45:25 [[31merror[39m]: Invalid token.
+25-Oct-2024 11:45:32 [[31merror[39m]: Invalid token.
+25-Oct-2024 11:45:45 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 11:45:45 [[32minfo[39m]: Buscando médico para login com email: gutavimFormiga@gmail.com
+25-Oct-2024 11:45:46 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 11:45:59 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:45:59 [[31merror[39m]: Agenda não encontrada
+25-Oct-2024 11:46:13 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:46:14 [[31merror[39m]: Agenda não encontrada
+25-Oct-2024 11:49:28 [[31merror[39m]: Invalid token.
+25-Oct-2024 11:49:39 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 11:49:39 [[32minfo[39m]: Agenda deletada com sucesso
+25-Oct-2024 11:49:42 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 11:49:42 [[32minfo[39m]: Agenda deletada com sucesso
+25-Oct-2024 11:49:53 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 11:49:58 [[32minfo[39m]: Buscando agenda por turno
+25-Oct-2024 11:49:58 [[31merror[39m]: Agenda não encontrada
+25-Oct-2024 11:50:02 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 11:50:02 [[32minfo[39m]: Agendas encontradas com sucesso
+25-Oct-2024 11:50:12 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 11:50:12 [[32minfo[39m]: Agenda deletada com sucesso
+25-Oct-2024 11:50:14 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 11:50:14 [[32minfo[39m]: Agenda deletada com sucesso
+25-Oct-2024 11:50:15 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 11:50:15 [[32minfo[39m]: Agenda deletada com sucesso
+25-Oct-2024 11:50:15 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 11:50:15 [[32minfo[39m]: Agenda deletada com sucesso
+25-Oct-2024 11:50:15 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 11:50:15 [[32minfo[39m]: Agenda deletada com sucesso
+25-Oct-2024 11:51:00 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 11:51:43 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 11:51:43 [[31merror[39m]: Não há agendas disponíveis
+25-Oct-2024 11:51:47 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 11:51:47 [[32minfo[39m]: Agenda deletada com sucesso
+25-Oct-2024 11:51:51 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 11:54:04 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 11:54:04 [[31merror[39m]: Agenda não encontrada
