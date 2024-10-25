@@ -452,3 +452,199 @@ ReferenceError: log_out is not defined
     at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
     at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:03:13 [[31merror[39m]: uncaughtException: O domínio gmaicxzl.com não existe.
+Error: O domínio gmaicxzl.com não existe.
+    at QueryReqWrap.callback (file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/middlewares/global.middlewares.js:64:16)
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:45:10)
+25-Oct-2024 17:03:52 [[31merror[39m]: uncaughtException: O domínio gm12ail.com não existe.
+Error: O domínio gm12ail.com não existe.
+    at QueryReqWrap.callback (file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/middlewares/global.middlewares.js:64:16)
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:45:10)
+25-Oct-2024 17:13:26 [[31merror[39m]: uncaughtException: generateToken is not defined
+ReferenceError: generateToken is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:116:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:14:07 [[31merror[39m]: uncaughtException: findOne is not defined
+ReferenceError: findOne is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:114:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:14:09 [[31merror[39m]: uncaughtException: findOne is not defined
+ReferenceError: findOne is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:114:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:14:14 [[31merror[39m]: uncaughtException: findOne is not defined
+ReferenceError: findOne is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:116:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:14:22 [[31merror[39m]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:109:22
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:14:24 [[31merror[39m]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:109:22
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:14:29 [[31merror[39m]: uncaughtException: findOne is not defined
+ReferenceError: findOne is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:116:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:14:31 [[31merror[39m]: uncaughtException: findOne is not defined
+ReferenceError: findOne is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:118:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:14:41 [[31merror[39m]: uncaughtException: findOne is not defined
+ReferenceError: findOne is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:118:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:14:43 [[31merror[39m]: uncaughtException: findOne is not defined
+ReferenceError: findOne is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:118:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:14:47 [[31merror[39m]: uncaughtException: findOne is not defined
+ReferenceError: findOne is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:127:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:14:54 [[31merror[39m]: uncaughtException: findOne is not defined
+ReferenceError: findOne is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:128:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:15:28 [[31merror[39m]: uncaughtException: findOne is not defined
+ReferenceError: findOne is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:128:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:15:37 [[31merror[39m]: uncaughtException: findOne is not defined
+ReferenceError: findOne is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:132:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:15:41 [[31merror[39m]: uncaughtException: findOne is not defined
+ReferenceError: findOne is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:133:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:15:43 [[31merror[39m]: uncaughtException: findOne is not defined
+ReferenceError: findOne is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:133:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:15:46 [[31merror[39m]: uncaughtException: findOne is not defined
+ReferenceError: findOne is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:133:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:16:00 [[31merror[39m]: uncaughtException: generateToken is not defined
+ReferenceError: generateToken is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:135:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:16:04 [[31merror[39m]: uncaughtException: generateToken is not defined
+ReferenceError: generateToken is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:137:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:16:36 [[31merror[39m]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:128:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:16:41 [[31merror[39m]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:128:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:16:50 [[31merror[39m]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/paciente.services.js:128:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:31:25 [[31merror[39m]: uncaughtException: Route.patch() requires a callback function but got a [object Undefined]
+Error: Route.patch() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as patch] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as patch] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\index.js:521:19)
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/routes/paciente_routes.js:11:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:31:28 [[31merror[39m]: uncaughtException: globalMiddlewaresPacienteController is not defined
+ReferenceError: globalMiddlewaresPacienteController is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/routes/paciente_routes.js:11:45
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:31:33 [[31merror[39m]: uncaughtException: Route.patch() requires a callback function but got a [object Undefined]
+Error: Route.patch() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as patch] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as patch] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\index.js:521:19)
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/routes/paciente_routes.js:11:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:31:37 [[31merror[39m]: uncaughtException: Route.patch() requires a callback function but got a [object Undefined]
+Error: Route.patch() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as patch] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as patch] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\index.js:521:19)
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/routes/paciente_routes.js:11:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:31:38 [[31merror[39m]: uncaughtException: Route.patch() requires a callback function but got a [object Undefined]
+Error: Route.patch() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as patch] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as patch] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\index.js:521:19)
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/routes/paciente_routes.js:11:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 17:31:53 [[31merror[39m]: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as delete] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\index.js:521:19)
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/routes/paciente_routes.js:12:22
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 18:39:40 [[31merror[39m]: uncaughtException: glo is not defined
+ReferenceError: glo is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/routes/agenda_routes.js:8:59
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 18:57:58 [[31merror[39m]: uncaughtException: err is not defined
+ReferenceError: err is not defined
+    at findAllMedicos (file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/controllers/medico_controller.js:19:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

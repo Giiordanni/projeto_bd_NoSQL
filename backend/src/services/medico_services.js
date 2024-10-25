@@ -19,6 +19,12 @@ const createMedico = async (body) => {
         throw new CustomError("CPF inválido", 400);
     }
 
+    const validEmail = await middleware.validarEmail(email);
+    if(!validEmail){
+        logger.error("Email inválido");
+        throw new CustomError("Email inválido", 400);
+    }
+
     if (await medico_repositories.findByEmailMedico(email)) {
         logger.error("Usuário já cadastrado no banco");
         throw new CustomError("Usuário já cadastrado no banco", 400);
@@ -42,19 +48,13 @@ const createMedico = async (body) => {
         throw new CustomError("A senha deve ter no máximo 20 caracteres", 400);
     }
     
-    const validEmail = await middleware.validarEmail(email);
-    if(!validEmail){
-        logger.error("Email inválido");
-        throw new CustomError("Email inválido", 400);
-    }
-    
     const user_medico = await medico_repositories.createMedico(body);
     if (!user_medico) {
         logger.error("Erro ao criar usuário");
         throw new CustomError("Erro ao criar usuário", 400);
     }
 
-    const token = middleware.genarateToken(user_medico, 1);
+    const token = middleware.genarateToken({_id: user_medico.id}, 1);
     logger.info("Usuário criado com sucesso");
 
     return {
@@ -91,13 +91,9 @@ const getAllMedicos = async () => {
     logger.info("Buscando todos os médicos");
     const medicos = await medico_repositories.findAllMedicos();
 
-    if (medicos.length === 0) {
+    if (medicos.length === 0 || !medicos) {
         logger.error("Não há médicos cadastrados!");
         throw new CustomError("Não há médicos cadastrados!", 404);
-    }
-    if (!medicos) {
-        logger.error("Usuário não encontrado");
-        throw new CustomError("Usuário não encontrado", 404);
     }
 
     logger.info("Médicos encontrados com sucesso");
@@ -174,7 +170,7 @@ const loginMedico = async (email, senha) => {
         throw new CustomError("Senha inválida", 400);
     }
 
-    const token = middleware.genarateToken(medico.id, 1);
+    const token = middleware.genarateToken({_id: medico.id}, 1);
     return token;
 };
 

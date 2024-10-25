@@ -926,3 +926,454 @@
 25-Oct-2024 16:07:59 [[32minfo[39m]: Fazendo login do médico
 25-Oct-2024 16:07:59 [[32minfo[39m]: Buscando médico para login com email: gutavimFormiga@gmail.com
 25-Oct-2024 16:07:59 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 17:00:18 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:00:18 [[31merror[39m]: Usuário já cadastrado no banco
+25-Oct-2024 17:00:25 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:00:25 [[31merror[39m]: CPF já cadastrado no banco
+25-Oct-2024 17:00:30 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:00:30 [[31merror[39m]: CPF inválido
+25-Oct-2024 17:00:35 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:00:35 [[31merror[39m]: CPF inválido
+25-Oct-2024 17:00:40 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:00:40 [[31merror[39m]: CPF inválido
+25-Oct-2024 17:00:44 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:00:44 [[31merror[39m]: CPF inválido
+25-Oct-2024 17:00:48 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:00:48 [[31merror[39m]: CPF inválido
+25-Oct-2024 17:00:53 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:00:53 [[31merror[39m]: CPF inválido
+25-Oct-2024 17:00:58 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:00:58 [[31merror[39m]: CPF inválido
+25-Oct-2024 17:01:02 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:01:02 [[31merror[39m]: CPF inválido
+25-Oct-2024 17:01:15 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:01:15 [[31merror[39m]: CPF inválido
+25-Oct-2024 17:01:19 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:01:19 [[31merror[39m]: CPF inválido
+25-Oct-2024 17:01:22 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:01:22 [[31merror[39m]: CPF inválido
+25-Oct-2024 17:01:26 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:01:26 [[31merror[39m]: CPF inválido
+25-Oct-2024 17:01:29 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:01:29 [[31merror[39m]: CPF inválido
+25-Oct-2024 17:01:32 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:01:32 [[31merror[39m]: CPF inválido
+25-Oct-2024 17:01:36 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:01:36 [[31merror[39m]: CPF inválido
+25-Oct-2024 17:01:40 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:01:40 [[31merror[39m]: CPF inválido
+25-Oct-2024 17:01:51 [[31merror[39m]: Invalid token.
+25-Oct-2024 17:02:06 [[32minfo[39m]: Buscando todos os médicos
+25-Oct-2024 17:02:06 [[32minfo[39m]: Médicos encontrados com sucesso
+25-Oct-2024 17:02:30 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 17:02:30 [[32minfo[39m]: Buscando médico para login com email: gutavimFormiga@gmail.com
+25-Oct-2024 17:02:30 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 17:02:41 [[32minfo[39m]: Deletando médico
+25-Oct-2024 17:02:41 [[32minfo[39m]: Usuário deletado com sucesso
+25-Oct-2024 17:02:44 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:02:45 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 17:02:45 [[32minfo[39m]: Usuário criado com sucesso
+25-Oct-2024 17:02:48 [[32minfo[39m]: Deletando médico
+25-Oct-2024 17:02:48 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 17:02:51 [[32minfo[39m]: Deletando médico
+25-Oct-2024 17:02:51 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 17:03:08 [[32minfo[39m]: Deletando médico
+25-Oct-2024 17:03:08 [[32minfo[39m]: Usuário deletado com sucesso
+25-Oct-2024 17:03:13 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:03:13 [[31merror[39m]: O domínio gmaicxzl.com não existe.
+25-Oct-2024 17:03:52 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:03:52 [[31merror[39m]: CPF já cadastrado no banco
+25-Oct-2024 17:03:52 [[31merror[39m]: O domínio gm12ail.com não existe.
+25-Oct-2024 17:04:45 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:04:45 [[31merror[39m]: O domínio gm12ail.com não existe.
+25-Oct-2024 17:04:48 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:04:48 [[31merror[39m]: O domínio gm12ail.com não existe.
+25-Oct-2024 17:04:56 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:04:56 [[31merror[39m]: CPF já cadastrado no banco
+25-Oct-2024 17:07:05 [[32minfo[39m]: Deletando médico
+25-Oct-2024 17:07:05 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 17:07:18 [[32minfo[39m]: Deletando médico
+25-Oct-2024 17:07:18 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 17:07:21 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:07:21 [[31merror[39m]: CPF já cadastrado no banco
+25-Oct-2024 17:07:32 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:07:32 [[31merror[39m]: CPF já cadastrado no banco
+25-Oct-2024 17:38:59 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 17:38:59 [[31merror[39m]: CPF já cadastrado no banco
+25-Oct-2024 17:41:34 [[32minfo[39m]: Iniciando criação do Paciente
+25-Oct-2024 17:41:35 [[31merror[39m]: As senhas não coincidem
+25-Oct-2024 17:41:40 [[32minfo[39m]: Iniciando criação do Paciente
+25-Oct-2024 17:41:40 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 17:44:31 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 17:44:31 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 17:44:33 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 17:44:33 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 17:45:39 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 17:46:48 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 17:46:54 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 17:47:57 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 17:48:36 [[32minfo[39m]: Buscando todos os pacientes
+25-Oct-2024 17:48:40 [[32minfo[39m]: Buscando todos os pacientes
+25-Oct-2024 17:48:45 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 17:48:48 [[32minfo[39m]: Buscando todos os pacientes
+25-Oct-2024 17:49:47 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 17:49:50 [[32minfo[39m]: Buscando todos os pacientes
+25-Oct-2024 17:49:50 [[31merror[39m]: Não há usuários cadastrados!
+25-Oct-2024 17:50:01 [[32minfo[39m]: Iniciando criação do Paciente
+25-Oct-2024 17:50:01 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 17:50:51 [[32minfo[39m]: Buscando paciente por email
+25-Oct-2024 17:52:53 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 17:52:53 [[32minfo[39m]: Buscando médico para login com email: gioreit@hotmail.com
+25-Oct-2024 17:52:53 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 17:56:13 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 17:56:13 [[32minfo[39m]: Buscando médico para login com email: gioreit@hotmail.com
+25-Oct-2024 17:56:14 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 17:56:29 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 17:56:29 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 17:56:40 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 17:56:40 [[32minfo[39m]: Buscando médico para login com email: gioreit@hotmail.com
+25-Oct-2024 17:56:40 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 17:59:19 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 17:59:19 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 17:59:23 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 17:59:23 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 17:59:58 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 17:59:58 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 18:00:38 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 18:00:39 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 18:01:13 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 18:01:13 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 18:02:24 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 18:02:26 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 18:03:09 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 18:03:10 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 18:06:14 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 18:06:15 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 18:07:33 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 18:08:30 [[32minfo[39m]: Buscando paciente por email
+25-Oct-2024 18:08:38 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 18:08:38 [[32minfo[39m]: Buscando médico para login com email: gioreit@hotmail.com
+25-Oct-2024 18:08:38 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:08:51 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:09:00 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:09:00 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:09:49 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:09:50 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:11:45 [[32minfo[39m]: Iniciando criação do Paciente
+25-Oct-2024 18:11:45 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:12:02 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:12:03 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:12:05 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:12:08 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 18:12:08 [[32minfo[39m]: Buscando médico para login com email: gioreit@hotmail.com
+25-Oct-2024 18:12:08 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:12:18 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:12:18 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:12:20 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:12:21 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:18:16 [[32minfo[39m]: Iniciando criação do Paciente
+25-Oct-2024 18:18:17 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:18:54 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 18:18:54 [[32minfo[39m]: Buscando médico para login com email: gioreit@hotmail.com
+25-Oct-2024 18:18:55 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:19:36 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:20:31 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:23:39 [[32minfo[39m]: Token decodificado: {"role":3,"iat":1729891135,"exp":1729977535}
+25-Oct-2024 18:23:39 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:23:47 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 18:23:47 [[32minfo[39m]: Buscando médico para login com email: gioreit@hotmail.com
+25-Oct-2024 18:23:47 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:24:02 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 18:24:02 [[32minfo[39m]: Buscando médico para login com email: gioreit@hotmail.com
+25-Oct-2024 18:24:02 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:24:43 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 18:24:43 [[32minfo[39m]: Buscando médico para login com email: gioreit@hotmail.com
+25-Oct-2024 18:24:44 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:28:23 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 18:28:23 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:28:23 [[32minfo[39m]: Usuário criado com sucesso
+25-Oct-2024 18:28:53 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729891703,"exp":1729978103}
+25-Oct-2024 18:28:53 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 18:28:53 [[31merror[39m]: Preencha todos os campos obrigatórios
+25-Oct-2024 18:28:59 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729891703,"exp":1729978103}
+25-Oct-2024 18:28:59 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 18:28:59 [[31merror[39m]: Preencha todos os campos obrigatórios
+25-Oct-2024 18:29:05 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729891703,"exp":1729978103}
+25-Oct-2024 18:29:05 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 18:29:05 [[31merror[39m]: Preencha todos os campos obrigatórios
+25-Oct-2024 18:29:29 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729891703,"exp":1729978103}
+25-Oct-2024 18:29:29 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 18:29:29 [[31merror[39m]: Preencha todos os campos obrigatórios
+25-Oct-2024 18:33:04 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729891703,"exp":1729978103}
+25-Oct-2024 18:33:04 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 18:33:04 [[31merror[39m]: Preencha todos os campos obrigatórios
+25-Oct-2024 18:36:35 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 18:36:35 [[32minfo[39m]: Buscando médico para login com email: gutavimFormiga@gmail.com
+25-Oct-2024 18:36:35 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 18:36:51 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 18:36:51 [[32minfo[39m]: Buscando médico para login com email: giuy@gmail.com
+25-Oct-2024 18:36:51 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:37:05 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729892211,"exp":1729978611}
+25-Oct-2024 18:37:05 [[32minfo[39m]: Criando clínica
+25-Oct-2024 18:37:05 [[31merror[39m]: Médico não encontrado
+25-Oct-2024 18:38:09 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729892211,"exp":1729978611}
+25-Oct-2024 18:38:09 [[32minfo[39m]: Criando clínica
+25-Oct-2024 18:38:09 [[31merror[39m]: Médico não encontrado
+25-Oct-2024 18:38:28 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729891703,"exp":1729978103}
+25-Oct-2024 18:38:28 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 18:38:28 [[31merror[39m]: Preencha todos os campos obrigatórios
+25-Oct-2024 18:39:05 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729891703,"exp":1729978103}
+25-Oct-2024 18:39:05 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 18:39:05 [[31merror[39m]: Preencha todos os campos obrigatórios
+25-Oct-2024 18:39:57 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729891703,"exp":1729978103}
+25-Oct-2024 18:39:57 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 18:39:57 [[31merror[39m]: Preencha todos os campos obrigatórios
+25-Oct-2024 18:42:49 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 18:42:49 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:42:49 [[32minfo[39m]: Usuário criado com sucesso
+25-Oct-2024 18:43:11 [[32minfo[39m]: Token decodificado: {"_id":"671c10d90c5d9e7b72183c6c","role":1,"iat":1729892569,"exp":1729978969}
+25-Oct-2024 18:43:11 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 18:43:11 [[32minfo[39m]: Buscando o ID da clinica pelo nome
+25-Oct-2024 18:43:11 [[31merror[39m]: Clinica não encontrada
+25-Oct-2024 18:43:19 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729892211,"exp":1729978611}
+25-Oct-2024 18:43:19 [[32minfo[39m]: Criando clínica
+25-Oct-2024 18:43:20 [[31merror[39m]: Médico não encontrado
+25-Oct-2024 18:43:24 [[31merror[39m]: Invalid token.
+25-Oct-2024 18:43:33 [[32minfo[39m]: Token decodificado: {"_id":"671c10d90c5d9e7b72183c6c","role":1,"iat":1729892569,"exp":1729978969}
+25-Oct-2024 18:43:33 [[32minfo[39m]: Criando clínica
+25-Oct-2024 18:43:34 [[31merror[39m]: Médico não encontrado
+25-Oct-2024 18:43:56 [[32minfo[39m]: Token decodificado: {"_id":"671c10d90c5d9e7b72183c6c","role":1,"iat":1729892569,"exp":1729978969}
+25-Oct-2024 18:43:56 [[32minfo[39m]: Criando clínica
+25-Oct-2024 18:43:56 [[32minfo[39m]: Clínica criada com sucesso
+25-Oct-2024 18:44:06 [[32minfo[39m]: Token decodificado: {"_id":"671c10d90c5d9e7b72183c6c","role":1,"iat":1729892569,"exp":1729978969}
+25-Oct-2024 18:44:06 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 18:44:06 [[32minfo[39m]: Buscando o ID da clinica pelo nome
+25-Oct-2024 18:44:07 [[32minfo[39m]: Agenda criada com sucesso
+25-Oct-2024 18:46:15 [[32minfo[39m]: Iniciando criação do Paciente
+25-Oct-2024 18:46:15 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:46:28 [[32minfo[39m]: Token decodificado: {"_id":"671c11a7597d6526f2e9de91","role":3,"iat":1729892775,"exp":1729979175}
+25-Oct-2024 18:46:28 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:46:48 [[32minfo[39m]: Token decodificado: {"_id":"671c11a7597d6526f2e9de91","role":3,"iat":1729892775,"exp":1729979175}
+25-Oct-2024 18:46:48 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 18:48:34 [[32minfo[39m]: Token decodificado: {"_id":"671c11a7597d6526f2e9de91","role":3,"iat":1729892775,"exp":1729979175}
+25-Oct-2024 18:48:34 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 18:48:34 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 18:48:38 [[32minfo[39m]: Iniciando criação do Paciente
+25-Oct-2024 18:48:39 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:48:50 [[32minfo[39m]: Token decodificado: {"_id":"671c1236cf4b97ba8a177b3c","role":3,"iat":1729892919,"exp":1729979319}
+25-Oct-2024 18:48:50 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 18:48:50 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 18:51:32 [[32minfo[39m]: Token decodificado: {"_id":"671c1236cf4b97ba8a177b3c","role":3,"iat":1729892919,"exp":1729979319}
+25-Oct-2024 18:51:32 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 18:51:32 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 18:51:35 [[32minfo[39m]: Token decodificado: {"_id":"671c1236cf4b97ba8a177b3c","role":3,"iat":1729892919,"exp":1729979319}
+25-Oct-2024 18:51:35 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 18:51:35 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 18:53:17 [[32minfo[39m]: Token decodificado: {"_id":"671c1236cf4b97ba8a177b3c","role":3,"iat":1729892919,"exp":1729979319}
+25-Oct-2024 18:53:28 [[32minfo[39m]: Token decodificado: {"_id":"671c11a7597d6526f2e9de91","role":3,"iat":1729892775,"exp":1729979175}
+25-Oct-2024 18:53:28 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:53:28 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 18:53:40 [[32minfo[39m]: Buscando todos os pacientes
+25-Oct-2024 18:53:52 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 18:53:52 [[32minfo[39m]: Buscando médico para login com email: gioreit@hotmail.com
+25-Oct-2024 18:53:52 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:54:08 [[32minfo[39m]: Token decodificado: {"_id":"671c1236cf4b97ba8a177b3c","role":3,"iat":1729893232,"exp":1729979632}
+25-Oct-2024 18:54:08 [[32minfo[39m]: Deletando paciente
+25-Oct-2024 18:54:11 [[32minfo[39m]: Buscando todos os pacientes
+25-Oct-2024 18:54:11 [[31merror[39m]: Não há usuários cadastrados!
+25-Oct-2024 18:54:18 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 18:54:18 [[32minfo[39m]: Buscando médico para login com email: gioreit@hotmail.com
+25-Oct-2024 18:54:18 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 18:54:21 [[32minfo[39m]: Iniciando criação do Paciente
+25-Oct-2024 18:54:21 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:54:28 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729886550,"exp":1729972950}
+25-Oct-2024 18:54:28 [[32minfo[39m]: Deletando médico
+25-Oct-2024 18:54:28 [[32minfo[39m]: Usuário deletado com sucesso
+25-Oct-2024 18:54:41 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729867546,"exp":1729953946}
+25-Oct-2024 18:54:41 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 18:54:41 [[32minfo[39m]: Agendas encontradas com sucesso
+25-Oct-2024 18:54:51 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729867546,"exp":1729953946}
+25-Oct-2024 18:54:51 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 18:54:52 [[32minfo[39m]: Agenda deletada com sucesso
+25-Oct-2024 18:54:55 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729867546,"exp":1729953946}
+25-Oct-2024 18:54:55 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 18:54:55 [[31merror[39m]: Não há agendas disponíveis
+25-Oct-2024 18:55:07 [[32minfo[39m]: Fazendo login do Secretário
+25-Oct-2024 18:55:07 [[32minfo[39m]: Buscando usuário para login com email: giovanna3@gmail.com
+25-Oct-2024 18:55:07 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 18:55:10 [[32minfo[39m]: Iniciando criação do Secretário
+25-Oct-2024 18:55:10 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:55:10 [[32minfo[39m]: Usuário criado com sucesso
+25-Oct-2024 18:55:14 [[32minfo[39m]: Fazendo login do Secretário
+25-Oct-2024 18:55:14 [[32minfo[39m]: Buscando usuário para login com email: giovanna3@gmail.com
+25-Oct-2024 18:55:14 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:55:14 [[32minfo[39m]: Usuário logado com sucesso
+25-Oct-2024 18:55:34 [[32minfo[39m]: Token decodificado: {"_id":"671c13bed8e95ba7ff4f8f13","role":2,"iat":1729893314,"exp":1729979714}
+25-Oct-2024 18:55:34 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 18:55:34 [[32minfo[39m]: Buscando o ID da clinica pelo nome
+25-Oct-2024 18:55:34 [[32minfo[39m]: Agenda criada com sucesso
+25-Oct-2024 18:56:05 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729867546,"exp":1729953946}
+25-Oct-2024 18:56:05 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 18:56:05 [[31merror[39m]: Agenda não encontrada
+25-Oct-2024 18:56:10 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729867546,"exp":1729953946}
+25-Oct-2024 18:56:10 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 18:56:10 [[32minfo[39m]: Agendas encontradas com sucesso
+25-Oct-2024 18:56:20 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729867546,"exp":1729953946}
+25-Oct-2024 18:56:20 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 18:56:20 [[32minfo[39m]: Agenda deletada com sucesso
+25-Oct-2024 18:56:22 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729867546,"exp":1729953946}
+25-Oct-2024 18:56:22 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 18:56:22 [[31merror[39m]: Não há agendas disponíveis
+25-Oct-2024 18:56:48 [[32minfo[39m]: Fazendo login do Secretário
+25-Oct-2024 18:56:48 [[32minfo[39m]: Buscando usuário para login com email: giovanna3@gmail.com
+25-Oct-2024 18:56:48 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:56:48 [[32minfo[39m]: Usuário logado com sucesso
+25-Oct-2024 18:56:58 [[32minfo[39m]: Token decodificado: {"_id":"671c13bed8e95ba7ff4f8f13","role":2,"iat":1729893408,"exp":1729979808}
+25-Oct-2024 18:56:58 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 18:56:58 [[32minfo[39m]: Buscando o ID da clinica pelo nome
+25-Oct-2024 18:56:58 [[32minfo[39m]: Agenda criada com sucesso
+25-Oct-2024 18:57:33 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729867546,"exp":1729953946}
+25-Oct-2024 18:57:33 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 18:57:33 [[32minfo[39m]: Agendas encontradas com sucesso
+25-Oct-2024 18:57:45 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729867546,"exp":1729953946}
+25-Oct-2024 18:57:45 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 18:57:46 [[32minfo[39m]: Agenda deletada com sucesso
+25-Oct-2024 18:57:54 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 18:57:54 [[32minfo[39m]: Buscando médico para login com email: giuy@gmail.com
+25-Oct-2024 18:57:54 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 18:57:58 [[32minfo[39m]: Buscando todos os médicos
+25-Oct-2024 18:57:58 [[31merror[39m]: Não há médicos cadastrados!
+25-Oct-2024 18:58:19 [[32minfo[39m]: Iniciando criação do Médico
+25-Oct-2024 18:58:19 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:58:19 [[32minfo[39m]: Usuário criado com sucesso
+25-Oct-2024 18:58:25 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 18:58:25 [[32minfo[39m]: Buscando médico para login com email: giuy@gmail.com
+25-Oct-2024 18:58:25 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 18:58:39 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729867546,"exp":1729953946}
+25-Oct-2024 18:58:39 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 18:58:39 [[31merror[39m]: Não há agendas disponíveis
+25-Oct-2024 18:58:48 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729893505,"exp":1729979905}
+25-Oct-2024 18:58:48 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 18:58:48 [[31merror[39m]: Preencha todos os campos obrigatórios
+25-Oct-2024 18:58:57 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729893505,"exp":1729979905}
+25-Oct-2024 18:58:57 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 18:58:57 [[31merror[39m]: Preencha todos os campos obrigatórios
+25-Oct-2024 18:59:46 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 18:59:46 [[32minfo[39m]: Buscando médico para login com email: giuy@gmail.com
+25-Oct-2024 18:59:46 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 19:00:00 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729893505,"exp":1729979905}
+25-Oct-2024 19:00:00 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 19:00:00 [[31merror[39m]: Preencha todos os campos obrigatórios
+25-Oct-2024 19:00:06 [[32minfo[39m]: Token decodificado: {"_id":"671c147b96daaea16a3d4885","role":1,"iat":1729893586,"exp":1729979986}
+25-Oct-2024 19:00:06 [[32minfo[39m]: Criando Agenda
+25-Oct-2024 19:00:06 [[32minfo[39m]: Buscando o ID da clinica pelo nome
+25-Oct-2024 19:00:08 [[32minfo[39m]: Agenda criada com sucesso
+25-Oct-2024 19:00:20 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729867546,"exp":1729953946}
+25-Oct-2024 19:00:20 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 19:00:20 [[32minfo[39m]: Agendas encontradas com sucesso
+25-Oct-2024 19:00:41 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729867546,"exp":1729953946}
+25-Oct-2024 19:00:41 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 19:00:42 [[31merror[39m]: Agenda não encontrada
+25-Oct-2024 19:00:47 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729867546,"exp":1729953946}
+25-Oct-2024 19:00:47 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 19:00:47 [[32minfo[39m]: Agendas encontradas com sucesso
+25-Oct-2024 19:00:58 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729867546,"exp":1729953946}
+25-Oct-2024 19:00:58 [[32minfo[39m]: Deletando agenda
+25-Oct-2024 19:00:58 [[32minfo[39m]: Agenda deletada com sucesso
+25-Oct-2024 19:01:01 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729867546,"exp":1729953946}
+25-Oct-2024 19:01:01 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 19:01:01 [[31merror[39m]: Não há agendas disponíveis
+25-Oct-2024 19:01:04 [[32minfo[39m]: Token decodificado: {"role":1,"iat":1729867546,"exp":1729953946}
+25-Oct-2024 19:01:04 [[32minfo[39m]: buscando todas as agendas disponíveis
+25-Oct-2024 19:01:04 [[31merror[39m]: Não há agendas disponíveis
+25-Oct-2024 19:02:03 [[32minfo[39m]: Token decodificado: {"_id":"671c1236cf4b97ba8a177b3c","role":3,"iat":1729892919,"exp":1729979319}
+25-Oct-2024 19:02:17 [[32minfo[39m]: Token decodificado: {"_id":"671c1236cf4b97ba8a177b3c","role":3,"iat":1729892919,"exp":1729979319}
+25-Oct-2024 19:02:17 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:02:17 [[31merror[39m]: Usuário não encontrado
+25-Oct-2024 19:02:23 [[32minfo[39m]: Buscando todos os pacientes
+25-Oct-2024 19:02:26 [[32minfo[39m]: Fazendo login do médico
+25-Oct-2024 19:02:26 [[32minfo[39m]: Buscando médico para login com email: gioreit@hotmail.com
+25-Oct-2024 19:02:26 [[32minfo[39m]: Gerando o token de autenticação
+25-Oct-2024 19:02:38 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:02:38 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:02:38 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:02:46 [[32minfo[39m]: Buscando todos os pacientes
+25-Oct-2024 19:03:03 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:03:03 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:03:03 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:03:47 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:03:47 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:03:47 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:07:02 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:07:02 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:07:02 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:08:09 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:08:09 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:08:09 [[31merror[39m]: Erro ao atualizar usuário
+25-Oct-2024 19:08:30 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:08:30 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:08:30 [[31merror[39m]: Erro ao atualizar usuário
+25-Oct-2024 19:08:33 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:08:33 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:08:33 [[31merror[39m]: Erro ao atualizar usuário
+25-Oct-2024 19:08:49 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:08:49 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:08:49 [[31merror[39m]: Erro ao atualizar usuário
+25-Oct-2024 19:08:55 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:08:55 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:08:55 [[31merror[39m]: Erro ao atualizar usuário
+25-Oct-2024 19:09:19 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:09:19 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:09:19 [[31merror[39m]: Erro ao atualizar usuário
+25-Oct-2024 19:09:34 [[32minfo[39m]: Buscando todos os pacientes
+25-Oct-2024 19:10:10 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:10:10 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:10:10 [[31merror[39m]: Erro ao atualizar usuário
+25-Oct-2024 19:10:20 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:10:20 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:10:20 [[31merror[39m]: Erro ao atualizar usuário
+25-Oct-2024 19:10:37 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:10:37 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:10:37 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:11:13 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:11:13 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:11:13 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:11:42 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:11:42 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:11:42 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:11:58 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:11:58 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:11:58 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:15:40 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:15:40 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:15:40 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:15:47 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:15:47 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:15:47 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:15:50 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:15:50 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:15:50 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:16:05 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:16:05 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:16:05 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:18:55 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:18:55 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:18:55 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:21:01 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:21:01 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:21:01 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:21:38 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:21:38 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:21:38 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:22:54 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:22:54 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:22:54 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:23:00 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:23:00 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:23:01 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:23:07 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:23:07 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:23:07 [[32minfo[39m]: Usuário atualizado com sucesso
+25-Oct-2024 19:24:25 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
+25-Oct-2024 19:24:25 [[32minfo[39m]: Atualizando dados do paciente
+25-Oct-2024 19:24:25 [[32minfo[39m]: Usuário atualizado com sucesso

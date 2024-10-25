@@ -17,6 +17,12 @@ const createSec = async (body) => {
     logger.error("CPF inválido");
     throw new CustomError("CPF inválido", 404);
   }
+
+  const emailIsValid = await middleware.validarEmail(email);
+  if(!emailIsValid){
+    logger.error("Email inválido");
+    throw new CustomError("Email inválido", 404);
+  }
     
   const SecretarioExistente = await secRepositories.findByEmailSec(email);
   if (SecretarioExistente) {
@@ -37,19 +43,13 @@ const createSec = async (body) => {
     throw new CustomError("A senha deve ter no máximo 20 caracteres", 401);
   }
 
-  const emailIsValid = await middleware.validarEmail(email);
-  if(!emailIsValid){
-    logger.error("Email inválido");
-    throw new CustomError("Email inválido", 404);
-  }
-
   const user_secretario = await secRepositories.createSec(body);
   if (!user_secretario) {
     logger.error("Erro ao criar usuário");
     throw new CustomError("Erro ao criar usuário", 400)
   };
 
-  const token = middleware.genarateToken(user_secretario.id, 2);
+  const token = middleware.genarateToken({_id: user_secretario.id}, 2);
   logger.info("Usuário criado com sucesso");
   
   return {
@@ -106,7 +106,7 @@ const loginSec = async (email, senha) => {
     throw new CustomError("Senha inválida", 401);
   }
 
-  const token = middleware.genarateToken(secretario.id, 2);
+  const token = middleware.genarateToken({_id: secretario.id}, 2);
   logger.info("Usuário logado com sucesso");
   return token;
 };

@@ -5,7 +5,7 @@ import globalMiddlewares from "../middlewares/global.middlewares.js";
 
 const router = Router();
 
-router.post("/api/agenda", globalMiddlewares.jwtRequired, globalMiddlewares.isMedicoOrSecretaria, agenda_controller.criarAgenda);
+router.post("/api/agenda", globalMiddlewares.jwtRequired, globalMiddlewares.isMedico, agenda_controller.criarAgenda);
 router.get("/api/agenda", globalMiddlewares.jwtRequired, agenda_controller.findAllAgendas);
 router.get("/api/agenda/data/:data", globalMiddlewares.jwtRequired, agenda_controller.findByData);
 router.get("/api/agenda/turno/:turno", globalMiddlewares.jwtRequired, agenda_controller.findByTurno);

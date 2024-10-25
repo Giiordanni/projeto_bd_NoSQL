@@ -17,21 +17,26 @@ const paciente_schema = new mongoose.Schema({
         required: true,
         select: false
     },
+    cpf:{
+        type: String,
+        required: true,
+        unique: true
+    },
     data_nascimento:{
         type: String,
-        required: true
+        required: false
     },
     sexo:{
         type: String,
-        required: true
+        required: false
     },
     endereco:{
         type: String,
-        required: true
+        required: false
     },
     telefone:{
         type: Number,
-        required: true
+        required: false
     },
     historico:{
         type: [Object],
