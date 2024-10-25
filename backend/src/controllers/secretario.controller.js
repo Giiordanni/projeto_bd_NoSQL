@@ -2,20 +2,23 @@ import userServices from "../services/secretario.services.js";
 
 const createSec = async (req, res) => {
   const body = req.body;
+
   try {
     const user = await userServices.createSec(body);
-    return res.status(201).send(user);
+    return res.status(201).send({message: "Secretário criado com sucesso", user});
   } catch (err) {
-    return res.status(500).send({ message: err.message });
+    const statusCode = err.statusCode || 500;
+    return res.status(statusCode).send({ message: err.message });
   }
 };
 
 const findAllSec = async (req, res) => {
   try {
     const users = await userServices.findAllSec();
-    return res.status(200).send(users);
+    return res.status(200).send({message: "Secretários encontrados com sucesso", users});
   } catch (err) {
-    return res.status(500).send({ message: err.message });
+    const statusCode = err.statusCode || 500;
+    return res.status(statusCode).send({ message: err.message });
   }
 };
 
@@ -28,9 +31,10 @@ const findOneById = async (req, res) => {
     if (!user) {
       return res.status(404).sens({ message: "Usuário não encontrado" });
     }
-    return res.status(200).send(user);
+    return res.status(200).send({message: "Usuário encontrado com sucesso", user});
   } catch (err) {
-    return res.status(500).send({ message: err.message });
+    const statusCode = err.statusCode || 500;
+    return res.status(statusCode).send({ message: err.message });
   }
 };
 
@@ -43,9 +47,10 @@ const loginSec = async (req, res) => {
 
   try {
     const token = await userServices.loginSec(email, senha);
-    return res.status(200).send({ token });
+    return res.status(200).send({message: "login feito com sucesso", token });
   } catch (err) {
-    res.status(500).send(err.message);
+    const statusCode = err.statusCode || 500;
+    return res.status(statusCode).send({ message: err.message });
   }
 };
 
@@ -54,9 +59,10 @@ const deleteSec = async (req, res) => {
 
   try{
     const user = await userServices.deleteSec(id);
-    res.status(200).send("Secretario deletado com sucesso");
+    res.status(200).send({message: "Secretario deletado com sucesso"});
   }catch(err){
-    res.status(500).send({message: err.message});
+    const statusCode = err.statusCode || 500;
+    return res.status(statusCode).send({ message: err.message });
   }
 };
 
@@ -73,22 +79,11 @@ const updateSec = async (req, res) => {
 
     res.status(200).send({message: "Usuário atualizado com sucesso"});
   }catch(err){
-    res.status(400).send({message:  'Erro ao atualizar médico', err});
+    const statusCode = err.statusCode || 500;
+    return res.status(statusCode).send({ message: err.message });
   }
 };
 
-const logOutSec = async (req, res) => {
- try{
-    req.user.tokens = req.user.tokens.filter((token) => {
-      return token !== req.token;
-    });
-    await req.user.sabe();
-    req.send();
-  }catch(err){
-    res.status(500).send(err); 
-  }
-};
-  
 
 export default {
   createSec,
@@ -96,6 +91,5 @@ export default {
   findOneById,
   loginSec,
   deleteSec,
-  updateSec,
-  logOutSec
+  updateSec
 };

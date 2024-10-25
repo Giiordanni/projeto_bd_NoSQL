@@ -117,7 +117,6 @@ const login = async (req, res) => {
     }
 };
 
-
 const deletarMedico = async (req, res) => {
     const {email} = req.body;
 
@@ -132,7 +131,7 @@ const deletarMedico = async (req, res) => {
         const statusCode = err.statusCode || 500;
         return res.status(statusCode).send({ message: err.message });
     }
-}
+};
 
 const updateMedico = async (req, res) => {
     try {

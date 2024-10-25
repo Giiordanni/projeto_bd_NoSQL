@@ -11,7 +11,5 @@ userRouter.get("/api/secretario/:id", UserController.findOneById)
 userRouter.post("/api/login/secretario", UserController.loginSec);
 userRouter.patch("/api/update/secretario", midd.isSecretaria, UserController.updateSec);
 userRouter.delete("/api/delete/secretario/:id",  midd.jwtRequired, midd.isSecretaria, UserController.deleteSec);
-userRouter.post("/api/logout/secretario", midd.isSecretaria, midd.jwtRequired ,UserController.logOutSec);
-
 
 export default userRouter;

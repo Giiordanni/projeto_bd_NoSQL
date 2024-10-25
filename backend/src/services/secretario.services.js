@@ -10,44 +10,43 @@ const createSec = async (body) => {
 
   if ( !nome || !email || !cpf || !senha || !confirm_senha){
     logger.error("Submeta todos os campos do registro")
-    throw new Error("Submeta todos os campos do registro");
+    throw new CustomError("Submeta todos os campos do registro", 400);
   }
 
   if(!middleware.validarCPF(cpf)) {
     logger.error("CPF inválido");
-    throw new Error("CPF inválido");
+    throw new CustomError("CPF inválido", 404);
   }
     
   const SecretarioExistente = await secRepositories.findByEmailSec(email);
   if (SecretarioExistente) {
     logger.error("Usuário existente no bando de Dados")
-    throw new Error("Usuário existente no bando de Dados")
+    throw new CustomError("Usuário existente no bando de Dados", 401)
   };
 
   if (senha !== confirm_senha) {
     logger.error("As senhas não coincidem");
-    throw new Error("As senhas não coincidem");
+    throw new CustomError("As senhas não coincidem", 401);
   }
   if (senha.length < 6) {
     logger.error("A senha deve ter no mínimo 6 caracteres");
-    throw new Error("A senha deve ter no mínimo 6 caracteres");
+    throw new CustomError("A senha deve ter no mínimo 6 caracteres", 401);
   }
   if (senha.length > 20) {
     logger.error("A senha deve ter no máximo 20 caracteres");
-    throw new Error("A senha deve ter no máximo 20 caracteres");
+    throw new CustomError("A senha deve ter no máximo 20 caracteres", 401);
   }
 
-  try {
-    await middleware.validarEmail(email);
-  } catch (error) {
-    logger.error(`Erro na validação do email: ${error.message}`);
-    throw new Error(`Erro na validação do email: ${error.message}`);
+  const emailIsValid = await middleware.validarEmail(email);
+  if(!emailIsValid){
+    logger.error("Email inválido");
+    throw new CustomError("Email inválido", 404);
   }
 
   const user_secretario = await secRepositories.createSec(body);
   if (!user_secretario) {
     logger.error("Erro ao criar usuário");
-    throw new Error("Erro ao criar usuário")
+    throw new CustomError("Erro ao criar usuário", 400)
   };
 
   const token = middleware.genarateToken(user_secretario.id, 2);
@@ -70,7 +69,7 @@ const findAllSec = async () => {
 
   if (users.length === 0) {
     logger.error("Não há usuaários cadastrados!");
-    throw new Error ("Não há usuaários cadastrados!")
+    throw new CustomError("Não há usuaários cadastrados!", 400)
   };
 
   logger.info("Secretários encontrados com sucesso");
@@ -83,7 +82,7 @@ const findOne = async (id) =>{
 
   if(!user){
     logger.error("Usuário não encontrado");
-    throw new Error("Usuário não encontrado");
+    throw new CustomError("Usuário não encontrado", 401);
   }
 
   logger.info("Usuário encontrado com sucesso");
@@ -118,17 +117,34 @@ const deleteSec = async (id) => {
 
   if (!user) {
     logger.info("Usuaário não encontrado");
-    throw new Error("Usuaário não encontrado");
+    throw new CustomError("Usuaário não encontrado", 404);
   }
 
-  await secRepositories.deleteSec(id);
+  const secretarioIsDelete = await secRepositories.deleteSec(id);
+  if(!secretarioIsDelete){
+    logger.error("Erro ao deletar usuário");
+    throw new CustomError("Erro ao deletar usuário", 400);
+  }
+
   logger.info("Usuário deletado com sucesso");
 }
 
 const updateSec = async (email, update) => {
   logger.info(`Atualizando usuário com email: ${email}`);
-  const result =  secRepositories.patchDataSec(email, update);
+
+  const user = await secRepositories.findByEmailSec(email);
+  if(!user){
+    logger.error("Usuário não encontrado");
+    throw new CustomError("Usuário não encontrado", 404);
+  }
+
   
+  const result =  secRepositories.patchDataSec(email, update);
+  if(!result){
+    logger.error("Erro ao atualizar usuário");
+    throw new CustomError("Erro ao atualizar usuário", 400);
+  }
+
   logger.info("Secretário atualizado com sucesso");
   return result;
 };
