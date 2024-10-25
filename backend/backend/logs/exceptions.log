@@ -248,3 +248,201 @@ ReferenceError: async is not defined
     at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
     at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 13:51:09 [[31merror[39m]: uncaughtException: id is not defined
+ReferenceError: id is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/clinica_repositories.js:25:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 13:51:11 [[31merror[39m]: uncaughtException: id is not defined
+ReferenceError: id is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/clinica_repositories.js:25:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 13:51:39 [[31merror[39m]: uncaughtException: finddeleteClinica is not defined
+ReferenceError: finddeleteClinica is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/clinica_repositories.js:30:101
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 13:51:43 [[31merror[39m]: uncaughtException: findBydeleteClinica is not defined
+ReferenceError: findBydeleteClinica is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/clinica_repositories.js:30:101
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 13:53:54 [[31merror[39m]: uncaughtException: find is not defined
+ReferenceError: find is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/clinica_repositories.js:27:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 13:54:09 [[31merror[39m]: uncaughtException: nome is not defined
+ReferenceError: nome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/clinica_repositories.js:27:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 13:55:32 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/clinica_services.js:143:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 13:55:36 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/clinica_services.js:143:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 13:55:43 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/clinica_services.js:143:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 13:55:48 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/clinica_services.js:143:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 13:55:51 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/clinica_services.js:143:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 13:56:19 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/clinica_services.js:143:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 13:56:23 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/clinica_services.js:143:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 13:56:31 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/clinica_services.js:143:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 13:56:36 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/clinica_services.js:143:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 13:56:51 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/clinica_services.js:143:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 13:56:54 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/clinica_services.js:143:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 14:07:23 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/controllers/clinica_controller.js:75:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 14:07:27 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/controllers/clinica_controller.js:75:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 14:07:29 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/controllers/clinica_controller.js:75:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 14:07:46 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/controllers/clinica_controller.js:75:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 14:07:51 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/controllers/clinica_controller.js:76:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 14:08:18 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/controllers/clinica_controller.js:77:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 14:08:22 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/controllers/clinica_controller.js:78:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 14:08:27 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/controllers/clinica_controller.js:78:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 14:08:32 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/controllers/clinica_controller.js:79:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 14:08:37 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/controllers/clinica_controller.js:80:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 14:08:40 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/controllers/clinica_controller.js:80:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 14:08:46 [[31merror[39m]: uncaughtException: findByNome is not defined
+ReferenceError: findByNome is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/controllers/clinica_controller.js:81:89
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 14:08:51 [[31merror[39m]: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as get] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\index.js:521:19)
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/routes/clinica_routes.js:9:15
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 14:09:28 [[31merror[39m]: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as get] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\index.js:521:19)
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/routes/clinica_routes.js:9:15
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+25-Oct-2024 14:09:33 [[31merror[39m]: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as get] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\index.js:521:19)
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/routes/clinica_routes.js:9:15
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)

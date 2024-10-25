@@ -23,7 +23,8 @@ const clinica_schema = new mongoose.Schema({
         required: true
     },
     medicos:{
-        type: [String],
+        type: [mongoose.Schema.Types.ObjectId],
+        ref: "medico",
         required: false
     },
 });
