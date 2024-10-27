@@ -27,10 +27,6 @@ const findOneById = async (req, res) => {
 
   try {
     const user = await userServices.findOne(id);
-
-    if (!user) {
-      return res.status(404).sens({ message: "Usuário não encontrado" });
-    }
     return res.status(200).send({message: "Usuário encontrado com sucesso", user});
   } catch (err) {
     const statusCode = err.statusCode || 500;
@@ -55,7 +51,7 @@ const loginSec = async (req, res) => {
 };
 
 const deleteSec = async (req, res) => {
-  const {id} = req.params;
+  const id = req.userId;
 
   try{
     const user = await userServices.deleteSec(id);
@@ -68,16 +64,11 @@ const deleteSec = async (req, res) => {
 
 const updateSec = async (req, res) => {
   try{
-    const {email} = req.body;
+    const id = req.userId;
     const update = req.body;
 
-    const result = await userServices.updateSec(email, update);
-
-    if(result.modifiedCount === 0){
-      return res.status(404).send({ message: 'Nenhuma modificação realizada' });
-    }
-
-    res.status(200).send({message: "Usuário atualizado com sucesso"});
+    const result = await userServices.updateSec(id, update);
+    res.status(200).send({message: "Usuário atualizado com sucesso", result});
   }catch(err){
     const statusCode = err.statusCode || 500;
     return res.status(statusCode).send({ message: err.message });

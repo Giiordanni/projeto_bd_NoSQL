@@ -33,10 +33,6 @@ const findOne = async (req, res) => {
   try {
     const user = await pacienteServices.findOneByEmail(email);
 
-    if (!user) {
-      return res.status(404).send({ message: 'Usuário não encontrado' });
-    }
-
     return res.status(200).send({message: "Usuário encontrado com sucesso", user});
   } catch (err) {
     const statusCode = err.statusCode || 500;
@@ -82,10 +78,6 @@ const patchPaciente = async (req, res) => {
 
   try {
     const updatePaciente = await pacienteServices.patchPaciente({_id: PacienteId}, update);
-
-    if(updatePaciente.modifiedCount === 0){
-      return res.status(404).send({ message: 'Nenhuma modificação realizada' });
-    }
 
     return res.status(200).send({ message: "Usuário atualizado com sucesso", updatePaciente });
   } catch (err) {

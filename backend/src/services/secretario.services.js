@@ -129,20 +129,24 @@ const deleteSec = async (id) => {
   logger.info("Usuário deletado com sucesso");
 }
 
-const updateSec = async (email, update) => {
-  logger.info(`Atualizando usuário com email: ${email}`);
+const updateSec = async (id, update) => {
+  logger.info(`Atualizando usuário com email: ${id}`);
 
-  const user = await secRepositories.findByEmailSec(email);
+  const user = await secRepositories.findById(id);
   if(!user){
     logger.error("Usuário não encontrado");
     throw new CustomError("Usuário não encontrado", 404);
   }
-
   
-  const result =  secRepositories.patchDataSec(email, update);
+  const result =  await secRepositories.patchDataSec(id, update);
   if(!result){
     logger.error("Erro ao atualizar usuário");
     throw new CustomError("Erro ao atualizar usuário", 400);
+  }
+
+  if(result.modifiedCount === 0){
+    logger.error("Nenhuma modificação realizada");
+    throw new CustomError("Nenhuma modificação realizada", 400);
   }
 
   logger.info("Secretário atualizado com sucesso");

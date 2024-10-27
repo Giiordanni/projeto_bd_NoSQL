@@ -1377,3 +1377,158 @@
 25-Oct-2024 19:24:25 [[32minfo[39m]: Token decodificado: {"_id":"671c138dd8e95ba7ff4f8f09","role":3,"iat":1729893746,"exp":1729980146}
 25-Oct-2024 19:24:25 [[32minfo[39m]: Atualizando dados do paciente
 25-Oct-2024 19:24:25 [[32minfo[39m]: Usuário atualizado com sucesso
+26-Oct-2024 18:07:34 [[32minfo[39m]: Iniciando criação do Paciente
+26-Oct-2024 18:07:34 [[31merror[39m]: Usuário já cadastrado no banco
+26-Oct-2024 18:08:06 [[32minfo[39m]: Buscando todos os pacientes
+26-Oct-2024 18:08:46 [[32minfo[39m]: Buscando paciente por email
+26-Oct-2024 18:09:32 [[32minfo[39m]: Buscando paciente por email
+26-Oct-2024 18:09:33 [[31merror[39m]: Usuário não encontrado
+26-Oct-2024 18:09:41 [[32minfo[39m]: Buscando paciente por email
+26-Oct-2024 18:09:41 [[31merror[39m]: Usuário não encontrado
+26-Oct-2024 18:09:55 [[32minfo[39m]: Buscando paciente por email
+26-Oct-2024 18:09:55 [[31merror[39m]: Usuário não encontrado
+26-Oct-2024 18:11:52 [[32minfo[39m]: Atualizando dados do paciente
+26-Oct-2024 18:12:14 [[32minfo[39m]: Atualizando dados do paciente
+26-Oct-2024 18:12:14 [[32minfo[39m]: Usuário atualizado com sucesso
+26-Oct-2024 18:12:17 [[32minfo[39m]: Atualizando dados do paciente
+26-Oct-2024 18:13:11 [[32minfo[39m]: Atualizando dados do paciente
+26-Oct-2024 18:13:12 [[31merror[39m]: Nenhum dado foi atualizado
+26-Oct-2024 18:14:09 [[32minfo[39m]: Atualizando dados do paciente
+26-Oct-2024 18:14:12 [[31merror[39m]: Nenhum dado foi atualizado
+26-Oct-2024 18:14:47 [[32minfo[39m]: Atualizando dados do paciente
+26-Oct-2024 18:14:47 [[31merror[39m]: Nenhum dado foi atualizado
+26-Oct-2024 18:14:49 [[32minfo[39m]: Atualizando dados do paciente
+26-Oct-2024 18:14:49 [[31merror[39m]: Nenhum dado foi atualizado
+26-Oct-2024 18:14:59 [[32minfo[39m]: Atualizando dados do paciente
+26-Oct-2024 18:15:00 [[32minfo[39m]: Usuário atualizado com sucesso
+26-Oct-2024 18:15:07 [[32minfo[39m]: Atualizando dados do paciente
+26-Oct-2024 18:15:07 [[32minfo[39m]: Usuário atualizado com sucesso
+26-Oct-2024 18:15:57 [[32minfo[39m]: Atualizando dados do paciente
+26-Oct-2024 18:15:57 [[31merror[39m]: Nenhum dado foi atualizado
+26-Oct-2024 18:17:35 [[32minfo[39m]: Atualizando dados do paciente
+26-Oct-2024 18:17:35 [[31merror[39m]: Nenhum dado foi atualizado
+26-Oct-2024 18:19:22 [[32minfo[39m]: Buscando todos os médicos
+26-Oct-2024 18:19:22 [[32minfo[39m]: Médicos encontrados com sucesso
+26-Oct-2024 18:19:35 [[32minfo[39m]: Buscando todos os médicos
+26-Oct-2024 18:19:35 [[32minfo[39m]: Médicos encontrados com sucesso
+26-Oct-2024 18:19:40 [[32minfo[39m]: Buscando todos os médicos
+26-Oct-2024 18:19:40 [[32minfo[39m]: Médicos encontrados com sucesso
+26-Oct-2024 18:19:43 [[32minfo[39m]: Buscando todos os médicos
+26-Oct-2024 18:19:43 [[32minfo[39m]: Médicos encontrados com sucesso
+26-Oct-2024 18:19:49 [[32minfo[39m]: Buscando todos os médicos
+26-Oct-2024 18:19:49 [[32minfo[39m]: Médicos encontrados com sucesso
+26-Oct-2024 18:19:54 [[32minfo[39m]: Buscando todos os médicos
+26-Oct-2024 18:19:54 [[32minfo[39m]: Médicos encontrados com sucesso
+26-Oct-2024 18:19:59 [[32minfo[39m]: Buscando todos os médicos
+26-Oct-2024 18:19:59 [[32minfo[39m]: Médicos encontrados com sucesso
+26-Oct-2024 18:20:31 [[32minfo[39m]: Buscando médico por email
+26-Oct-2024 18:20:31 [[32minfo[39m]: Usuário encontrado com sucesso
+26-Oct-2024 18:20:36 [[32minfo[39m]: Buscando médico por email
+26-Oct-2024 18:20:36 [[31merror[39m]: Usuário não encontrado
+26-Oct-2024 18:22:13 [[32minfo[39m]: Buscando médico por email
+26-Oct-2024 18:22:13 [[31merror[39m]: Usuário não encontrado
+26-Oct-2024 18:22:20 [[32minfo[39m]: Buscando médico por email
+26-Oct-2024 18:22:20 [[32minfo[39m]: Usuário encontrado com sucesso
+26-Oct-2024 18:22:30 [[32minfo[39m]: Buscando médico por id
+26-Oct-2024 18:22:56 [[32minfo[39m]: Buscando médico por id
+26-Oct-2024 18:22:56 [[32minfo[39m]: Usuário encontrado com sucesso
+26-Oct-2024 18:24:02 [[32minfo[39m]: Buscando médico por id
+26-Oct-2024 18:24:31 [[32minfo[39m]: Buscando médico por id
+26-Oct-2024 18:25:15 [[32minfo[39m]: Buscando médico por id
+26-Oct-2024 18:31:44 [[32minfo[39m]: Buscando médico por id
+26-Oct-2024 18:32:59 [[32minfo[39m]: Buscando médico por id
+26-Oct-2024 18:36:34 [[32minfo[39m]: Buscando todos os médicos
+26-Oct-2024 18:36:34 [[32minfo[39m]: Médicos encontrados com sucesso
+26-Oct-2024 18:36:54 [[32minfo[39m]: Buscando médico por id
+26-Oct-2024 18:37:18 [[32minfo[39m]: Buscando médico por id
+26-Oct-2024 18:38:34 [[32minfo[39m]: Buscando médico por id
+26-Oct-2024 18:38:35 [[32minfo[39m]: Buscando médico por id
+26-Oct-2024 18:39:48 [[32minfo[39m]: Buscando todos os médicos
+26-Oct-2024 18:39:48 [[32minfo[39m]: Médicos encontrados com sucesso
+26-Oct-2024 18:40:09 [[32minfo[39m]: Buscando médico por email
+26-Oct-2024 18:40:09 [[32minfo[39m]: Usuário encontrado com sucesso
+26-Oct-2024 18:43:15 [[32minfo[39m]: Buscando médico por id
+26-Oct-2024 18:43:35 [[32minfo[39m]: Iniciando criação do Médico
+26-Oct-2024 18:43:35 [[31merror[39m]: Usuário já cadastrado no banco
+26-Oct-2024 18:44:17 [[32minfo[39m]: Buscando médico por id
+26-Oct-2024 18:44:26 [[32minfo[39m]: Buscando médico por id
+26-Oct-2024 18:44:35 [[32minfo[39m]: Buscando médico por id
+26-Oct-2024 18:45:41 [[32minfo[39m]: Buscando médico por especialidade
+26-Oct-2024 18:45:41 [[32minfo[39m]: Usuário encontrado com sucesso
+26-Oct-2024 18:45:56 [[32minfo[39m]: Buscando médico por especialidade
+26-Oct-2024 18:45:56 [[32minfo[39m]: Usuário encontrado com sucesso
+26-Oct-2024 18:46:10 [[32minfo[39m]: Buscando médico por id
+26-Oct-2024 18:46:11 [[32minfo[39m]: Buscando médico por id
+26-Oct-2024 18:47:52 [[32minfo[39m]: Buscando médico por especialidade
+26-Oct-2024 18:47:52 [[32minfo[39m]: Usuário encontrado com sucesso
+26-Oct-2024 18:48:12 [[32minfo[39m]: Buscando médico por especialidade
+26-Oct-2024 18:48:12 [[32minfo[39m]: Usuário encontrado com sucesso
+27-Oct-2024 10:30:18 [[32minfo[39m]: Fazendo login do médico
+27-Oct-2024 10:30:18 [[32minfo[39m]: Buscando médico para login com email: giuy@gmail.com
+27-Oct-2024 10:30:19 [[32minfo[39m]: Gerando o token de autenticação
+27-Oct-2024 10:31:52 [[32minfo[39m]: Deletando médico
+27-Oct-2024 10:31:52 [[32minfo[39m]: Usuário deletado com sucesso
+27-Oct-2024 10:31:57 [[32minfo[39m]: Iniciando criação do Médico
+27-Oct-2024 10:31:57 [[32minfo[39m]: Gerando o token de autenticação
+27-Oct-2024 10:31:57 [[32minfo[39m]: Usuário criado com sucesso
+27-Oct-2024 10:32:29 [[32minfo[39m]: Atualizando médico
+27-Oct-2024 10:33:35 [[32minfo[39m]: Atualizando médico
+27-Oct-2024 10:33:35 [[32minfo[39m]: Usuário atualizado com sucesso
+27-Oct-2024 10:34:38 [[32minfo[39m]: Atualizando médico
+27-Oct-2024 10:34:39 [[31merror[39m]: Nenhum dado foi atualizado
+27-Oct-2024 10:34:48 [[32minfo[39m]: Atualizando médico
+27-Oct-2024 10:34:48 [[32minfo[39m]: Médico atualizado com sucesso
+27-Oct-2024 10:36:15 [[32minfo[39m]: Atualizando médico
+27-Oct-2024 10:36:15 [[32minfo[39m]: Médico atualizado com sucesso
+27-Oct-2024 10:38:04 [[32minfo[39m]: Buscando todos os Secretários
+27-Oct-2024 10:38:04 [[32minfo[39m]: Secretários encontrados com sucesso
+27-Oct-2024 10:38:13 [[32minfo[39m]: Buscando Secretário por ID
+27-Oct-2024 10:38:13 [[32minfo[39m]: Usuário encontrado com sucesso
+27-Oct-2024 10:38:20 [[32minfo[39m]: Buscando todos os Secretários
+27-Oct-2024 10:38:20 [[32minfo[39m]: Secretários encontrados com sucesso
+27-Oct-2024 10:38:22 [[32minfo[39m]: Buscando todos os Secretários
+27-Oct-2024 10:38:22 [[32minfo[39m]: Secretários encontrados com sucesso
+27-Oct-2024 10:38:28 [[32minfo[39m]: Buscando todos os Secretários
+27-Oct-2024 10:38:28 [[32minfo[39m]: Secretários encontrados com sucesso
+27-Oct-2024 10:38:52 [[32minfo[39m]: Buscando Secretário por ID
+27-Oct-2024 10:38:52 [[32minfo[39m]: Usuário encontrado com sucesso
+27-Oct-2024 10:39:00 [[32minfo[39m]: Buscando Secretário por ID
+27-Oct-2024 10:39:09 [[32minfo[39m]: Buscando Secretário por ID
+27-Oct-2024 10:39:21 [[32minfo[39m]: Buscando Secretário por ID
+27-Oct-2024 10:39:23 [[32minfo[39m]: Buscando Secretário por ID
+27-Oct-2024 10:39:26 [[32minfo[39m]: Buscando Secretário por ID
+27-Oct-2024 10:39:26 [[32minfo[39m]: Usuário encontrado com sucesso
+27-Oct-2024 10:39:49 [[32minfo[39m]: Buscando Secretário por ID
+27-Oct-2024 10:39:50 [[32minfo[39m]: Usuário encontrado com sucesso
+27-Oct-2024 10:39:55 [[31merror[39m]: Invalid token.
+27-Oct-2024 10:40:00 [[31merror[39m]: Invalid token.
+27-Oct-2024 10:40:09 [[32minfo[39m]: Fazendo login do Secretário
+27-Oct-2024 10:40:09 [[32minfo[39m]: Buscando usuário para login com email: giovanna3@gmail.com
+27-Oct-2024 10:40:10 [[32minfo[39m]: Gerando o token de autenticação
+27-Oct-2024 10:40:10 [[32minfo[39m]: Usuário logado com sucesso
+27-Oct-2024 10:40:21 [[32minfo[39m]: Deletando secretário
+27-Oct-2024 10:40:21 [[32minfo[39m]: Usuário deletado com sucesso
+27-Oct-2024 10:40:29 [[32minfo[39m]: Buscando Secretário por ID
+27-Oct-2024 10:40:29 [[31merror[39m]: Usuário não encontrado
+27-Oct-2024 10:41:17 [[32minfo[39m]: Iniciando criação do Secretário
+27-Oct-2024 10:41:17 [[32minfo[39m]: Gerando o token de autenticação
+27-Oct-2024 10:41:17 [[32minfo[39m]: Usuário criado com sucesso
+27-Oct-2024 10:41:56 [[32minfo[39m]: Deletando secretário
+27-Oct-2024 10:41:57 [[32minfo[39m]: Usuário deletado com sucesso
+27-Oct-2024 10:44:05 [[32minfo[39m]: Iniciando criação do Secretário
+27-Oct-2024 10:44:05 [[32minfo[39m]: Gerando o token de autenticação
+27-Oct-2024 10:44:05 [[32minfo[39m]: Usuário criado com sucesso
+27-Oct-2024 10:45:16 [[33mwarn[39m]: Access denied. Not a secretary.
+27-Oct-2024 10:45:54 [[32minfo[39m]: Atualizando usuário com email: undefined
+27-Oct-2024 10:45:54 [[31merror[39m]: Usuário não encontrado
+27-Oct-2024 10:47:59 [[32minfo[39m]: Atualizando usuário com email: 671e43a5656e255fcdad29b4
+27-Oct-2024 10:47:59 [[32minfo[39m]: Secretário atualizado com sucesso
+27-Oct-2024 10:48:10 [[32minfo[39m]: Buscando todos os Secretários
+27-Oct-2024 10:48:10 [[32minfo[39m]: Secretários encontrados com sucesso
+27-Oct-2024 10:48:15 [[32minfo[39m]: Atualizando usuário com email: 671e43a5656e255fcdad29b4
+27-Oct-2024 10:48:15 [[31merror[39m]: Nenhuma modificação realizada
+27-Oct-2024 10:49:13 [[32minfo[39m]: Atualizando usuário com email: 671e43a5656e255fcdad29b4
+27-Oct-2024 10:49:13 [[32minfo[39m]: Secretário atualizado com sucesso
+27-Oct-2024 10:50:04 [[32minfo[39m]: Atualizando usuário com email: 671e43a5656e255fcdad29b4
+27-Oct-2024 10:50:05 [[32minfo[39m]: Secretário atualizado com sucesso
+27-Oct-2024 10:50:18 [[33mwarn[39m]: Access denied. Not a secretary.

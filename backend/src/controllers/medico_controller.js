@@ -30,10 +30,6 @@ const findOneByEmail = async (req, res) => {
 
     try {
         const user = await medicoServices.findEmailOne(email);
-
-        if (!user) {
-            return res.status(404).send({ message: "Usuário não encontrado" });
-        }
         return res.status(200).send({message: "Usuário encontrado com sucesso", user});
     } catch (err) {
         const statusCode = err.statusCode || 500;
@@ -50,10 +46,6 @@ const findNome = async (req, res) => {
 
     try{
         const medico = await medicoServices.findName(nome);
-
-        if(!medico){
-            return res.status(404).send({ message: "Médico não encontrado"});
-        }
         return res.status(200).send({message: "Usuário encontrado com sucesso", medico});
     }catch(err){
         const statusCode = err.statusCode || 500;
@@ -70,10 +62,6 @@ const findByEspecialidade = async (req, res) => {
 
     try {
         const medico = await medicoServices.findEspecialidade(especialidade);
-
-        if (!medico) { 
-            return res.status(404).send({ message: "Médico não encontrado" });
-        }
         return res.status(200).send({message: "Usuário encontrado com sucesso", medico});
     } catch (err) {
         const statusCode = err.statusCode || 500;
@@ -82,7 +70,7 @@ const findByEspecialidade = async (req, res) => {
 };
 
 const findById = async (req, res) => {
-    const  id  = req.params;
+    const  {id}  = req.params;
 
     if(!id){
         return res.status(400).send({ message: "Id não informado" });
@@ -90,10 +78,6 @@ const findById = async (req, res) => {
 
     try{
         const medico = await medicoServices.findById(id);
-
-        if(!medico){
-            return res.status(404).send({ message: "Médico não encontrado"});
-        }
         return res.status(200).send({message: "Usuário encontrado com sucesso", medico});
     }catch(err){   
         const statusCode = err.statusCode || 500;
@@ -118,14 +102,10 @@ const login = async (req, res) => {
 };
 
 const deletarMedico = async (req, res) => {
-    const {email} = req.body;
-
-    if (!email) {
-        return res.status(400).send({ message: "Email não informado" });
-    }
+    const medicoId = req.userId;
     
     try {
-        const deletar = await medicoServices.deletarMedico(email);
+        const deletar = await medicoServices.deletarMedico(medicoId);
         res.status(200).send({message: "Médico deletado com sucesso!"});
     } catch (err) {
         const statusCode = err.statusCode || 500;
@@ -135,17 +115,15 @@ const deletarMedico = async (req, res) => {
 
 const updateMedico = async (req, res) => {
     try {
-        const {email} = req.body; // desestruturando o email do corpo da requisição
+        const idUser = req.userId; // pegando o id pelo token
         const update = req.body;
-        const result = await medicoServices.atualizarMedico(email, update);
 
-        if(result.matchedCount === 0){
-            return res.status(404).send({ message: 'Médico não encontrado' });
+        if (!update || Object.keys(update).length === 0) {
+            return res.status(400).send({ message: "Nenhum dado informado no body" });
         }
-        if(result.modifiedCount === 0){
-            return res.status(404).send({ message: 'Nenhuma modificação realizada' });
-        }
-        res.status(200).send({ message: 'Médico atualizado com sucesso' }, result);
+
+        const result = await medicoServices.atualizarMedico(idUser, update);
+        res.status(200).send({ message: 'Médico atualizado com sucesso' , result});
     }catch (err) {
         const statusCode = err.statusCode || 500;
         return res.status(statusCode).send({ message: err.message });

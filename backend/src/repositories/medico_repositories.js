@@ -11,10 +11,10 @@ const findByCpf = (cpf) => Medico.findOne({ cpf: cpf });
 const findById = (id) => Medico.findById(id);
 const findByEspecialidadeMedico = (especialidade) =>
     Medico.find({ especialidade: especialidade }).select('nome email especialidade clinica');
-const deletarMedico = (email) =>
-    Medico.deleteOne({ email: email });
-const atualizarDadosMedico = (email, update) =>
-    Medico.updateOne({ email: email }, update, { new: true });
+const deletarMedico = (id) =>
+    Medico.deleteOne({ _id: id });
+const atualizarDadosMedico = (medicoId, update) =>
+    Medico.updateOne({_id: medicoId}, update, { new: true });
 
 
 export default { createMedico, findAllMedicos, findByEmailMedico, findById,findByNomeMedico, findByEspecialidadeMedico, deletarMedico, atualizarDadosMedico, findByCpf };

@@ -143,7 +143,10 @@ const patchPaciente = async (id, update) =>  {
     throw new customError("Erro ao atualizar usuário", 404);
   }
 
-  console.log(updatePaciente);
+  if(updatePaciente.modifiedCount === 0){
+    logger.error("Nenhum dado foi atualizado");
+    throw new customError("Nenhum dado foi atualizado", 400);
+  }
 
   logger.info("Usuário atualizado com sucesso");
   return updatePaciente;

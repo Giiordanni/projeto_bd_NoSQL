@@ -68,16 +68,16 @@ const createMedico = async (body) => {
     };
 };
 
-const deletarMedico = async (email) => {
+const deletarMedico = async (idMedico) => {
     logger.info("Deletando médico");
-    const user = await medico_repositories.findByEmailMedico(email);
+    const user = await medico_repositories.findById(idMedico);
 
     if (!user) {
         logger.error("Usuário não encontrado");
         throw new CustomError("Usuário não encontrado", 401);
     }
 
-    const deletarMedico = await medico_repositories.deletarMedico(email);
+    const deletarMedico = await medico_repositories.deletarMedico(idMedico);
     if(!deletarMedico){
         logger.error("Erro ao deletar usuário");
         throw new CustomError("Erro ao deletar usuário", 400);
@@ -143,8 +143,8 @@ const findEspecialidade = async (especialidade) => {
     logger.info("Buscando médico por especialidade");
     const medico = await medico_repositories.findByEspecialidadeMedico(especialidade);
 
-    if (!medico.length) {
-        logger.error("Nenhum usuário encontrado"); 
+    if(!medico){
+        logger.error("Nenhum usuário encontrado");
         throw new CustomError("Nenhum usuário encontrado", 404);
     }
 
@@ -174,22 +174,27 @@ const loginMedico = async (email, senha) => {
     return token;
 };
 
-const atualizarMedico = async (email, update) => {
+const atualizarMedico = async (medicoId, update) => {
     logger.info("Atualizando médico");
-    const user_medico = await medico_repositories.findByEmailMedico(email);
+
+    const user_medico = await medico_repositories.findById(medicoId);
 
     if (!user_medico) {
         logger.error("Usuário não encontrado");
         throw new CustomError("Usuário não encontrado", 404);
     }
 
-    const updateMedico = await medico_repositories.atualizarDadosMedico(email, update);
+    const updateMedico = await medico_repositories.atualizarDadosMedico(medicoId, update);
     if (!updateMedico) {
         logger.error("Erro ao atualizar usuário");
-        throw new CustomError("Erro ao atualizar usuário", 404);
+        throw new CustomError("Erro ao atualizar usuário", 400);
+    }
+    if(updateMedico.modifiedCount === 0){
+        logger.error("Nenhum dado foi atualizado");
+        throw new CustomError("Nenhum dado foi atualizado", 400);
     }
 
-    logger.info("Usuário atualizado com sucesso");
+    logger.info("Médico atualizado com sucesso");
     return updateMedico;
 };
 
