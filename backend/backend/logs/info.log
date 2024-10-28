@@ -1532,3 +1532,616 @@
 27-Oct-2024 10:50:04 [[32minfo[39m]: Atualizando usuário com email: 671e43a5656e255fcdad29b4
 27-Oct-2024 10:50:05 [[32minfo[39m]: Secretário atualizado com sucesso
 27-Oct-2024 10:50:18 [[33mwarn[39m]: Access denied. Not a secretary.
+27-Oct-2024 12:06:54 [[31merror[39m]: Invalid token.
+27-Oct-2024 12:07:20 [[32minfo[39m]: buscando todas as agendas disponíveis
+27-Oct-2024 12:07:20 [[31merror[39m]: Não há agendas disponíveis
+27-Oct-2024 12:07:29 [[32minfo[39m]: Criando Agenda
+27-Oct-2024 12:07:29 [[32minfo[39m]: Buscando o ID da clinica pelo nome
+27-Oct-2024 12:07:29 [[32minfo[39m]: Agenda criada com sucesso
+27-Oct-2024 12:07:37 [[32minfo[39m]: buscando todas as agendas disponíveis
+27-Oct-2024 12:07:37 [[32minfo[39m]: Agendas encontradas com sucesso
+27-Oct-2024 12:08:01 [[32minfo[39m]: Buscando todos os pacientes
+27-Oct-2024 12:08:32 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:08:57 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:08:57 [[31merror[39m]: Campos obrigatórios não preenchidos
+27-Oct-2024 12:09:02 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:09:02 [[31merror[39m]: Campos obrigatórios não preenchidos
+27-Oct-2024 12:09:18 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:09:18 [[31merror[39m]: Campos obrigatórios não preenchidos
+27-Oct-2024 12:10:10 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:11:06 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:11:10 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:14:15 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:15:41 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:16:00 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:16:22 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:17:39 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:17:39 [[31merror[39m]: Agenda não encontrada
+27-Oct-2024 12:19:02 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:19:04 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:19:53 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:21:57 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:21:57 [[31merror[39m]: Agenda não encontrada
+27-Oct-2024 12:22:44 [[32minfo[39m]: buscando todas as agendas disponíveis
+27-Oct-2024 12:22:44 [[32minfo[39m]: Agendas encontradas com sucesso
+27-Oct-2024 12:22:56 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:22:56 [[31merror[39m]: Agenda não encontrada
+27-Oct-2024 12:26:52 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:26:52 [[31merror[39m]: Agenda não encontrada
+27-Oct-2024 12:28:46 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:28:48 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:29:22 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:29:22 [[31merror[39m]: Agenda não encontrada
+27-Oct-2024 12:29:39 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:29:39 [[31merror[39m]: Agenda não encontrada
+27-Oct-2024 12:29:40 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:29:40 [[31merror[39m]: Agenda não encontrada
+27-Oct-2024 12:33:22 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:33:22 [[31merror[39m]: Agenda não encontrada
+27-Oct-2024 12:33:44 [[32minfo[39m]: buscando todas as agendas disponíveis
+27-Oct-2024 12:33:44 [[32minfo[39m]: Agendas encontradas com sucesso
+27-Oct-2024 12:33:56 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:33:56 [[31merror[39m]: Agenda não encontrada
+27-Oct-2024 12:37:36 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:37:36 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:02 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:02 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:06 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:06 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:10 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:11 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:14 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:15 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:15 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:15 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:15 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:15 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:16 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:16 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:16 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:16 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:17 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:17 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:17 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:17 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:18 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:18 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:18 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:18 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:19 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:19 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:19 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:19 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:20 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:20 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:20 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:20 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:21 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:21 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:21 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:22 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:22 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:22 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:22 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:22 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:23 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:23 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:23 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:24 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:24 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:24 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:24 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:25 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:25 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:25 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:25 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:26 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:27 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:27 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:28 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:28 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:28 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:28 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:28 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:29 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:29 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:30 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:30 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:30 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:30 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:31 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:31 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:31 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:31 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:31 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:32 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:32 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:32 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:32 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:33 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:33 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:33 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:34 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:34 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:34 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:34 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:35 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:38:35 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:38:35 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:39:14 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:39:16 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:51:37 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:51:37 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:53:21 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:53:21 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:53:53 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:53:54 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:54:09 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:54:10 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:54:29 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:54:29 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:56:57 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:56:58 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 12:58:26 [[32minfo[39m]: Criando consulta
+27-Oct-2024 12:58:26 [[31merror[39m]: Agenda lotada
+27-Oct-2024 13:03:12 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:03:13 [[31merror[39m]: Agenda não encontrada
+27-Oct-2024 13:03:18 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:03:18 [[31merror[39m]: Agenda não encontrada
+27-Oct-2024 13:07:22 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:07:22 [[31merror[39m]: Agenda não encontrada
+27-Oct-2024 13:10:39 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:10:39 [[31merror[39m]: Agenda não encontrada
+27-Oct-2024 13:16:10 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:10 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:16 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:16 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:17 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:17 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:17 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:17 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:18 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:18 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:18 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:19 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:19 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:19 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:19 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:19 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:20 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:20 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:20 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:20 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:21 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:21 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:21 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:21 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:22 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:22 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:22 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:22 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:23 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:23 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:23 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:23 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:24 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:24 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:24 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:24 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:25 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:25 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:25 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:25 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:26 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:26 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:26 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:26 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:27 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:27 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:27 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:27 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:28 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:28 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:28 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:28 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:29 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:29 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:30 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:30 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:30 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:30 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:31 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:16:31 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:16:48 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:17:14 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:17:36 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:19:07 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:20:20 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:21:23 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:21:24 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:21:25 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:21:26 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:21:26 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:21:26 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:21:26 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:21:27 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:22:20 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:22:21 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:23:10 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:23:24 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:24:17 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:24:50 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:24:51 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:25:08 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:25:27 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:25:43 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:25:58 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:27:09 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:27:10 [[31merror[39m]: Agenda lotada
+27-Oct-2024 13:27:27 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:27:27 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:27:28 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:27:28 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:27:29 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:27:29 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:27:29 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:27:29 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:27:30 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:27:30 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:27:30 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:27:30 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:27:31 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:27:31 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:27:31 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:27:31 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:27:31 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:27:31 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:27:32 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:27:32 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:27:32 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:27:32 [[31merror[39m]: Agenda lotada
+27-Oct-2024 13:27:33 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:27:33 [[31merror[39m]: Agenda lotada
+27-Oct-2024 13:27:33 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:27:33 [[31merror[39m]: Agenda lotada
+27-Oct-2024 13:29:12 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:29:12 [[31merror[39m]: Agenda lotada
+27-Oct-2024 13:30:09 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:30:10 [[31merror[39m]: Agenda lotada
+27-Oct-2024 13:31:19 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:31:19 [[31merror[39m]: Agenda lotada
+27-Oct-2024 13:32:03 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:32:03 [[31merror[39m]: Agenda lotada
+27-Oct-2024 13:33:01 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:33:02 [[31merror[39m]: Agenda lotada
+27-Oct-2024 13:33:52 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:33:53 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:34:21 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:34:22 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:34:30 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:34:30 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:34:32 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:34:33 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:34:33 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:34:33 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:34:39 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:34:39 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:34:39 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:34:39 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:34:40 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:34:40 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:34:40 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:34:40 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:34:40 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:34:40 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 13:34:40 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:34:41 [[31merror[39m]: Agenda lotada
+27-Oct-2024 13:34:41 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:34:41 [[31merror[39m]: Agenda lotada
+27-Oct-2024 13:34:41 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:34:41 [[31merror[39m]: Agenda lotada
+27-Oct-2024 13:34:41 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:34:41 [[31merror[39m]: Agenda lotada
+27-Oct-2024 13:34:41 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:34:41 [[31merror[39m]: Agenda lotada
+27-Oct-2024 13:34:41 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:34:41 [[31merror[39m]: Agenda lotada
+27-Oct-2024 13:35:04 [[32minfo[39m]: Criando consulta
+27-Oct-2024 13:35:05 [[31merror[39m]: Agenda lotada
+27-Oct-2024 14:23:08 [[32minfo[39m]: Criando consulta
+27-Oct-2024 14:23:08 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 14:23:09 [[32minfo[39m]: Criando consulta
+27-Oct-2024 14:23:09 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 14:23:09 [[32minfo[39m]: Criando consulta
+27-Oct-2024 14:23:09 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 14:23:57 [[32minfo[39m]: Criando consulta
+27-Oct-2024 14:23:57 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 14:24:23 [[32minfo[39m]: Criando consulta
+27-Oct-2024 14:24:24 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 14:24:47 [[32minfo[39m]: Criando Agenda
+27-Oct-2024 14:24:47 [[32minfo[39m]: Buscando o ID da clinica pelo nome
+27-Oct-2024 14:24:47 [[32minfo[39m]: Agenda criada com sucesso
+27-Oct-2024 14:25:01 [[32minfo[39m]: buscando todas as agendas disponíveis
+27-Oct-2024 14:25:01 [[32minfo[39m]: Agendas encontradas com sucesso
+27-Oct-2024 14:25:14 [[32minfo[39m]: Criando consulta
+27-Oct-2024 14:25:14 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 14:25:29 [[32minfo[39m]: Criando consulta
+27-Oct-2024 14:25:29 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 16:56:01 [[33mwarn[39m]: Access denied. No token provided.
+27-Oct-2024 16:56:26 [[32minfo[39m]: Fazendo login do médico
+27-Oct-2024 16:56:26 [[32minfo[39m]: Buscando médico para login com email: gioreit@hotmail.com
+27-Oct-2024 16:56:26 [[32minfo[39m]: Gerando o token de autenticação
+27-Oct-2024 16:56:42 [[32minfo[39m]: Criando consulta
+27-Oct-2024 16:56:42 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 16:58:05 [[32minfo[39m]: Criando consulta
+27-Oct-2024 16:58:05 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 16:58:51 [[32minfo[39m]: Criando consulta
+27-Oct-2024 16:58:51 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 17:15:39 [[33mwarn[39m]: Access denied. No token provided.
+27-Oct-2024 17:16:09 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:16:51 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:19:45 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:20:41 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:20:41 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:20:49 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:20:49 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:20:56 [[32minfo[39m]: buscando todas as agendas disponíveis
+27-Oct-2024 17:20:56 [[32minfo[39m]: Agendas encontradas com sucesso
+27-Oct-2024 17:21:27 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:21:27 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:23:28 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:23:28 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:24:22 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:24:29 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:24:57 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:24:57 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:24:58 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:24:58 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:26:05 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:26:05 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:26:28 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:26:28 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:27:13 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:27:13 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:28:56 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:28:57 [[31merror[39m]: Erro ao buscar consultas
+27-Oct-2024 17:30:52 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:30:53 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:31:13 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:31:13 [[31merror[39m]: Erro ao buscar consultas
+27-Oct-2024 17:31:15 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:31:15 [[31merror[39m]: Erro ao buscar consultas
+27-Oct-2024 17:31:40 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:31:41 [[31merror[39m]: Consultas Não encontradas
+27-Oct-2024 17:34:39 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:34:39 [[31merror[39m]: Consultas Não encontradas
+27-Oct-2024 17:35:46 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:35:46 [[31merror[39m]: Consultas Não encontradas
+27-Oct-2024 17:35:51 [[32minfo[39m]: Criando consulta
+27-Oct-2024 17:35:51 [[32minfo[39m]: Consulta criada com sucesso
+27-Oct-2024 17:35:53 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:35:53 [[31merror[39m]: Consultas Não encontradas
+27-Oct-2024 17:35:53 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:35:54 [[31merror[39m]: Consultas Não encontradas
+27-Oct-2024 17:36:46 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:36:46 [[31merror[39m]: Consultas Não encontradas
+27-Oct-2024 17:36:56 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:36:56 [[31merror[39m]: Consultas Não encontradas
+27-Oct-2024 17:37:16 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:37:16 [[31merror[39m]: Consultas Não encontradas
+27-Oct-2024 17:37:35 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:37:37 [[31merror[39m]: Consultas Não encontradas
+27-Oct-2024 17:38:27 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:38:28 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:39:31 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:39:31 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:40:31 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:40:32 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:41:09 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:41:12 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:41:41 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:41:42 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:41:53 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:41:54 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:42:05 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:42:06 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:43:00 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:43:00 [[31merror[39m]: Consultas Não encontradas
+27-Oct-2024 17:44:23 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:44:27 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:45:07 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:45:15 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:45:38 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:46:31 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:46:32 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:46:54 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:46:55 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:46:56 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:47:15 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:47:16 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:47:29 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:47:29 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:47:48 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:47:48 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:48:12 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:48:14 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:48:48 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:48:48 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:50:07 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:50:08 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:52:23 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:52:24 [[31merror[39m]: Consultas Não encontradas
+27-Oct-2024 17:52:24 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:52:24 [[31merror[39m]: Consultas Não encontradas
+27-Oct-2024 17:53:45 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:53:45 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:53:54 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:53:54 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:54:31 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:54:32 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:55:22 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:55:24 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 17:55:54 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:55:55 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:55:55 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:56:11 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:56:56 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:57:02 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:57:13 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:57:31 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:58:24 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 17:58:25 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 18:01:31 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 18:01:32 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 18:02:02 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 18:02:02 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 18:02:43 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 18:02:43 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 18:03:15 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 18:03:16 [[32minfo[39m]: Consultas encontradas
+27-Oct-2024 18:03:26 [[32minfo[39m]: Buscando consultas
+27-Oct-2024 18:03:27 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 09:45:28 [[32minfo[39m]: buscando todas as agendas disponíveis
+28-Oct-2024 09:45:28 [[32minfo[39m]: Agendas encontradas com sucesso
+28-Oct-2024 09:46:34 [[32minfo[39m]: Buscando agenda por turno
+28-Oct-2024 09:46:35 [[32minfo[39m]: Agenda encontrada com sucesso
+28-Oct-2024 11:51:57 [[32minfo[39m]: Buscando consultas
+28-Oct-2024 11:51:57 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 11:52:41 [[31merror[39m]: Invalid token.
+28-Oct-2024 11:52:49 [[32minfo[39m]: Fazendo login do médico
+28-Oct-2024 11:52:49 [[32minfo[39m]: Buscando médico para login com email: giuy@gmail.com
+28-Oct-2024 11:52:49 [[32minfo[39m]: Gerando o token de autenticação
+28-Oct-2024 11:53:04 [[32minfo[39m]: Criando Agenda
+28-Oct-2024 11:53:04 [[32minfo[39m]: Buscando o ID da clinica pelo nome
+28-Oct-2024 11:53:04 [[32minfo[39m]: Agenda criada com sucesso
+28-Oct-2024 11:53:16 [[31merror[39m]: Invalid token.
+28-Oct-2024 11:53:18 [[31merror[39m]: Invalid token.
+28-Oct-2024 11:53:25 [[32minfo[39m]: Buscando agenda por turno
+28-Oct-2024 11:53:25 [[32minfo[39m]: Agenda encontrada com sucesso
+28-Oct-2024 11:53:34 [[32minfo[39m]: buscando todas as agendas disponíveis
+28-Oct-2024 11:53:34 [[32minfo[39m]: Agendas encontradas com sucesso
+28-Oct-2024 11:53:48 [[32minfo[39m]: buscando todas as agendas disponíveis
+28-Oct-2024 11:53:48 [[32minfo[39m]: Agendas encontradas com sucesso
+28-Oct-2024 11:54:34 [[32minfo[39m]: Criando Agenda
+28-Oct-2024 11:54:34 [[32minfo[39m]: Buscando o ID da clinica pelo nome
+28-Oct-2024 11:54:35 [[32minfo[39m]: Agenda criada com sucesso
+28-Oct-2024 11:55:21 [[32minfo[39m]: Criando consulta
+28-Oct-2024 11:55:21 [[32minfo[39m]: Consulta criada com sucesso
+28-Oct-2024 11:55:28 [[32minfo[39m]: Buscando consultas
+28-Oct-2024 11:55:28 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 11:56:51 [[32minfo[39m]: Buscando consultas
+28-Oct-2024 11:56:51 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 11:57:33 [[32minfo[39m]: Buscando consultas
+28-Oct-2024 11:57:34 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 11:58:15 [[32minfo[39m]: Buscando consultas
+28-Oct-2024 11:58:16 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 11:58:40 [[32minfo[39m]: Buscando consultas
+28-Oct-2024 11:58:40 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 11:59:00 [[32minfo[39m]: Buscando consultas
+28-Oct-2024 11:59:00 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:07:48 [[32minfo[39m]: buscando todas as agendas disponíveis
+28-Oct-2024 12:07:48 [[32minfo[39m]: Agendas encontradas com sucesso
+28-Oct-2024 12:08:21 [[32minfo[39m]: Buscando agenda pela data
+28-Oct-2024 12:08:21 [[32minfo[39m]: Agenda encontrada com sucesso
+28-Oct-2024 12:10:06 [[32minfo[39m]: Buscando agenda por turno
+28-Oct-2024 12:10:06 [[32minfo[39m]: Agenda encontrada com sucesso
+28-Oct-2024 12:10:18 [[32minfo[39m]: buscando todas as agendas disponíveis
+28-Oct-2024 12:10:19 [[32minfo[39m]: Agendas encontradas com sucesso
+28-Oct-2024 12:12:08 [[32minfo[39m]: Buscando agenda por turno
+28-Oct-2024 12:12:09 [[32minfo[39m]: Agenda encontrada com sucesso
+28-Oct-2024 12:16:57 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:16:57 [[31merror[39m]: Consultas Não encontradas
+28-Oct-2024 12:17:06 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:17:06 [[31merror[39m]: Consultas Não encontradas
+28-Oct-2024 12:17:17 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:17:17 [[31merror[39m]: Consultas Não encontradas
+28-Oct-2024 12:23:21 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:23:21 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:23:58 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:24:12 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:24:13 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:24:58 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:25:00 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:26:34 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:26:35 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:27:38 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:27:38 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:27:49 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:27:50 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:28:22 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:28:23 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:29:01 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:29:02 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:30:10 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:30:10 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:30:25 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:30:26 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:31:35 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:31:35 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:32:32 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:32:32 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:32:47 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:32:48 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:33:04 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:33:04 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:33:20 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:33:20 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:33:28 [[32minfo[39m]: Criando consulta
+28-Oct-2024 12:33:28 [[32minfo[39m]: Consulta criada com sucesso
+28-Oct-2024 12:33:31 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:33:31 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:36:19 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:36:19 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:36:34 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:36:35 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:36:59 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:36:59 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:44:16 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:44:16 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:44:37 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:44:38 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 12:45:31 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 12:45:32 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 14:07:38 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 14:07:39 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 14:07:50 [[33mwarn[39m]: Access denied. No token provided.
+28-Oct-2024 14:08:07 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 14:08:07 [[32minfo[39m]: Consulta atualizada com sucesso
+28-Oct-2024 14:08:11 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 14:08:11 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 14:08:20 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 14:08:20 [[32minfo[39m]: Consulta atualizada com sucesso
+28-Oct-2024 14:08:23 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 14:08:23 [[32minfo[39m]: Consulta atualizada com sucesso
+28-Oct-2024 14:08:24 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 14:08:24 [[32minfo[39m]: Consulta atualizada com sucesso
+28-Oct-2024 14:08:27 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 14:08:27 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 14:08:30 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 14:08:30 [[32minfo[39m]: Consulta atualizada com sucesso
+28-Oct-2024 14:10:01 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 14:10:01 [[32minfo[39m]: Consulta atualizada com sucesso
+28-Oct-2024 14:10:18 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 14:10:18 [[32minfo[39m]: Consulta atualizada com sucesso
+28-Oct-2024 14:10:43 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 14:10:43 [[32minfo[39m]: Consulta atualizada com sucesso
+28-Oct-2024 14:11:42 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 14:11:42 [[31merror[39m]: Nenhum dado foi atualizado
+28-Oct-2024 14:12:00 [[31merror[39m]: Invalid token.
+28-Oct-2024 14:12:22 [[33mwarn[39m]: Access denied. Not a medico or secretary.
+28-Oct-2024 14:12:41 [[32minfo[39m]: Fazendo login do Secretário
+28-Oct-2024 14:12:41 [[32minfo[39m]: Buscando usuário para login com email: giovanna3@gmail.com
+28-Oct-2024 14:12:42 [[32minfo[39m]: Gerando o token de autenticação
+28-Oct-2024 14:12:42 [[32minfo[39m]: Usuário logado com sucesso
+28-Oct-2024 14:12:58 [[32minfo[39m]: Atualizando agenda
+28-Oct-2024 14:12:58 [[31merror[39m]: Agenda não encontrada
+28-Oct-2024 14:13:02 [[32minfo[39m]: Buscando agenda por turno
+28-Oct-2024 14:13:02 [[32minfo[39m]: Agenda encontrada com sucesso
+28-Oct-2024 14:13:13 [[32minfo[39m]: Atualizando agenda
+28-Oct-2024 14:13:13 [[31merror[39m]: Nenhum dado foi atualizado
+28-Oct-2024 14:13:20 [[32minfo[39m]: Atualizando agenda
+28-Oct-2024 14:13:20 [[32minfo[39m]: Agenda atualizada com sucesso
+28-Oct-2024 14:13:25 [[32minfo[39m]: Buscando agenda por turno
+28-Oct-2024 14:13:25 [[32minfo[39m]: Agenda encontrada com sucesso
+28-Oct-2024 14:13:34 [[32minfo[39m]: Buscando agenda por turno
+28-Oct-2024 14:13:34 [[32minfo[39m]: Agenda encontrada com sucesso

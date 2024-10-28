@@ -3,7 +3,7 @@ import agendaModel from "../models/Agenda.js";
 
 const criarAgenda = async (body) => agendaModel.create(body);
 
-const findAllAgendas = async (filter) => agendaModel.find(filter).lean();
+const findAllAgendas = async () => agendaModel.find().lean();
 
 const findBydata = async (data) => 
     agendaModel.find({data_consulta: data})
@@ -13,8 +13,8 @@ const findBydata = async (data) =>
 const findById = async (id) => agendaModel.findById(id);
 
 
-const findByTurno = async (turno, filter) => 
-    agendaModel.find({turno: turno, ...filter})
+const findByTurno = async (turno) => 
+    agendaModel.find({turno: turno})
     .populate('id_clinica', "nome endereco -_id")
     .populate('id_medico', "nome email especialidade -_id")
 

@@ -20,7 +20,8 @@ const agendaSchema = new mongoose.Schema({
     quantas_consultas_dia: {
         type: Number,
         required: true
-    },    id_clinica: {
+    },    
+    id_clinica: {
         type:  mongoose.Schema.Types.ObjectId,
         ref: 'clinica',
         required: true

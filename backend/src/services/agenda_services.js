@@ -35,6 +35,7 @@ const criarAgenda = async (body) => {
     return {
         status: 201,
         agenda:  {
+            _id: agenda._id,
             id_clinica: agenda.id_clinica,
             id_medico: agenda.id_medico,
             data_consulta: agenda.data_consulta,
@@ -49,18 +50,25 @@ const criarAgenda = async (body) => {
 const findAllAgendas = async () => {
     logger.info("buscando todas as agendas disponíveis");
     
-    const hoje = new Date().toISOString().split("T")[0]; // Obter a data atual no formato YYYY-MM-DD
-    const agendas = await Agenda_repositories.findAllAgendas({
-        data_consulta: { $gte: hoje } // &gte(maior ou igual) para buscar apenas as agendas futuras ou as de hoje
-    });
+    // Obter a data atual no formato YYYY-MM-DD
+    const hoje = new Date().toISOString().split("T")[0]; 
 
+
+    const agendas = await Agenda_repositories.findAllAgendas();
     if(!agendas || agendas.length === 0){
         logger.error("Não há agendas disponíveis");
         throw new CustomError("Não há agendas disponíveis", 404);
     }
-    logger.info("Agendas encontradas com sucesso");
-    return agendas;
 
+    
+    const agendasFiltradas = agendas.filter(agenda => agenda.data_consulta >= hoje);
+    if(agendasFiltradas.length === 0){
+        logger.error("Não há agendas disponíveis");
+        throw new CustomError("Não há agendas disponíveis", 404);
+    }
+
+    logger.info("Agendas encontradas com sucesso");
+    return agendasFiltradas;
     
 };
 
@@ -85,17 +93,21 @@ const findByTurno = async (turno) => {
 
    
     const hoje = new Date().toISOString().split("T")[0];
-    const agendaTurno = await Agenda_repositories.findByTurno(turno, {
-        data_consulta: { $gte: hoje}
-    });
+    const agendaTurno = await Agenda_repositories.findByTurno(turno);
 
     if(!agendaTurno || agendaTurno.length === 0){
         logger.error("Agenda não encontrada");
         throw new CustomError("Agenda não encontrada", 404);
     }
 
+    const agendasFiltradas = agendaTurno.filter(agenda => agenda.data_consulta >= hoje);
+    if (agendasFiltradas.length === 0) {
+        logger.error("Agenda não encontrada");
+        throw new CustomError("Agenda não encontrada", 404);
+    }
+
     logger.info("Agenda encontrada com sucesso");
-    return agendaTurno;
+    return agendasFiltradas;
 };
 
 
@@ -114,6 +126,11 @@ const updateAgenda = async (id, update) => {
     if(!agenda){
         logger.error("Erro ao atualizar agenda");
         throw new CustomError("Erro ao atualizar agenda", 404);
+    }
+
+    if(agenda.modifiedCount === 0){
+        logger.error("Nenhum dado foi atualizado");
+        throw new CustomError("Nenhum dado foi atualizado", 404);
     }
 
     logger.info("Agenda atualizada com sucesso");

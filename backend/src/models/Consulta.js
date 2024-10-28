@@ -8,7 +8,7 @@ const consulta_schema = new mongoose.Schema({
     },
     id_paciente:{
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'Paciente',
+        ref: 'paciente',
         required: true,
     },
     tipo_consulta:{

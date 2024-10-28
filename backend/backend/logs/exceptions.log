@@ -674,3 +674,73 @@ TypeError: Cannot read properties of undefined (reading 'deleteSec')
     at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
     at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+27-Oct-2024 17:02:07 [[31merror[39m]: uncaughtException: findAllConsultas is not defined
+ReferenceError: findAllConsultas is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/repositories/consulta_repositories.js:33:33
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+27-Oct-2024 17:14:32 [[31merror[39m]: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as get] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\index.js:521:19)
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/routes/consulta_routes.js:8:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+27-Oct-2024 17:15:29 [[31merror[39m]: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as get] (C:\Users\Adm\OneDrive\Documentos\Projetos\Banco de dados NoSQL\backend\node_modules\express\lib\router\index.js:521:19)
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/routes/consulta_routes.js:8:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+28-Oct-2024 12:13:46 [[31merror[39m]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/consulta_services.js:69:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+28-Oct-2024 12:14:43 [[31merror[39m]: uncaughtException: find is not defined
+ReferenceError: find is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/consulta_services.js:84:52
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+28-Oct-2024 12:15:04 [[31merror[39m]: uncaughtException: as is not defined
+ReferenceError: as is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/controllers/consulta_controller.js:27:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+28-Oct-2024 12:15:10 [[31merror[39m]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/controllers/consulta_controller.js:27:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+28-Oct-2024 12:16:08 [[31merror[39m]: uncaughtException: fin is not defined
+ReferenceError: fin is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/controllers/consulta_controller.js:37:52
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+28-Oct-2024 13:55:03 [[31merror[39m]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/consulta_services.js:89:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+28-Oct-2024 13:57:30 [[31merror[39m]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/consulta_services.js:89:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+28-Oct-2024 13:57:37 [[31merror[39m]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/services/consulta_services.js:89:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
