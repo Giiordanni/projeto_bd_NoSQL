@@ -61,4 +61,14 @@ const deleteConsulta = async (req, res) => {
 };
 
 
-export default { createConsulta, findAllConsultas, findByData, updateConsulta, deleteConsulta };
+const updateConsultasStatus = async (req, res) => {
+    try{
+        const { data_consulta, status_consulta } = req.body;
+        const result = await consultaServices.updateAll(data_consulta, status_consulta);
+        res.status(200).send({ message: "Consultas atualizadas com sucesso", result });
+    }catch (error) {
+        res.status(error.status || 500).send(error.message);
+    }
+};
+
+export default { createConsulta, findAllConsultas, findByData, updateConsulta, updateConsulta, updateConsultasStatus, deleteConsulta };

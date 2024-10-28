@@ -115,6 +115,37 @@ const updateConsulta = async (id, body) => {
 };
 
 
+const updateAll = async (data_consulta, status_consulta) => {
+  logger.info(`Atualizando status da consulta da data: ${data_consulta}`);
+
+  const consultas = await consultaRepository.findByData(data_consulta);
+  if (!consultas || consultas.length === 0) {
+    logger.error("Consultas Não encontradas");
+    throw new CustomError("Consultas Não encontradas", 400);
+  }
+
+  const consultasParaAtualizar = consultas.filter(consulta => consulta.id_agenda !== null);
+  
+
+  const idsParaAtualizar = consultasParaAtualizar.map(consulta => consulta._id);
+  if(idsParaAtualizar.length === 0) {
+    logger.error("Nenhuma consulta encontrada");
+    throw new CustomError("Nenhuma consulta encontrada", 400);
+  }
+
+  const consultasAtualizadas = await consultaRepository.updateConsultasStatus(idsParaAtualizar, status_consulta);
+  if(consultasAtualizadas.modifiedCount === 0) {
+    logger.error("Nenhum dado foi atualizado");
+    throw new CustomError("Nenhum dado foi atualizado", 400);
+  }
+
+  
+  logger.info(`Consultas atualizadas com sucesso`);
+  return consultasAtualizadas;
+};
+
+
+
 const deleteConsulta = async (id) => {
   logger.info("Deletando consulta");
 
@@ -135,4 +166,4 @@ const deleteConsulta = async (id) => {
 };
 
 
-export default { createConsulta, findAllConsultas, findByData, updateConsulta, deleteConsulta };
+export default { createConsulta, findAllConsultas, findByData, updateConsulta, updateAll, deleteConsulta };

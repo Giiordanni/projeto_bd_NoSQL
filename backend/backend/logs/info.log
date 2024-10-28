@@ -2622,3 +2622,143 @@
 28-Oct-2024 16:32:30 [[32minfo[39m]: Consulta atualizada com sucesso
 28-Oct-2024 16:32:32 [[32minfo[39m]: Buscando consultas pela data
 28-Oct-2024 16:32:33 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 17:04:49 [[31merror[39m]: Invalid token.
+28-Oct-2024 17:04:52 [[31merror[39m]: Invalid token.
+28-Oct-2024 17:05:06 [[32minfo[39m]: Iniciando criação do Paciente
+28-Oct-2024 17:05:06 [[31merror[39m]: Usuário já cadastrado no banco
+28-Oct-2024 17:05:09 [[32minfo[39m]: Fazendo login do médico
+28-Oct-2024 17:05:09 [[32minfo[39m]: Buscando médico para login com email: iagoMoreira@hotmail.com
+28-Oct-2024 17:05:09 [[32minfo[39m]: Gerando o token de autenticação
+28-Oct-2024 17:05:23 [[32minfo[39m]: Buscando todas as consultas
+28-Oct-2024 17:05:23 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 17:06:52 [[32minfo[39m]: Fazendo login do Secretário
+28-Oct-2024 17:06:52 [[32minfo[39m]: Buscando usuário para login com email: giovanna3@gmail.com
+28-Oct-2024 17:06:52 [[32minfo[39m]: Gerando o token de autenticação
+28-Oct-2024 17:06:52 [[32minfo[39m]: Usuário logado com sucesso
+28-Oct-2024 17:08:15 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:08:35 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:09:29 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:09:35 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:10:25 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:11:06 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:11:41 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:11:41 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:11:47 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:12:18 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:18:52 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:19:56 [[32minfo[39m]: Buscando todas as consultas
+28-Oct-2024 17:19:56 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 17:21:19 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 17:21:19 [[31merror[39m]: Consultas não encontradas
+28-Oct-2024 17:21:23 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 17:21:23 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 17:23:31 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:28:23 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:29:42 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:38:19 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:38:29 [[32minfo[39m]: Fazendo login do médico
+28-Oct-2024 17:38:29 [[32minfo[39m]: Buscando médico para login com email: giordanni@aluno.uepb.edu.br
+28-Oct-2024 17:38:30 [[32minfo[39m]: Gerando o token de autenticação
+28-Oct-2024 17:38:41 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:38:42 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:39:01 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:39:59 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:41:08 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:41:13 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:41:31 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:42:00 [[32minfo[39m]: Atualizando consulta
+28-Oct-2024 17:43:14 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 17:43:42 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 17:44:16 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 17:44:17 [[32minfo[39m]: Consultas atualizadas: undefined
+28-Oct-2024 17:44:24 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 17:44:24 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 17:44:54 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 17:44:54 [[32minfo[39m]: Consultas atualizadas: undefined
+28-Oct-2024 17:44:56 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 17:44:56 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 17:45:06 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 17:45:06 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 17:45:08 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 17:45:09 [[32minfo[39m]: Consultas atualizadas: undefined
+28-Oct-2024 17:45:12 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 17:45:12 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 17:47:09 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 17:47:09 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 17:47:28 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 17:47:28 [[31merror[39m]: Consultas não encontradas
+28-Oct-2024 17:47:34 [[32minfo[39m]: Buscando consultas pela data
+28-Oct-2024 17:47:34 [[31merror[39m]: Consultas não encontradas
+28-Oct-2024 17:47:40 [[32minfo[39m]: Buscando todas as consultas
+28-Oct-2024 17:47:40 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 17:51:09 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 17:51:09 [[32minfo[39m]: Consultas atualizadas: undefined
+28-Oct-2024 17:51:22 [[32minfo[39m]: Buscando todas as consultas
+28-Oct-2024 17:51:22 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 17:51:55 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 17:51:56 [[32minfo[39m]: Consultas atualizadas: [object Object]
+28-Oct-2024 17:52:19 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 17:52:20 [[32minfo[39m]: Consultas atualizadas: [object Object]
+28-Oct-2024 17:52:37 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 17:52:37 [[32minfo[39m]: Consultas atualizadas: undefined
+28-Oct-2024 17:52:53 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 17:52:53 [[32minfo[39m]: Consultas atualizadas: undefined
+28-Oct-2024 17:54:03 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 17:54:04 [[32minfo[39m]: Consultas atualizadas: undefined
+28-Oct-2024 17:54:36 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 17:54:37 [[32minfo[39m]: Consultas atualizadas: undefined
+28-Oct-2024 17:55:40 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 17:55:40 [[32minfo[39m]: Consultas atualizadas: 0
+28-Oct-2024 17:55:55 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 17:55:55 [[32minfo[39m]: Consultas atualizadas: 0
+28-Oct-2024 17:55:58 [[32minfo[39m]: Buscando todas as consultas
+28-Oct-2024 17:55:58 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 17:57:17 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 17:57:18 [[32minfo[39m]: Consultas atualizadas: undefined
+28-Oct-2024 17:57:24 [[32minfo[39m]: Buscando todas as consultas
+28-Oct-2024 17:57:24 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 17:58:24 [[32minfo[39m]: Buscando todas as consultas
+28-Oct-2024 17:58:24 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 17:59:16 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 17:59:17 [[32minfo[39m]: Consultas atualizadas: undefined
+28-Oct-2024 17:59:35 [[32minfo[39m]: Buscando todas as consultas
+28-Oct-2024 17:59:35 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 17:59:54 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 17:59:55 [[32minfo[39m]: Consultas atualizadas: undefined
+28-Oct-2024 18:01:23 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 18:01:24 [[32minfo[39m]: Consultas atualizadas: undefined
+28-Oct-2024 18:03:23 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 18:03:23 [[32minfo[39m]: Consultas atualizadas: undefined
+28-Oct-2024 18:03:48 [[32minfo[39m]: Buscando todas as consultas
+28-Oct-2024 18:03:49 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 18:03:56 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 18:03:56 [[32minfo[39m]: Consultas atualizadas: 0
+28-Oct-2024 18:04:08 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 18:04:08 [[32minfo[39m]: Consultas atualizadas: 4
+28-Oct-2024 18:04:12 [[32minfo[39m]: Buscando todas as consultas
+28-Oct-2024 18:04:12 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 18:05:07 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 18:05:07 [[32minfo[39m]: Consultas atualizadas com sucesso
+28-Oct-2024 18:05:30 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 18:05:31 [[31merror[39m]: Nenhum dado foi atualizado
+28-Oct-2024 18:05:38 [[32minfo[39m]: Buscando todas as consultas
+28-Oct-2024 18:05:39 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 18:08:31 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-18
+28-Oct-2024 18:08:31 [[32minfo[39m]: Consultas atualizadas com sucesso
+28-Oct-2024 18:11:58 [[32minfo[39m]: buscando todas as agendas disponíveis
+28-Oct-2024 18:11:58 [[32minfo[39m]: Agendas encontradas com sucesso
+28-Oct-2024 18:12:13 [[32minfo[39m]: Criando Agenda
+28-Oct-2024 18:12:13 [[32minfo[39m]: Buscando o ID da clinica pelo nome
+28-Oct-2024 18:12:13 [[32minfo[39m]: Agenda criada com sucesso
+28-Oct-2024 18:12:43 [[32minfo[39m]: Criando consulta
+28-Oct-2024 18:12:43 [[32minfo[39m]: Consulta criada com sucesso
+28-Oct-2024 18:13:00 [[32minfo[39m]: Atualizando status da consulta da data: 2024-11-31
+28-Oct-2024 18:13:00 [[31merror[39m]: Nenhuma consulta encontrada
+28-Oct-2024 18:13:06 [[32minfo[39m]: Atualizando status da consulta da data: 2024-10-31
+28-Oct-2024 18:13:06 [[32minfo[39m]: Consultas atualizadas com sucesso
+28-Oct-2024 18:13:10 [[32minfo[39m]: Buscando todas as consultas
+28-Oct-2024 18:13:10 [[32minfo[39m]: Consultas encontradas
+28-Oct-2024 18:13:24 [[32minfo[39m]: Atualizando status da consulta da data: 2024-10-31
+28-Oct-2024 18:13:25 [[32minfo[39m]: Consultas atualizadas com sucesso
+28-Oct-2024 18:13:28 [[32minfo[39m]: Buscando todas as consultas
+28-Oct-2024 18:13:29 [[32minfo[39m]: Consultas encontradas
