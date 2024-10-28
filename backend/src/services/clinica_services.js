@@ -139,9 +139,19 @@ const patchDataClinica = async (id, update) => {
         logger.error("Id não fornecido");
         throw new customError("Id não fornecido", 401);
     }
-
+    const { medicos } = update;
+    
+    if (medicos && medicos.length > 0) {
+        for (const medicoId of medicos) {
+            const medico = await medico_repositories.findById(medicoId);
+            if(!medico) {
+                logger.error("Médico não encontrado");
+                throw new customError("Médico não encontrado", 404);
+            }
+        }
+    }
     const findClinica = await clinicaRepo.findById(id);
-    if(!findClinica) {
+    if(!findClinica || findClinica.length === 0) {
         logger.error("Clínica não encontrada");
         throw new customError("Clínica não encontrada", 404);
     }
@@ -150,6 +160,11 @@ const patchDataClinica = async (id, update) => {
     if (!clinica) {
         logger.error("Erro ao atualizar dados da clínica");
         throw new customError("Erro ao atualizar dados da clínica");
+    }
+
+    if(clinica.modifiedCount === 0) {
+        logger.error("Nenhum dado da clínica foi atualizado");
+        throw new customError("Nenhum dado da clínica foi atualizado", 400);    
     }
 
     logger.info("Dados da clínica atualizados com sucesso");

@@ -2244,3 +2244,205 @@
 28-Oct-2024 15:07:03 [[32minfo[39m]: Usuário criado com sucesso
 28-Oct-2024 15:07:12 [[32minfo[39m]: Buscando todos os médicos
 28-Oct-2024 15:07:13 [[32minfo[39m]: Médicos encontrados com sucesso
+28-Oct-2024 15:10:45 [[32minfo[39m]: Buscando todos os Secretários
+28-Oct-2024 15:10:45 [[31merror[39m]: Não há usuaários cadastrados!
+28-Oct-2024 15:11:05 [[32minfo[39m]: Iniciando criação do Secretário
+28-Oct-2024 15:11:05 [[31merror[39m]: O domínio g3mail.com não existe.
+28-Oct-2024 15:11:22 [[32minfo[39m]: Iniciando criação do Secretário
+28-Oct-2024 15:11:22 [[31merror[39m]: CPF inválido
+28-Oct-2024 15:11:28 [[32minfo[39m]: Iniciando criação do Secretário
+28-Oct-2024 15:11:29 [[32minfo[39m]: Gerando o token de autenticação
+28-Oct-2024 15:11:29 [[32minfo[39m]: Usuário criado com sucesso
+28-Oct-2024 15:11:31 [[32minfo[39m]: Iniciando criação do Secretário
+28-Oct-2024 15:11:31 [[31merror[39m]: Usuário existente no bando de Dados
+28-Oct-2024 15:11:36 [[32minfo[39m]: Fazendo login do Secretário
+28-Oct-2024 15:11:36 [[32minfo[39m]: Buscando usuário para login com email: giovanna3@gmail.com
+28-Oct-2024 15:11:36 [[32minfo[39m]: Gerando o token de autenticação
+28-Oct-2024 15:11:36 [[32minfo[39m]: Usuário logado com sucesso
+28-Oct-2024 15:12:05 [[32minfo[39m]: Buscando todos os Secretários
+28-Oct-2024 15:12:05 [[32minfo[39m]: Secretários encontrados com sucesso
+28-Oct-2024 15:12:21 [[32minfo[39m]: Buscando Secretário por ID
+28-Oct-2024 15:12:21 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 15:13:00 [[31merror[39m]: Invalid token.
+28-Oct-2024 15:13:06 [[32minfo[39m]: Fazendo login do Secretário
+28-Oct-2024 15:13:06 [[32minfo[39m]: Buscando usuário para login com email: giovanna3@gmail.com
+28-Oct-2024 15:13:06 [[32minfo[39m]: Gerando o token de autenticação
+28-Oct-2024 15:13:06 [[32minfo[39m]: Usuário logado com sucesso
+28-Oct-2024 15:13:18 [[32minfo[39m]: Atualizando usuário com email: 671fd3d02bee4580add54b0b
+28-Oct-2024 15:13:18 [[32minfo[39m]: Secretário atualizado com sucesso
+28-Oct-2024 15:13:23 [[32minfo[39m]: Buscando Secretário por ID
+28-Oct-2024 15:13:23 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 15:13:27 [[32minfo[39m]: Atualizando usuário com email: 671fd3d02bee4580add54b0b
+28-Oct-2024 15:13:27 [[31merror[39m]: Nenhuma modificação realizada
+28-Oct-2024 15:13:50 [[32minfo[39m]: Deletando secretário
+28-Oct-2024 15:13:50 [[32minfo[39m]: Usuário deletado com sucesso
+28-Oct-2024 15:13:53 [[32minfo[39m]: Buscando Secretário por ID
+28-Oct-2024 15:13:53 [[31merror[39m]: Usuário não encontrado
+28-Oct-2024 15:13:57 [[32minfo[39m]: Buscando todos os Secretários
+28-Oct-2024 15:13:57 [[31merror[39m]: Não há usuaários cadastrados!
+28-Oct-2024 15:14:01 [[32minfo[39m]: Iniciando criação do Secretário
+28-Oct-2024 15:14:01 [[32minfo[39m]: Gerando o token de autenticação
+28-Oct-2024 15:14:01 [[32minfo[39m]: Usuário criado com sucesso
+28-Oct-2024 15:14:03 [[32minfo[39m]: Buscando todos os Secretários
+28-Oct-2024 15:14:03 [[32minfo[39m]: Secretários encontrados com sucesso
+28-Oct-2024 15:14:59 [[31merror[39m]: Invalid token.
+28-Oct-2024 15:15:20 [[32minfo[39m]: Fazendo login do Secretário
+28-Oct-2024 15:15:20 [[32minfo[39m]: Buscando usuário para login com email: giovanna3@gmail.com
+28-Oct-2024 15:15:20 [[32minfo[39m]: Gerando o token de autenticação
+28-Oct-2024 15:15:20 [[32minfo[39m]: Usuário logado com sucesso
+28-Oct-2024 15:15:34 [[32minfo[39m]: Criando clínica
+28-Oct-2024 15:15:34 [[31merror[39m]: Médico não encontrado
+28-Oct-2024 15:15:46 [[32minfo[39m]: Buscando todos os médicos
+28-Oct-2024 15:15:46 [[32minfo[39m]: Médicos encontrados com sucesso
+28-Oct-2024 15:16:01 [[32minfo[39m]: Criando clínica
+28-Oct-2024 15:16:01 [[32minfo[39m]: Clínica criada com sucesso
+28-Oct-2024 15:16:32 [[31merror[39m]: Invalid token.
+28-Oct-2024 15:17:27 [[32minfo[39m]: Buscando todas as clínicas
+28-Oct-2024 15:17:27 [[32minfo[39m]: Clínicas encontradas com sucesso
+28-Oct-2024 15:18:09 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:18:09 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:18:17 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:18:17 [[31merror[39m]: Nenhuma clínica encontrada
+28-Oct-2024 15:19:49 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:19:49 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:20:04 [[32minfo[39m]: Buscando clínica por especialidade
+28-Oct-2024 15:20:04 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:20:47 [[32minfo[39m]: Buscando clínica por nome
+28-Oct-2024 15:20:47 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:20:57 [[32minfo[39m]: Buscando clínica por nome
+28-Oct-2024 15:20:57 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:21:00 [[32minfo[39m]: Buscando clínica por nome
+28-Oct-2024 15:21:00 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:21:05 [[32minfo[39m]: Buscando clínica por nome
+28-Oct-2024 15:21:05 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:23:05 [[33mwarn[39m]: Access denied. No token provided.
+28-Oct-2024 15:23:26 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:23:30 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:23:49 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:23:50 [[32minfo[39m]: Dados da clínica atualizados com sucesso
+28-Oct-2024 15:23:55 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:23:55 [[32minfo[39m]: Dados da clínica atualizados com sucesso
+28-Oct-2024 15:23:59 [[32minfo[39m]: Buscando clínica por nome
+28-Oct-2024 15:23:59 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:24:24 [[32minfo[39m]: Buscando clínica por nome
+28-Oct-2024 15:24:24 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:24:40 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:24:40 [[32minfo[39m]: Dados da clínica atualizados com sucesso
+28-Oct-2024 15:25:38 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:25:38 [[31merror[39m]: Nenhum dado da clínica foi atualizado
+28-Oct-2024 15:25:59 [[32minfo[39m]: Buscando todos os Secretários
+28-Oct-2024 15:26:00 [[32minfo[39m]: Secretários encontrados com sucesso
+28-Oct-2024 15:26:13 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:26:13 [[32minfo[39m]: Dados da clínica atualizados com sucesso
+28-Oct-2024 15:26:17 [[32minfo[39m]: Buscando clínica por nome
+28-Oct-2024 15:26:17 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:27:14 [[32minfo[39m]: Buscando clínica por nome
+28-Oct-2024 15:27:14 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:27:52 [[32minfo[39m]: Buscando clínica por nome
+28-Oct-2024 15:27:52 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:28:08 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:28:08 [[31merror[39m]: Nenhum dado da clínica foi atualizado
+28-Oct-2024 15:29:00 [[32minfo[39m]: Buscando médico por id
+28-Oct-2024 15:29:40 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:29:41 [[32minfo[39m]: Dados da clínica atualizados com sucesso
+28-Oct-2024 15:29:44 [[32minfo[39m]: Buscando médico por id
+28-Oct-2024 15:29:45 [[32minfo[39m]: Buscando médico por id
+28-Oct-2024 15:29:49 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:29:50 [[31merror[39m]: Nenhum dado da clínica foi atualizado
+28-Oct-2024 15:30:02 [[32minfo[39m]: Buscando todas as clínicas
+28-Oct-2024 15:30:02 [[32minfo[39m]: Clínicas encontradas com sucesso
+28-Oct-2024 15:30:56 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:31:15 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:31:35 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:31:35 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:32:00 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:32:00 [[32minfo[39m]: Dados da clínica atualizados com sucesso
+28-Oct-2024 15:32:04 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:32:04 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:32:08 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:32:08 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:32:20 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:32:20 [[31merror[39m]: Nenhum dado da clínica foi atualizado
+28-Oct-2024 15:32:25 [[32minfo[39m]: Buscando todas as clínicas
+28-Oct-2024 15:32:25 [[32minfo[39m]: Clínicas encontradas com sucesso
+28-Oct-2024 15:32:58 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:32:58 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:33:10 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:33:11 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:33:47 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:33:48 [[31merror[39m]: Nenhum dado da clínica foi atualizado
+28-Oct-2024 15:33:55 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:33:55 [[32minfo[39m]: Dados da clínica atualizados com sucesso
+28-Oct-2024 15:34:03 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:34:03 [[32minfo[39m]: Dados da clínica atualizados com sucesso
+28-Oct-2024 15:34:26 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:34:26 [[32minfo[39m]: Dados da clínica atualizados com sucesso
+28-Oct-2024 15:35:22 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:35:22 [[31merror[39m]: Nenhum dado da clínica foi atualizado
+28-Oct-2024 15:35:26 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:35:26 [[32minfo[39m]: Dados da clínica atualizados com sucesso
+28-Oct-2024 15:36:27 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:36:27 [[32minfo[39m]: Dados da clínica atualizados com sucesso
+28-Oct-2024 15:36:30 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:36:31 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:36:36 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:36:36 [[31merror[39m]: Médico não encontrado
+28-Oct-2024 15:36:58 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:36:59 [[31merror[39m]: Nenhum dado da clínica foi atualizado
+28-Oct-2024 15:37:49 [[32minfo[39m]: Iniciando criação do Médico
+28-Oct-2024 15:37:49 [[31merror[39m]: CPF inválido
+28-Oct-2024 15:38:43 [[32minfo[39m]: Iniciando criação do Médico
+28-Oct-2024 15:38:43 [[32minfo[39m]: Gerando o token de autenticação
+28-Oct-2024 15:38:43 [[32minfo[39m]: Usuário criado com sucesso
+28-Oct-2024 15:38:58 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:38:58 [[32minfo[39m]: Dados da clínica atualizados com sucesso
+28-Oct-2024 15:39:01 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:39:01 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:39:33 [[32minfo[39m]: Buscando clínica por nome
+28-Oct-2024 15:39:33 [[31merror[39m]: Nenhuma clínica encontrada
+28-Oct-2024 15:40:02 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:40:02 [[31merror[39m]: Nenhuma clínica encontrada
+28-Oct-2024 15:40:11 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:40:12 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:40:20 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:40:20 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:40:36 [[31merror[39m]: Invalid token.
+28-Oct-2024 15:40:55 [[32minfo[39m]: Deletando clínica
+28-Oct-2024 15:40:56 [[32minfo[39m]: Clínica deletada com sucesso
+28-Oct-2024 15:40:59 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:40:59 [[31merror[39m]: Nenhuma clínica encontrada
+28-Oct-2024 15:41:03 [[32minfo[39m]: Criando clínica
+28-Oct-2024 15:41:03 [[32minfo[39m]: Clínica criada com sucesso
+28-Oct-2024 15:41:09 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:41:09 [[31merror[39m]: Clínica não encontrada
+28-Oct-2024 15:41:34 [[32minfo[39m]: Atualizando dados da clínica
+28-Oct-2024 15:41:34 [[32minfo[39m]: Dados da clínica atualizados com sucesso
+28-Oct-2024 15:41:39 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:41:39 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:42:44 [[32minfo[39m]: Criando clínica
+28-Oct-2024 15:43:02 [[32minfo[39m]: Criando clínica
+28-Oct-2024 15:43:02 [[32minfo[39m]: Clínica criada com sucesso
+28-Oct-2024 15:43:12 [[32minfo[39m]: Buscando clínica por nome do médico
+28-Oct-2024 15:43:12 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 15:44:31 [[32minfo[39m]: Criando clínica
+28-Oct-2024 15:44:31 [[32minfo[39m]: Clínica criada com sucesso
+28-Oct-2024 15:44:42 [[32minfo[39m]: Buscando todas as clínicas
+28-Oct-2024 15:44:42 [[32minfo[39m]: Clínicas encontradas com sucesso
+28-Oct-2024 15:45:01 [[32minfo[39m]: Criando clínica
+28-Oct-2024 15:45:01 [[31merror[39m]: Campos obrigatórios não preenchidos
+28-Oct-2024 15:45:07 [[32minfo[39m]: Criando clínica
+28-Oct-2024 15:45:08 [[32minfo[39m]: Clínica criada com sucesso
+28-Oct-2024 15:45:37 [[32minfo[39m]: Buscando todas as clínicas
+28-Oct-2024 15:45:37 [[32minfo[39m]: Clínicas encontradas com sucesso
+28-Oct-2024 15:45:48 [[32minfo[39m]: Deletando clínica
+28-Oct-2024 15:45:48 [[32minfo[39m]: Clínica deletada com sucesso
+28-Oct-2024 15:45:52 [[32minfo[39m]: Buscando todas as clínicas
+28-Oct-2024 15:45:52 [[32minfo[39m]: Clínicas encontradas com sucesso
+28-Oct-2024 15:46:01 [[32minfo[39m]: Deletando clínica
+28-Oct-2024 15:46:01 [[32minfo[39m]: Clínica deletada com sucesso
+28-Oct-2024 15:46:04 [[32minfo[39m]: Buscando todas as clínicas
+28-Oct-2024 15:46:04 [[32minfo[39m]: Clínicas encontradas com sucesso
+28-Oct-2024 15:46:37 [[32minfo[39m]: Buscando todas as clínicas
+28-Oct-2024 15:46:37 [[32minfo[39m]: Clínicas encontradas com sucesso
+28-Oct-2024 15:47:21 [[32minfo[39m]: Buscando clínica por especialidade
+28-Oct-2024 15:47:21 [[32minfo[39m]: Clínica encontrada com sucesso
