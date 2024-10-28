@@ -62,9 +62,9 @@ const findAllConsultas = async () => {
     throw new CustomError("Consultas Não encontradas", 400);
 }
 
-
+  const quantidadeConsultas = consultasFiltradas.length;
   logger.info("Consultas encontradas");
-  return consultasFiltradas;
+  return {consultasFiltradas, quantidadeConsultas};
 };
 
 
@@ -83,8 +83,9 @@ const findByData = async (data) => {
     throw new CustomError("Consultas não encontradas", 400);
   }
 
+  const quantidadeConsultas = consultasFiltradas.length;
   logger.info("Consultas encontradas");
-  return consultasFiltradas;
+  return {consultasFiltradas, quantidadeConsultas};
 
 };
 
@@ -104,7 +105,6 @@ const updateConsulta = async (id, body) => {
     throw new CustomError("Erro ao atualizar consulta", 400);
   }
 
-  console.log(consultaAtualizada);
   if(consultaAtualizada.modifiedCount === 0) {
     logger.error("Nenhum dado foi atualizado");
     throw new CustomError("Nenhum dado foi atualizado", 400);
