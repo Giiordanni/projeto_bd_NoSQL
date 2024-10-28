@@ -2446,3 +2446,62 @@
 28-Oct-2024 15:46:37 [[32minfo[39m]: Clínicas encontradas com sucesso
 28-Oct-2024 15:47:21 [[32minfo[39m]: Buscando clínica por especialidade
 28-Oct-2024 15:47:21 [[32minfo[39m]: Clínica encontrada com sucesso
+28-Oct-2024 16:09:53 [[32minfo[39m]: Criando Agenda
+28-Oct-2024 16:09:53 [[32minfo[39m]: Buscando o ID da clinica pelo nome
+28-Oct-2024 16:09:53 [[32minfo[39m]: Agenda criada com sucesso
+28-Oct-2024 16:10:03 [[32minfo[39m]: Buscando agenda por turno
+28-Oct-2024 16:10:03 [[31merror[39m]: Agenda não encontrada
+28-Oct-2024 16:10:11 [[32minfo[39m]: buscando todas as agendas disponíveis
+28-Oct-2024 16:10:11 [[31merror[39m]: Não há agendas disponíveis
+28-Oct-2024 16:10:23 [[32minfo[39m]: Criando Agenda
+28-Oct-2024 16:10:23 [[32minfo[39m]: Buscando o ID da clinica pelo nome
+28-Oct-2024 16:10:24 [[32minfo[39m]: Agenda criada com sucesso
+28-Oct-2024 16:10:26 [[32minfo[39m]: buscando todas as agendas disponíveis
+28-Oct-2024 16:10:26 [[32minfo[39m]: Agendas encontradas com sucesso
+28-Oct-2024 16:10:35 [[32minfo[39m]: Buscando agenda por turno
+28-Oct-2024 16:10:35 [[32minfo[39m]: Agenda encontrada com sucesso
+28-Oct-2024 16:11:00 [[32minfo[39m]: buscando todas as agendas disponíveis
+28-Oct-2024 16:11:00 [[32minfo[39m]: Agendas encontradas com sucesso
+28-Oct-2024 16:11:08 [[32minfo[39m]: Buscando agenda por turno
+28-Oct-2024 16:11:08 [[32minfo[39m]: Agenda encontrada com sucesso
+28-Oct-2024 16:12:04 [[32minfo[39m]: buscando todas as agendas disponíveis
+28-Oct-2024 16:12:04 [[32minfo[39m]: Agendas encontradas com sucesso
+28-Oct-2024 16:13:06 [[32minfo[39m]: Buscando agenda pela data
+28-Oct-2024 16:13:06 [[31merror[39m]: Agenda não encontrada
+28-Oct-2024 16:13:20 [[32minfo[39m]: Buscando agenda pela data
+28-Oct-2024 16:13:20 [[32minfo[39m]: Agenda encontrada com sucesso
+28-Oct-2024 16:14:08 [[32minfo[39m]: buscando todas as agendas disponíveis
+28-Oct-2024 16:14:08 [[32minfo[39m]: Agendas encontradas com sucesso
+28-Oct-2024 16:14:32 [[32minfo[39m]: Buscando agenda pela data
+28-Oct-2024 16:14:32 [[32minfo[39m]: Agenda encontrada com sucesso
+28-Oct-2024 16:15:20 [[32minfo[39m]: Atualizando agenda
+28-Oct-2024 16:15:20 [[32minfo[39m]: Agenda atualizada com sucesso
+28-Oct-2024 16:15:24 [[32minfo[39m]: Atualizando agenda
+28-Oct-2024 16:15:24 [[31merror[39m]: Nenhum dado foi atualizado
+28-Oct-2024 16:15:29 [[32minfo[39m]: Buscando agenda pela data
+28-Oct-2024 16:15:29 [[31merror[39m]: Agenda não encontrada
+28-Oct-2024 16:15:34 [[32minfo[39m]: buscando todas as agendas disponíveis
+28-Oct-2024 16:15:34 [[32minfo[39m]: Agendas encontradas com sucesso
+28-Oct-2024 16:15:45 [[31merror[39m]: Invalid token.
+28-Oct-2024 16:16:05 [[32minfo[39m]: Deletando agenda
+28-Oct-2024 16:16:05 [[31merror[39m]: Agenda não encontrada
+28-Oct-2024 16:16:24 [[32minfo[39m]: Atualizando agenda
+28-Oct-2024 16:16:24 [[32minfo[39m]: Agenda atualizada com sucesso
+28-Oct-2024 16:16:35 [[32minfo[39m]: buscando todas as agendas disponíveis
+28-Oct-2024 16:16:35 [[32minfo[39m]: Agendas encontradas com sucesso
+28-Oct-2024 16:16:42 [[32minfo[39m]: Deletando agenda
+28-Oct-2024 16:16:43 [[32minfo[39m]: Agenda deletada com sucesso
+28-Oct-2024 16:16:47 [[32minfo[39m]: Atualizando agenda
+28-Oct-2024 16:16:47 [[31merror[39m]: Agenda não encontrada
+28-Oct-2024 16:16:50 [[32minfo[39m]: buscando todas as agendas disponíveis
+28-Oct-2024 16:16:50 [[32minfo[39m]: Agendas encontradas com sucesso
+28-Oct-2024 16:17:03 [[32minfo[39m]: Atualizando agenda
+28-Oct-2024 16:17:03 [[32minfo[39m]: Agenda atualizada com sucesso
+28-Oct-2024 16:17:08 [[32minfo[39m]: Atualizando agenda
+28-Oct-2024 16:17:08 [[32minfo[39m]: Agenda atualizada com sucesso
+28-Oct-2024 16:17:12 [[32minfo[39m]: buscando todas as agendas disponíveis
+28-Oct-2024 16:17:13 [[32minfo[39m]: Agendas encontradas com sucesso
+28-Oct-2024 16:17:37 [[32minfo[39m]: Atualizando agenda
+28-Oct-2024 16:17:37 [[32minfo[39m]: Agenda atualizada com sucesso
+28-Oct-2024 16:17:39 [[32minfo[39m]: buscando todas as agendas disponíveis
+28-Oct-2024 16:17:39 [[32minfo[39m]: Agendas encontradas com sucesso
