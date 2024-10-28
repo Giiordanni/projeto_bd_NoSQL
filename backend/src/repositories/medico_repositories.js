@@ -10,7 +10,7 @@ const findByNomeMedico = (nome) =>
 const findByCpf = (cpf) => Medico.findOne({ cpf: cpf });
 const findById = (id) => Medico.findById(id);
 const findByEspecialidadeMedico = (especialidade) =>
-    Medico.find({ especialidade: especialidade }).select('nome email especialidade clinica');
+    Medico.find({ especialidade: new RegExp(especialidade, "i") }).select('nome email especialidade clinica');
 const deletarMedico = (id) =>
     Medico.deleteOne({ _id: id });
 const atualizarDadosMedico = (medicoId, update) =>

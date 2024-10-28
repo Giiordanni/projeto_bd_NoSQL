@@ -15,14 +15,14 @@ const findAllMedicos = async (req, res) => {
     try {
         const medicos = await medicoServices.getAllMedicos();
         res.status(200).send({message: "Medicos Encontrados", medicos});
-    } catch (error) {
+    } catch (err) {
         const statusCode = err.statusCode || 500;
         return res.status(statusCode).send({ message: err.message });
     }
 };
 
 const findOneByEmail = async (req, res) => {
-    const { email } = req.query;
+    const email  = req.query.email;
 
     if(!email){
         return res.status(400).send({ message: "Email não informado" });
@@ -38,7 +38,7 @@ const findOneByEmail = async (req, res) => {
 };
 
 const findNome = async (req, res) => {
-    const {nome} = req.query;
+    const nome = req.query.nome;
 
     if(!nome){
         res.status(400).send({ message: "Nome não informado" });
@@ -54,7 +54,7 @@ const findNome = async (req, res) => {
 };
 
 const findByEspecialidade = async (req, res) => {
-    const { especialidade } = req.query;
+    const  especialidade  = req.query.especialidade;
 
     if(!especialidade){
         return res.status(400).send({ message: "Especialidade não informada" });   

@@ -143,7 +143,7 @@ const findEspecialidade = async (especialidade) => {
     logger.info("Buscando médico por especialidade");
     const medico = await medico_repositories.findByEspecialidadeMedico(especialidade);
 
-    if(!medico){
+    if(!medico || medico.length === 0){
         logger.error("Nenhum usuário encontrado");
         throw new CustomError("Nenhum usuário encontrado", 404);
     }

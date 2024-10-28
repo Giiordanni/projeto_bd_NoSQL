@@ -2145,3 +2145,102 @@
 28-Oct-2024 14:13:25 [[32minfo[39m]: Agenda encontrada com sucesso
 28-Oct-2024 14:13:34 [[32minfo[39m]: Buscando agenda por turno
 28-Oct-2024 14:13:34 [[32minfo[39m]: Agenda encontrada com sucesso
+28-Oct-2024 14:48:22 [[32minfo[39m]: Iniciando criação do Médico
+28-Oct-2024 14:48:22 [[32minfo[39m]: Gerando o token de autenticação
+28-Oct-2024 14:48:22 [[32minfo[39m]: Usuário criado com sucesso
+28-Oct-2024 14:48:54 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 14:48:54 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 14:49:18 [[32minfo[39m]: Buscando todos os médicos
+28-Oct-2024 14:49:18 [[32minfo[39m]: Médicos encontrados com sucesso
+28-Oct-2024 14:49:28 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 14:49:28 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 14:50:21 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 14:50:21 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 14:50:22 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 14:50:22 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 14:50:48 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 14:50:48 [[31merror[39m]: Nenhum usuário encontrado
+28-Oct-2024 14:51:11 [[32minfo[39m]: Buscando todos os médicos
+28-Oct-2024 14:51:11 [[32minfo[39m]: Médicos encontrados com sucesso
+28-Oct-2024 14:51:32 [[32minfo[39m]: Deletando médico
+28-Oct-2024 14:51:32 [[32minfo[39m]: Usuário deletado com sucesso
+28-Oct-2024 14:51:35 [[32minfo[39m]: Buscando todos os médicos
+28-Oct-2024 14:51:35 [[31merror[39m]: Não há médicos cadastrados!
+28-Oct-2024 14:54:26 [[32minfo[39m]: Buscando todos os médicos
+28-Oct-2024 14:54:26 [[31merror[39m]: Não há médicos cadastrados!
+28-Oct-2024 14:54:36 [[32minfo[39m]: Buscando todos os médicos
+28-Oct-2024 14:54:36 [[31merror[39m]: Não há médicos cadastrados!
+28-Oct-2024 14:54:39 [[32minfo[39m]: Deletando médico
+28-Oct-2024 14:54:39 [[31merror[39m]: Usuário não encontrado
+28-Oct-2024 14:54:57 [[32minfo[39m]: Iniciando criação do Médico
+28-Oct-2024 14:54:57 [[31merror[39m]: O domínio gm56ail.com não existe.
+28-Oct-2024 14:55:13 [[32minfo[39m]: Iniciando criação do Médico
+28-Oct-2024 14:55:13 [[32minfo[39m]: Gerando o token de autenticação
+28-Oct-2024 14:55:13 [[32minfo[39m]: Usuário criado com sucesso
+28-Oct-2024 14:55:24 [[32minfo[39m]: Buscando todos os médicos
+28-Oct-2024 14:55:24 [[32minfo[39m]: Médicos encontrados com sucesso
+28-Oct-2024 14:56:32 [[32minfo[39m]: Buscando médico por email
+28-Oct-2024 14:56:32 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 14:57:03 [[32minfo[39m]: Buscando médico por email
+28-Oct-2024 14:57:04 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 14:57:05 [[32minfo[39m]: Buscando médico por email
+28-Oct-2024 14:57:05 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 14:57:42 [[32minfo[39m]: Buscando médico por nome
+28-Oct-2024 14:57:42 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 14:57:51 [[32minfo[39m]: Buscando médico por nome
+28-Oct-2024 14:57:51 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 14:57:59 [[32minfo[39m]: Buscando médico por nome
+28-Oct-2024 14:57:59 [[31merror[39m]: Nenhum usuário encontrado
+28-Oct-2024 14:58:04 [[32minfo[39m]: Buscando médico por nome
+28-Oct-2024 14:58:04 [[31merror[39m]: Nenhum usuário encontrado
+28-Oct-2024 14:58:09 [[32minfo[39m]: Buscando médico por nome
+28-Oct-2024 14:58:09 [[31merror[39m]: Nenhum usuário encontrado
+28-Oct-2024 14:58:14 [[32minfo[39m]: Buscando médico por nome
+28-Oct-2024 14:58:14 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 14:58:59 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 14:58:59 [[31merror[39m]: Nenhum usuário encontrado
+28-Oct-2024 14:59:00 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 14:59:00 [[31merror[39m]: Nenhum usuário encontrado
+28-Oct-2024 14:59:33 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 14:59:34 [[31merror[39m]: Nenhum usuário encontrado
+28-Oct-2024 14:59:43 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 14:59:43 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 15:01:42 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 15:01:42 [[31merror[39m]: Nenhum usuário encontrado
+28-Oct-2024 15:01:49 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 15:01:49 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 15:02:17 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 15:02:18 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 15:04:00 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 15:04:00 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 15:04:11 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 15:04:11 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 15:04:20 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 15:04:20 [[31merror[39m]: Nenhum usuário encontrado
+28-Oct-2024 15:04:29 [[32minfo[39m]: Buscando médico por especialidade
+28-Oct-2024 15:04:29 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 15:05:10 [[32minfo[39m]: Buscando médico por id
+28-Oct-2024 15:05:10 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 15:05:56 [[32minfo[39m]: Atualizando médico
+28-Oct-2024 15:05:56 [[32minfo[39m]: Médico atualizado com sucesso
+28-Oct-2024 15:06:01 [[32minfo[39m]: Buscando médico por id
+28-Oct-2024 15:06:01 [[32minfo[39m]: Usuário encontrado com sucesso
+28-Oct-2024 15:06:05 [[32minfo[39m]: Atualizando médico
+28-Oct-2024 15:06:06 [[31merror[39m]: Nenhum dado foi atualizado
+28-Oct-2024 15:06:15 [[32minfo[39m]: Fazendo login do médico
+28-Oct-2024 15:06:15 [[32minfo[39m]: Buscando médico para login com email: giuy@gmail.com
+28-Oct-2024 15:06:15 [[31merror[39m]: Usuário não encontrado
+28-Oct-2024 15:06:32 [[32minfo[39m]: Fazendo login do médico
+28-Oct-2024 15:06:32 [[32minfo[39m]: Buscando médico para login com email: giordanni@aluno.uepb.edu.br
+28-Oct-2024 15:06:32 [[32minfo[39m]: Gerando o token de autenticação
+28-Oct-2024 15:06:49 [[32minfo[39m]: Deletando médico
+28-Oct-2024 15:06:49 [[32minfo[39m]: Usuário deletado com sucesso
+28-Oct-2024 15:06:52 [[32minfo[39m]: Buscando médico por id
+28-Oct-2024 15:06:52 [[31merror[39m]: Nenhum usuário encontrado
+28-Oct-2024 15:06:55 [[32minfo[39m]: Buscando todos os médicos
+28-Oct-2024 15:06:55 [[31merror[39m]: Não há médicos cadastrados!
+28-Oct-2024 15:07:03 [[32minfo[39m]: Iniciando criação do Médico
+28-Oct-2024 15:07:03 [[32minfo[39m]: Gerando o token de autenticação
+28-Oct-2024 15:07:03 [[32minfo[39m]: Usuário criado com sucesso
+28-Oct-2024 15:07:12 [[32minfo[39m]: Buscando todos os médicos
+28-Oct-2024 15:07:13 [[32minfo[39m]: Médicos encontrados com sucesso

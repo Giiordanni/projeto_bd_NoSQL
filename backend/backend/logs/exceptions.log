@@ -744,3 +744,7 @@ ReferenceError: async is not defined
     at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
     at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+28-Oct-2024 14:51:35 [[31merror[39m]: uncaughtException: err is not defined
+ReferenceError: err is not defined
+    at findAllMedicos (file:///C:/Users/Adm/OneDrive/Documentos/Projetos/Banco%20de%20dados%20NoSQL/backend/src/controllers/medico_controller.js:19:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
